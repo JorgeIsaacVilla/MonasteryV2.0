@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=gVY4uhQNnw8  consumo de apis
+https://www.youtube.com/watch?v=yAx7jGdPqr4 mostrar y ocultar formularios con boton en Angular
