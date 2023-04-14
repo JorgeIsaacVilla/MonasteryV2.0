@@ -10,43 +10,46 @@
 </head>
 <body>
     <header class="Section_header">
-        <div class="Logo_monastery_text"></div>
-        <button class="music_button"></button><!--programar cuadno se unda click cambie imagen del boton-->
-        <button class="volumen_button"></button><!--programar para que  las lineas suban y bajen segun el nivel del volumen eliminar imagen y hacerlo dinamico-->
+        <div class="Element_cotainer">
+            <div class="Logo_monastery_text"></div>
+            <button class="music_button"></button><!--programar cuadno se unda click cambie imagen del boton-->
+            <button class="volumen_button"></button><!--programar para que  las lineas suban y bajen segun el nivel del volumen eliminar imagen y hacerlo dinamico-->
+        </div>
         <div class="icono-menu">
             <img src="./img/Grupo 14622@3x.png" id="icono-menu">
        </div>
-        <div class="cont-menu active" id="menu">
-           <!-- <ul>
+        <!--<div class="cont-menu active" id="menu">
+            <ul>
                 <li>Opensea</li>
                 <li>Beneficios</li>
                 <li>Roadmap</li>
                 <li>Telegram</li>
                 <li>Español (Internacional)</li>
                 <li>Inglés</li>
-            </ul> -->
-        </div>
+            </ul>
+        </div> -->
     </header>
 
     <!--section one (start)-->
     <section class="Section_comunity_3d">
         <div class="Section_comunity_3d_top">
+            <div class="model-container">
+                <model-viewer src="./docs/Image_render_3d.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar class="NFT_3D_cap">
+                </model-viewer>
+            </div>  
+
+                <script type="module"
+                    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                </script>
+                <script nomodule
+                    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+                </script>
+
             <div class="Logo_monastery_simbol"></div>
-            
-        <model-viewer src="./docs/Image_render_3d.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar class="NFT_3D_cap">
-        </model-viewer>
-
-        <script type="module"
-            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-        </script>
-        <script nomodule
-            src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
-         </script>
-
         </div>
         <div class="Section_comunity_3d_bottom">
             <h2 class="Text_monastery_comunity">CONOCE LA COMUNIDAD NFT MONASTERY</h2>
-                <button class="button_join_telegram" href=""><img class="Telegram_image" src="./img/telegrama@3x.png" alt=""> Join Telegram</button>
+                <a class="button_join_telegram" href=""><img class="Telegram_image" src="./img/telegrama@3x.png" alt=""><span>Join Telegram</span></a>
         </div>
     </section>
     <!--section one (end)-->
@@ -64,15 +67,41 @@
     <section class="Video_event_monstery"> aca va el video 2 </section>
 
     <!--section three (start)-->
-    <section>
-        <div></div>
-        <div></div>
-        <div></div>
+    <section class="Section_benefist_description">
+        <div class="Logo_monastery_simbol_2"></div>
+        <h2 class="Text_benefist">BENEFICIOS</h2>
+        <div class="Slider"><!--configurar como scroll lateral automatico-->
+            <ul>
+                <li class="image_benefist_description"></li>
+                <li class="image_benefist_description"></li>
+                <li class="image_benefist_description"></li>
+                <li class="image_benefist_description"></li>
+                <li class="image_benefist_description"></li>
+                <li class="image_benefist_description"></li>
+            </ul>
+        </div>
+        <p class="Text_benefist_2">Muchas mas sorpresas esperan por ti</p>
+        <a href="">IR al Roadmap</a>
     </section>
-    <!--section three (start)-->
+    <!--section three (end)-->
 
-    <section></section>
-    <section></section>
+    <div class="Text_fashion_week">aca va el texto de semana de la monda</div><!--programar para que la cadena de texto se mueva a la izquierda-->
+    
+    <!--section four (start)-->
+    <section class="section_picture_art"><!--falta colorear un gradiente en gir nuves-->
+        <div class="photo"></div>
+        <div class="image_art"></div>
+    </section>
+    <!--section four (end)-->
+
+    <!--section five (start)-->
+    <section class="Section_ARMA_description">
+        <h2 class="Text_tittle_RMA">SOBRE RMA</h2>
+        <p class="Text_desciption_RMA">RMA es Alejandro Robledo, un artista VFX y diseñador con más de 10 años de experiencia. El arte de RMA está construido sobre excelencia artística y técnica. Algunos de sus clientes son Marvel, Paramount Pictures, Legendary, Apple, Netflix, HBO y MTV. Su trabajo ha aparecido en filmes como Transformers, X-Men, Jumanji, ChangChi y Iron Fist. Creó y dirigió el tour mundial de Maluma y ha creado trabajos artísticos para celebridades como DJ Khaled, Miley Cyrus, Ludacris, The Chainsmokers, Madonna, Katy Perry, Rihanna, Bruno Mars, Kendrick Lamar y otros. El trabajo de RMA se tradujo y adaptó perfectamente al mundo de los NFT. Creation colaboraciones poderosas con Maluma, Tamara Delempicka y Monastery. Su trabajo puede ser visto en www.rmadesign.tv.</p>
+        <a href="" class="Button_ARM"> <span>Más información</span></a>
+    </section>
+    <!--section five (end)-->
+
     <section></section>
     <section></section>
     <section></section>
