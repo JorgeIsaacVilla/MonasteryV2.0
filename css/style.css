@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: rgba(0, 0, 0, 0.288);
+}
+/*header Style (start)*/
+.Section_header{
+    width: 100%;
+    height: 87px;
+    background-color: black;
+    display: flex;
+}
+
+.Logo_monastery_text{
+    width: 102px;
+    height: 22px;
+    background-image: url(../img/LOGO-MONASTERY-2@2x.png);
+    background-size: 100% 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3.6vh;
+    margin-right: 1vh;
+}
+
+.music_button{
+    background-color: rgba(240, 248, 255, 0);
+    background-image: url(../img/Componente\ 27\ –\ 10@3x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1vh;
+}
+
+.volumen_button{
+    background-color: rgba(240, 248, 255, 0);
+    background-image: url(../img/Grupo\ 14417.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 28px;
+    height: 22px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cont-menu{
+    width: 100%;
+    transition: all .5s ease;
+    position: absolute;
+    background: rgba(247, 247, 247, 0.26);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    opacity: 1;
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter:blur(17px); 
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* style menu list(inicio */
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+.icono-menu{
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    margin-right: 3.6vh;
+}
+.icono-menu img{
+    vertical-align: top;
+    width: 25px;
+    cursor: pointer;
+}
+/* style menu list(fin */
+
+/*header Style (end)*/
+
+/*section one (start)*/
+.Section_comunity_3d{
+text-align: center;
+color: #EAEAEA;
+background: black;
+width: 100%;
+}
+.Section_comunity_3d_top{
+    display: flex;
+}
+.Logo_monastery_simbol{/*programar para que se ajuste a pantalla en caso de tablet*/
+    width: 15vh;
+    height: 15vh;
+    background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
+    background-size: 100% 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3.6vh;  
+}
+.NFT_3D_cap{/*programar para que se ajuste a pantalla en caso de tablet*/
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(228,228,228);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 3.6vh;  
+}
+.Section_comunity_3d_bottom{
+    width: 100%;
+}
+.Text_monastery_comunity{
+    margin-top: 3.6vh;
+    margin-bottom: 3.6vh;
+    line-height: 1.8rem;
+}
+.button_join_telegram{
+    margin-bottom: 6.5vh;
+    width: 20vh;
+    height: 4vh;
+    border: none;
+    border-radius: 10px; 
+}
+.Telegram_image{
+    width:30px;
+    height:30px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+/*section one (end)*/
+.Video_NFT_monstery{
+    width: 100%;
+    height: 50vh;
+    background: rgba(48, 48, 75, 0.651);
+}
+
+/*section two (start)*/
+.Section_key_desciptio{
+    background-color: black;
+}
+.Key_image{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/Grupo\ 14527@3x.png);
+    background-size: 100%;
+    margin-left: 3.6vh;  
+}
+.Key__text_description{
+height: 26vw;
+width: 35.4vh;
+font-size: 1.3rem;
+line-height: 1.8rem;
+margin-left: 3.6vh; 
+color:#FFFFFF; 
+}
+.Text_descripton_art{
+    margin-left: 3.6vh; 
+    width: 38vh;
+    height: 35vw;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#FFFFFF; 
+}
+/*section two (end)*/
