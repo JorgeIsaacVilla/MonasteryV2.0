@@ -521,7 +521,7 @@ color:#FFFFFF;
     border-radius: 10px;
     margin-bottom: 1.2vh;
 }
-.acordeon label{
+.acordeon .acordeon-label-1{
     border-radius: 10px;
     display: block;
     padding: 0.6vh 1.2vh;
@@ -532,7 +532,7 @@ color:#FFFFFF;
     margin-bottom: 2px;
     transition: all 300ms ease;
 }
-.acordeon label:hover{
+.acordeon .acordeon-label-1:hover{
     background: #171C25;
 }
 .Div_line_acordeon{
@@ -560,8 +560,11 @@ color:#FFFFFF;
 
 .acordeon .Content-acordeon ul{
     list-style: disc;
-    padding-left: 1em;
     margin-top: 0.5em;
+}
+.Container-acordeon li{
+    margin-bottom: 1.2vh;
+    list-style: none;
 }
 
 .acordeon.activo .Content-acordeon {
@@ -574,3 +577,82 @@ color:#FFFFFF;
     display: none;
 }
 /*section eight (end)*/
+
+/*section nine (start)*/
+.Box-acordeon-2{
+    margin-left:3.6vh;
+    margin-right:3.6vh;
+}
+.Section_access{
+    width: 100%;
+    background: #171C25;
+}
+.Section_access_top{
+    width: 100%;
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 8%;
+    justify-content: space-between;
+    align-items: center
+}
+.Logo_monastery_simbol_3{
+    width: 8vh;
+    height: 8vh;
+    background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
+    background-size: 100% 100%;
+    margin-left: 3.6vh;
+}
+.Access_networks{
+    display: flex;
+    margin-right: 3.6vh;
+}
+.Networks_button{
+    width: 3.5vh;
+    height: 3.5vh;
+    display: flex;
+    justify-content: center;
+    background: #EAEAEA;
+    border-radius: 100%;
+    border: none;
+    margin: auto 10px auto 0;
+}
+.ul_container{
+    margin: 1px;
+}
+.Section_access .List_container{
+    margin-bottom: 1.2vh;
+    list-style: none;
+}
+.acordeon .Acordeon-label-2{
+    border-radius: 10px;
+    display: block;
+    padding: 0.6vh 1.2vh;
+    font-size: 1rem;
+    background: #171C25;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+
+}
+.acordeon .Acordeon-label-2:hover{
+    background: #171C25;
+}
+.Div_line_acordeon_2{
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    background:#4e4e4e;
+    border: none;
+    margin: auto;
+}
+/*section nine (end)*/
+footer{
+    width: 25vh;
+    margin: auto;
+    text-align: center;
+    color: #cfcfcf;
+    font-size: 1rem;
+    padding-top: 10%;
+    padding-bottom: 18%;
+}
