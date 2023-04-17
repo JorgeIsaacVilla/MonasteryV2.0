@@ -7,6 +7,7 @@
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <header class="Section_header">
@@ -28,6 +29,7 @@
                 <li>Inglés</li>
             </ul>
         </div> -->
+        <script src="./js/script_menu.js"></script>
     </header>
 
     <!--section one (start)-->
@@ -54,7 +56,9 @@
     </section>
     <!--section one (end)-->
 
-    <section class="Video_NFT_monstery"> aca va el video 1 </section>
+    <section class="Video_NFT_monstery"> <video id="My_video" src="./img/Nft gorra.mp4" autoplay muted></video> </section>
+
+<script src="./js/script_video.js"></script>
 
     <!--section two (start)-->
     <section class="Section_key_desciptio">
@@ -64,7 +68,7 @@
     </section>
     <!--section two (end)-->
 
-    <section class="Video_event_monstery"> aca va el video 2 </section>
+    <section class="Video_event_monstery"> <video src="./img/Monastery.mp4" autoplay loop muted></video></section>
 
     <!--section three (start)-->
     <section class="Section_benefist_description">
@@ -146,10 +150,160 @@
 
     <section class="Div_image"></section>
 
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <!--section eight (start)-->
+    <section class="Container-acordeon">
+        <h2>FAQS</h2>
+        <p class="Text_acordeon">Has click sobre las preguntas para ver su respectiva respuesta.</p>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+            <label for="btn-acordeon1" >
+                1. ¿Qué es un NFT?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/1.png" alt="">
+                <p>Crear (minting) un NFT es publicar, de manera original y única, el token en la cadena de bloques para poder venderlo. Imagine, acuñar una moneda. Al acuñar, el activo digital o archivo es almacenado en la cadena de bloques, de esta forma, puede ser comprado y vendido en cualquier mercado de criptos.</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+            <label for="btn-acordeon2" >
+                2. ¿Por qué la cadena de bloques de Ethereum?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+            <img class="Image_acordeon" src="./img/2.png" alt="">
+                <p>Porque la cadena de bloques de Ethereum es la más usada, robusta, diversa y confiable, y la primera que usó los contratos inteligentes para sus transacciones. También, fue la cadena de bloques original para acuñar los primeros NFT, en 2014.</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+            <label for="btn-acordeon3" >
+                3. ¿Qué es acuñar (minting) un NFT?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/3.png" alt="">
+                <p>Crear (minting) un NFT es publicar, de manera original y única, el token en la cadena de bloques para poder venderlo. Imagina, acuñar una moneda. Al acuñar, el activo digital o archivo es almacenado en la cadena de bloques, de esta forma, puede ser comprado y vendido en cualquier mercado de criptos.</p>
+            </div>
+        </div>
+
+<!--falta pregunta 4??-->
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+            <label for="btn-acordeon5" >
+                5. ¿Qué es una billetera de MetaMask?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/5.png" alt="">
+                <p>MetaMask es una billetera de criptomonedas que permite a los usuarios acceder al ecosistema de Web3 de aplicaciones descentralizadas (dapps). La MetaMask permite comprar, vender o transferir activos en la cadena de bloques. En resumen nos permite almacenar todas las compras y activos digitales.</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+            <label for="btn-acordeon6" >
+                6. ¿Qué son las tarifas (Fees) por transacción?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/6.png" alt="">
+                <p>Son las comisiones que debemos pagar al realizar una transacción a la red de ethereum, este pago de la comisión permite que la red pueda seguir funcionando y permita prestar un servicio transparente, ese fee es pagado a los mineros o servidores de la red.</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
+            <label for="btn-acordeon7" >
+                7. ¿Dónde puedo ver el trabajo previo de RMA?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/7.png" alt="">
+                <p>Puedes ver el portafolio de Alejandro, incluyendo sus diseños NFT, en su sitio oficial: rmadesign.tv rmadesign.tv</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
+            <label for="btn-acordeon8" >
+                8. ¿Cuál fue el precio inicial de la gorra Gyatso NFT?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/8.png" alt="">
+                <p>222 USD.</p>
+            </div>
+        </div>
+
+<!--falta pregunta 9??-->
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon10" class="btn-acordeon">
+            <label for="btn-acordeon10" >
+                10. ¿Cuántas gorras Gyatso NFT puedo comprar?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/10.png" alt="">
+                <p>Puedes mintear y comprar un maximo de 6 gorras Gyatso.</p>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon11" class="btn-acordeon">
+            <label for="btn-acordeon11" >
+                11. ¿Cuáles son los beneficios de tener una gorra Gyatso NFT?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/11.png" alt="">
+                <ul>
+                    <li> 3 piezas de MONASTERY Esto incluye: GYATSO y dos prendas random de la marca.</li>
+                    <li>Dos NFT, uno para Decentraland y uno para la colección de RMA.</li>
+                    <li>También, como parte del lujoso estilo de vida MST, invitaciones a fiestas que sólo poseedores de la Gyatso VIP, podrán acceder.</li>
+                    <li>Poder adquirir las adquirir prendas de nuevas colecciones con anticipación.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="acordeon">
+            <input type="radio" name="acordeon" id="btn-acordeon12" class="btn-acordeon">
+            <label for="btn-acordeon12" >
+                12. ¿Dónde puedo vender mi Gyatso NFT?
+            </label>
+            <div class="Content-acordeon">
+            <div class="Div_line_acordeon"></div>
+                <img class="Image_acordeon" src="./img/12.png" alt="">
+                <p>En cualquier mercado de NFT que soporte Ethereum, como OpenSea, Rarible o LooksRare.</p>
+            </div>
+        </div>
+<script src="./js/script_list.js"></script>
+
+    </section>
+
+    <!--section eight (end)-->
+
+    <!--section nine (start)-->
+    <section>
+        <div>
+            <div></div>
+            <div>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div></div>
+    </section>
+    <!--section nine (end)-->
+
+    <footer>
+        <p>Copyright ©2023 Monastery. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

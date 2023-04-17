@@ -4,6 +4,7 @@
 }
 body{
     background: rgba(0, 0, 0, 0.288);
+   /* background: #040c16;*/
 }
 /*header Style (start)*/
 .Section_header{
@@ -152,9 +153,13 @@ padding-bottom: 20%;
 /*section one (end)*/
 .Video_NFT_monstery{
     width: 100%;
-    height: 50vh;
-    background: rgba(48, 48, 75, 0.651);
+    background: #040c16;
+    padding-bottom: 3.5vh;
 }
+.Video_NFT_monstery video {
+    width: 100%;
+    max-width: 800px;
+  }
 /*section two (start)*/
 .Section_key_desciptio{
     background: #040c16;
@@ -165,8 +170,11 @@ padding-bottom: 20%;
     height: 100px;
     background-image: url(../img/Grupo\ 14527@3x.png);
     background-size: 100%;
-    margin-left: 3.6vh;  
+    margin-left: 3.6vh; 
+    transform: scale(3);
+     
 }
+
 .Key__text_description{
 width: 35.4vh;
 font-size: 1.5rem;
@@ -187,8 +195,11 @@ color:#FFFFFF;
 .Video_event_monstery{
     width: 100%;
     height: 25vh;
-    background: rgba(167, 48, 12, 0.651);
 }
+
+.Video_event_monstery video {
+    width: 100%;
+  }
 /*section three (start)*/
 .Section_benefist_description{
     background: #040c16;
@@ -479,8 +490,87 @@ color:#FFFFFF;
 
 .Div_image{
     width: 100%;
-    height: 20vh;
-    background-image: url(../img/Rectángulo\ 3359@3x.png);
+    padding-bottom: 50%;
+    background-image: url(../img/Metaverso_movil.png);
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
+
+/*section eight (start)*/
+.Container-acordeon{
+    width: 80%;
+    margin: auto;
+}
+.Container-acordeon h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+    color: #EAEAEA;
+}
+.Text_acordeon{
+    color: #EAEAEA;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh; 
+}
+.acordeon{
+    background: #171C25;
+    border-radius: 10px;
+    margin-bottom: 1.2vh;
+}
+.acordeon label{
+    border-radius: 10px;
+    display: block;
+    padding: 0.6vh 1.2vh;
+    font-size: 1rem;
+    background: #171C25;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+}
+.acordeon label:hover{
+    background: #171C25;
+}
+.Div_line_acordeon{
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    background:#cfcfcf;
+    border: none;
+    margin: auto;
+}
+
+.Image_acordeon{
+    width: 50%;
+    margin: 1.4vh 0px;
+}
+.acordeon .Content-acordeon{
+    padding: 0px;
+    margin: 0px 1.2vh;
+    max-height: 0px;
+    overflow:hidden;
+    overflow-y: auto;
+    transition: all 300ms ease;
+    color: #EAEAEA;
+}
+
+.acordeon .Content-acordeon ul{
+    list-style: disc;
+    padding-left: 1em;
+    margin-top: 0.5em;
+}
+
+.acordeon.activo .Content-acordeon {
+    max-height: 600px;
+    padding: 0px 0px 15px 0px;
+  }
+
+
+.btn-acordeon{
+    display: none;
+}
+/*section eight (end)*/
