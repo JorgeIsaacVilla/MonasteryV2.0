@@ -5,6 +5,7 @@
 body{
     background: rgba(0, 0, 0, 0.288);
    /* background: #040c16;*/
+   /*#010409 este es el color de los fondos*/
 }
 /*header Style (start)*/
 .Section_header{
@@ -181,7 +182,7 @@ font-size: 1.5rem;
 line-height: 1.4rem;
 margin-left: 3.6vh;
 margin-bottom: 2.5vh; 
-color:#FFFFFF; 
+color:#FFFFFF;
 }
 .Text_descripton_art{
     margin-left: 3.6vh;
@@ -219,52 +220,129 @@ color:#FFFFFF;
     color: #FFFFFF;
     font-size: 21px;
 }
-.Slider{
+
+/*slider (start)*/
+.slider{
+    width:100%;
+    height: 100vw;
     overflow: hidden;
-    margin-bottom: 3.5vh;
 }
-.Slider ul{
+
+.slides{
+    width: 100%;
+    height: 100vw;
     display: flex;
-    animation: change 10s infinite alternate linear;
-    width: calc(10*20vh);
+    background: #040c16;
+    overflow-x:auto;
+    scroll-snap-type: x;
+    grid-gap: 1rem;
+    margin: auto; 
 }
-.Slider li{
-    list-style: none;
+
+.slides input{
+        display: none;
 }
-.Slider img{
-    height: 25vh;
+.slides::-webkit-scrollbar { /* for chrome */
+    display: none;
+  }
+.slide{
+    width: 20%;
+    transition: 2s;
+    min-width: calc(50% - .5rem);
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
 }
-@keyframes change{
-    0%{margin-left: 10vh;}
-    12%{margin-left: 10vh;}
-    
-    18%{margin-left: -20vh;}
-    30%{margin-left: -20vh;}
-    
-    35%{margin-left: -50vh;}
-    47%{margin-left: -50vh;}
-    
-    53%{margin-left: -80vh;}
-    65%{margin-left: -80vh;}
-    
-    70%{margin-left: -110vh;}
-    82%{margin-left: -110vh;}
-    
-    88%{margin-left: -135vh;}
-    100%{margin-left: -135vh;}
+.silde_img{
+    margin-top: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    width: 10rem;
+    height:12rem;
+    border-radius:15px;
+    background: #171C25;/*color de fondo del cuadro*/
 }
-/*@media only screen and (min-width:320px) and (max-width:768px){
-.Slider, .Slider ul, .Slider img{
-    height: 85vw;
+
+.navigation-manual{
+position:absolute;
+width: 100%;
+margin-top: -115px;/*automatizar la altura de los botoncitos del slider*/
+display: flex;
+justify-content: center;
+
 }
-}*/
-.image_benefist_description{
-    margin: 3vh;
-    width: 23vh;
-    height: 60vw;
-    border-radius: 1.5vh;
-    background: gray;
+.manual-btn{
+    border:none;
+    background: #ffffff00;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
+.manual-btn:not(:last-child){
+    margin-right: 1vh; /*espacio  entre bolitas de seleccion*/
+}
+.manual-btn:hover{
+    background: #ffffff00;
+}
+#radio1:checked ~ .first{
+    margin-left: 25%;
+}
+#radio2:checked ~ .first{
+    margin-left: -28%;
+}
+#radio3:checked ~ .first{
+    margin-left: -80%;
+}
+#radio4:checked ~ .first{
+    margin-left: -135%;
+}
+#radio5:checked ~ .first{
+    margin-left: -185%;
+}
+#radio6:checked ~ .first{
+    margin-left: -240%;
+}
+
+.navigation-auto{
+position: absolute;
+display: flex;
+width: 100%;
+justify-content: center;
+margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
+
+}
+.navigation-auto div{
+    border:none;
+    background: #ffffff88;
+    padding: 4px;;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 1vh;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: rgb(255, 255, 255);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: rgb(255, 255, 255);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: rgb(255, 255, 255);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: rgb(255, 255, 255);
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: rgb(255, 255, 255);
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: rgb(255, 255, 255);
+}
+
+/*slider (end)*/
 
 .Text_benefist_2{
     color:#FFFFFF;
@@ -284,9 +362,28 @@ color:#FFFFFF;
 }
 /*section three (end)*/
 
-.Text_fashion_week{
-    background: #FFFFFF;
-}
+
+.Text_fashion_week {
+    width: 100%;
+    height: 3.6vh;
+    overflow: hidden;
+    background-color: white;
+  }
+  .Text_fashion_week span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+    transform: translateX(100vw);
+    font-size: 1.5rem;
+    color: black;
+    padding: 0 2rem;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-100%); }
+  }
+
 
 /*section four (start)*/
 .section_picture_art{
