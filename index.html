@@ -127,41 +127,114 @@
 
 <script type="text/javascript">
     
-       var counter = 1;
-       setInterval(function(){
-           document.getElementById('radio' + counter).checked =true; counter++;
-           if(counter >6){
-               counter=1;
-           }
-        },12000);
+    const wrapper = document.querySelector('.slides');
+const slides = document.querySelectorAll('.slide');
+let pressed = false;
+let startX;
+let scrollLeft;
+let autoSlideInterval = null;
 
-const wrapper = document.querySelector('.slides')
+// Función para cambiar de slide automáticamente
+function autoSlide() {
+  let counter = 1;
+  autoSlideInterval = setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 6) {
+      counter = 1;
+    }
+  }, 3000);
+}
 
-let pressed = false
-let startX = 0
+// Iniciar la función para cambiar de slide automáticamente
+autoSlide();
 
-wrapper.addEventListener('mousedown', function (e) {
-  pressed = true
-  startX = e.clientX
-  this.style.cursor = 'grabbing'
-})
+// Evento click del wrapper
+wrapper.addEventListener('click', function() {
+  // Detener el intervalo para cambiar de slide automáticamente
 
-wrapper.addEventListener('mouseleave', function (e) {
-  pressed = false
-})
 
-window.addEventListener('mouseup', function (e) {
-  pressed = false
-  wrapper.style.cursor = 'grab'
-})
 
-wrapper.addEventListener('mousemove', function (e) {
-  if(!pressed) {
-    return
+  clearInterval(autoSlideInterval);
+  autoSlideInterval = null;
+  let counter = 1;
+   restartInterva= setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+  }, 1);
+
+
+
+  /*temporizador para reiniciar bucle(inicio)*/
+  function countSeconds(seconds, callback) {
+  let count = seconds;
+  const intervalId = setInterval(function() {
+    console.log(count);
+    count--;
+    if (count === 0) {
+      clearInterval(intervalId);
+      callback();
+    }
+  }, 1000);
+}
+
+// Uso de la función countSeconds
+countSeconds(15, function() {
+  console.log("Han pasado 15 segundos");
+  // Aquí puedes poner el código para ejecutar el intervalo de nuevo
+
+  autoSlideInterval = setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 6) {
+      counter = 1;
+    }
+  }, 3000);
+
+
+
+
+});
+
+/*temporizador para reiniciar bucle(fin)*/
+
+});
+
+// Evento mousemove del wrapper
+wrapper.addEventListener('mousemove', function(e) {
+  if (!pressed) {
+    return;
   }
+  
+  // Detener el intervalo para cambiar de slide automáticamente si no se ha detenido
+  if (autoSlideInterval !== null) {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = null;
+  }
+  
+  // Arrastrar el wrapper con el mouse
+  e.preventDefault();
+  scrollLeft = startX - e.clientX;
+  wrapper.scrollLeft = scrollLeft * -1;
+});
 
-  this.scrollLeft += startX - e.clientX
-})
+// Evento mousedown del wrapper
+wrapper.addEventListener('mousedown', function(e) {
+  pressed = true;
+  startX = e.clientX;
+  wrapper.style.cursor = 'grabbing';
+});
+
+// Evento mouseleave del wrapper
+wrapper.addEventListener('mouseleave', function() {
+  pressed = false;
+});
+
+// Evento mouseup del wrapper
+window.addEventListener('mouseup', function() {
+  pressed = false;
+  wrapper.style.cursor = 'grab';
+});
+
 
 
     </script>

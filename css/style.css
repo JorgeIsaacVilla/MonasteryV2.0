@@ -243,8 +243,12 @@ color:#FFFFFF;
         display: none;
 }
 .slides::-webkit-scrollbar { /* for chrome */
+    background: green;
     display: none;
   }
+  .slides::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
 .slide{
     width: 20%;
     transition: 2s;
