@@ -28,7 +28,7 @@ wrapper.addEventListener('click', function() {
    restartInterva= setInterval(function() {
     document.getElementById('radio' + counter).checked = true;
   }, 1);
-  /*temporizador para reiniciar bucle(inicio)*/
+  /*temporizador para reiniciar bucle(inicio)
   function countSeconds(seconds, callback) {
   let count = seconds;
   const intervalId = setInterval(function() {
@@ -39,7 +39,7 @@ wrapper.addEventListener('click', function() {
       callback();
     }
   }, 1000);
-}
+}*/
 // Uso de la función countSeconds
 /*temporizador para reiniciar bucle(fin)*/
 });

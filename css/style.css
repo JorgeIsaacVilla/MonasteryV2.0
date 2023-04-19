@@ -20,6 +20,19 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Inter-light';
+    src: url(../fonts/static/Inter-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-medium';
+    src: url(../fonts/static/Inter-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background: #010409;
     font-family: 'Inter';
@@ -184,7 +197,6 @@ padding-bottom: 20%;
     font-family: 'Inter-regular';
     letter-spacing:0.3rem ;
 }
-
 .button_join_telegram{
     width: 11rem;
     height: 1.8rem;
@@ -234,23 +246,26 @@ padding-bottom: 20%;
     transform: scale(3);
      
 }
-
-.Key__text_description{
+.Key_text_description{
 width: 35.4vh;
 font-size: 1.5rem;
 line-height: 1.4rem;
 margin-left: 3.6vh;
 margin-bottom: 2.5vh; 
-color:#FFFFFF;
+color: #EAEAEA;
+font-size: 1.1rem;
+font-family: 'Inter-regular';
+letter-spacing:0.3rem ;
 }
 .Text_descripton_art{
     margin-left: 3.6vh;
     width: 38vh;
     font-size: 1.1rem;
     line-height: 1.4rem;
-    color:#FFFFFF;
-    text-align: justify; 
+    color: #EAEAEA;
+    font-family: 'Inter-light';
 }
+
 /*section two (end)*/
 .Video_event_monstery{
     width: 100%;
@@ -262,11 +277,10 @@ color:#FFFFFF;
   }
 /*section three (start)*/
 .Section_benefist_description{
-    background: #040c16;
-    padding-top: 4vh;
-    padding-bottom: 10vh;
+    padding-top: 20%;
+    padding-bottom: 6vh;
 }
-.Logo_monastery_simbol_2{/*programar para que se ajuste a pantalla en caso de tablet*/
+.Logo_monastery_simbol_2{
     width: 30%;
     padding-bottom: 30%;
     background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
@@ -279,25 +293,21 @@ color:#FFFFFF;
     color: #FFFFFF;
     font-size: 21px;
 }
-
 /*slider (start)*/
 .slider{
     width:100%;
     height: 100vw;
     overflow: hidden;
 }
-
 .slides{
     width: 100%;
-    height: 100vw;
+    padding-bottom: 100%;
     display: flex;
-    background: #040c16;
     overflow-x:auto;
     scroll-snap-type: x;
     grid-gap: 1rem;
     margin: auto; 
 }
-
 .slides input{
         display: none;
 }
@@ -326,9 +336,18 @@ color:#FFFFFF;
     background: #171C25;/*color de fondo del cuadro*/
 }
 .silde_img img{
-  width: 3rem;
-  height: 3rem; 
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 1.8rem 0rem 0.5rem 1rem; 
 }
+.silde_img p{
+margin: 0rem 1rem 1rem 1rem; 
+font-family: 'Inter';
+width: 8rem;
+font-size: 0.8rem;
+line-height: 1.4rem;
+color: #EAEAEA;
+  }
 
 .navigation-manual{
 position:absolute;
@@ -370,14 +389,12 @@ justify-content: center;
 #radio6:checked ~ .first{
     margin-left: -240%;
 }
-
 .navigation-auto{
 position: absolute;
 display: flex;
 width: 100%;
 justify-content: center;
 margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
-
 }
 .navigation-auto div{
     border:none;
@@ -385,7 +402,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     padding: 4px;;
     border-radius: 10px;
     transition: 1s;
-
 }
 .navigation-auto div:not(:last-child){
     margin-right: 1vh;
@@ -408,57 +424,70 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 #radio6:checked ~ .navigation-auto .auto-btn6{
     background: rgb(255, 255, 255);
 }
-
 /*slider (end)*/
-
 .Text_benefist_2{
     color:#FFFFFF;
     text-align: center;
     margin-bottom: 3.5vh;
+    font-family: 'Inter-medium';
+    font-family: 1.5rem;
 }
 .Button_go_roadmap{
-    width: 40%;
+    width: 11rem;
+    height: 1.8rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background: #EAEAEA;
+    box-shadow: 0 0 30px  rgba(255, 255, 255, 0.349);
+    color: #03070F;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 5px;
+    font-size: 1rem;
+    font-family:'Inter-bold';
+    text-decoration: none;
 }
 /*section three (end)*/
 
-
 .Text_fashion_week {
     width: 100%;
-    height: 3.6vh;
+    height: 2rem;
     overflow: hidden;
     background-color: white;
+    font-size: 1rem;
+    font-family:'Inter-bold';
+    letter-spacing:0.3rem ;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 0.8rem;
   }
   .Text_fashion_week span {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 25s linear infinite;
-    transform: translateX(100vw);
-    font-size: 1.5rem;
+    animation: marquee 15s linear infinite;
+    transform: translateX(100vh);
     color: black;
-    padding: 0 2rem;
+    /*text-indent: -100px;*/
   }
-  
   @keyframes marquee {
-    0% { transform: translateX(100vw); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(100vh); }
+    100% { transform: translateX(-65%); }
   }
-
-
 /*section four (start)*/
 .section_picture_art{
-    background: #040c16;
-    padding-top: 3.6vh;
+    width: 100%;
+}
+.Canva_photo{
+    padding-top: 8vh;
+    width: 100%;
+    background-image: url(../img/Banner\ RMA\ DESING.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .photo{
-    margin-top: 3.6vh;
   width: 76%;
   background-position: 100% 0;
   padding-bottom: 70%;
