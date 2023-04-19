@@ -266,6 +266,10 @@ color:#FFFFFF;
     border-radius:15px;
     background: #171C25;/*color de fondo del cuadro*/
 }
+.silde_img img{
+  width: 3rem;
+  height: 3rem; 
+}
 
 .navigation-manual{
 position:absolute;
@@ -396,20 +400,20 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 }
 .photo{
     margin-top: 3.6vh;
-    margin-left: 20%;
-  width: 80%;
+  width: 76%;
+  background-position: 100% 0;
   padding-bottom: 70%;
-  background-image: url(../img/Grupo\ 14614@3x.png);
-  background-size: 100% 100%;
+  background-image: url(../img/RMA\ DESING.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .image_art{
     margin-top: 3.6vh;
-    margin-right: 20%;
-    width: 80%;
+    margin-left: 24%;
+    width: 76%;
   padding-bottom: 70%;
   background-image: url(../img/Grupo\ 14615@3x.png);
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -708,12 +712,10 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     margin-right: 3.6vh;
 }
 .Networks_button{
-    width: 3.5vh;
-    height: 3.5vh;
+    width: 3vh;
+    height: 3vh;
     display: flex;
     justify-content: center;
-    background: #EAEAEA;
-    border-radius: 100%;
     border: none;
     margin: auto 10px auto 0;
 }

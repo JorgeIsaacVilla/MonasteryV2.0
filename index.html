@@ -85,25 +85,43 @@
         <input type="radio" name="radio-btn" id="radio6">
 
         <div class="slide first" id="slide1">
-            <div class="silde_img">1</div>
+            <div class="silde_img">
+                <img src="./img/benefi/1.png" alt="">
+                <p>Visita y asiste a eventos exclusivos.</p>
+            </div>
         </div>
 
         <div class="slide" id="slide2">
-            <div class="silde_img">2</div>
+            <div class="silde_img">
+                <img src="./img/benefi/2.png" alt="">
+                <p>Visita y asiste a eventos exclusivos.</p>
+            </div>
         </div>
 
         <div class="slide" id="slide3">
-            <div class="silde_img">3</div>
+            <div class="silde_img">
+                <img src="./img/benefi/3.png" alt="">
+                <p>Visita y asiste a eventos exclusivos.</p>
+            </div>
         </div>
 
         <div class="slide" id="slide4">
-            <div class="silde_img">4</div>
+            <div class="silde_img">
+                <img src="./img/benefi/4.png" alt="">
+                <p>Viaja, disfruta y vive como el equipo MST.</p>
+            </div>
         </div>
         <div class="slide" id="slide5">
-            <div class="silde_img">5</div>
+            <div class="silde_img">
+                <img src="./img/benefi/5.png" alt="">
+                <p>Participa en la creación de prendas únicas.</p>
+            </div>
         </div>
         <div class="slide"id="slide6">
-            <div class="silde_img">6</div>
+            <div class="silde_img">
+                <img src="./img/benefi/6.png" alt="">
+                <p>Accede a los beneficios y descuentos con nuestros aliados.</p>
+            </div>
         </div>
 
         <div class="navigation-auto">
@@ -125,119 +143,7 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    
-    const wrapper = document.querySelector('.slides');
-const slides = document.querySelectorAll('.slide');
-let pressed = false;
-let startX;
-let scrollLeft;
-let autoSlideInterval = null;
-
-// Función para cambiar de slide automáticamente
-function autoSlide() {
-  let counter = 1;
-  autoSlideInterval = setInterval(function() {
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if (counter > 6) {
-      counter = 1;
-    }
-  }, 3000);
-}
-
-// Iniciar la función para cambiar de slide automáticamente
-autoSlide();
-
-// Evento click del wrapper
-wrapper.addEventListener('click', function() {
-  // Detener el intervalo para cambiar de slide automáticamente
-
-
-
-  clearInterval(autoSlideInterval);
-  autoSlideInterval = null;
-  let counter = 1;
-   restartInterva= setInterval(function() {
-    document.getElementById('radio' + counter).checked = true;
-  }, 1);
-
-
-
-  /*temporizador para reiniciar bucle(inicio)*/
-  function countSeconds(seconds, callback) {
-  let count = seconds;
-  const intervalId = setInterval(function() {
-    console.log(count);
-    count--;
-    if (count === 0) {
-      clearInterval(intervalId);
-      callback();
-    }
-  }, 1000);
-}
-
-// Uso de la función countSeconds
-countSeconds(15, function() {
-  console.log("Han pasado 15 segundos");
-  // Aquí puedes poner el código para ejecutar el intervalo de nuevo
-
-  autoSlideInterval = setInterval(function() {
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if (counter > 6) {
-      counter = 1;
-    }
-  }, 3000);
-
-
-
-
-});
-
-/*temporizador para reiniciar bucle(fin)*/
-
-});
-
-// Evento mousemove del wrapper
-wrapper.addEventListener('mousemove', function(e) {
-  if (!pressed) {
-    return;
-  }
-  
-  // Detener el intervalo para cambiar de slide automáticamente si no se ha detenido
-  if (autoSlideInterval !== null) {
-    clearInterval(autoSlideInterval);
-    autoSlideInterval = null;
-  }
-  
-  // Arrastrar el wrapper con el mouse
-  e.preventDefault();
-  scrollLeft = startX - e.clientX;
-  wrapper.scrollLeft = scrollLeft * -1;
-});
-
-// Evento mousedown del wrapper
-wrapper.addEventListener('mousedown', function(e) {
-  pressed = true;
-  startX = e.clientX;
-  wrapper.style.cursor = 'grabbing';
-});
-
-// Evento mouseleave del wrapper
-wrapper.addEventListener('mouseleave', function() {
-  pressed = false;
-});
-
-// Evento mouseup del wrapper
-window.addEventListener('mouseup', function() {
-  pressed = false;
-  wrapper.style.cursor = 'grab';
-});
-
-
-
-    </script>
+<script src="./js/script_slider.js"></script>
 
         <p class="Text_benefist_2">Muchas mas sorpresas esperan por ti</p>
         <a href="" class="Button_go_roadmap"> <span>IR al Roadmap</span></a>
@@ -245,7 +151,7 @@ window.addEventListener('mouseup', function() {
     <!--section three (end)-->
 
     <div class="Text_fashion_week">
-        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel id sapiente exercitationem asperiores magni est tenetur ipsum, nostrum, laboriosam, rem quod? Aspernatur praesentium sit voluptate? Laborum ex alias at repellat.</span>
+        <span> METAVERSE FASHION WEEK (MVFW) SEMANA DE LA MODA DECENTRALAND EVENTO | NFT MAYO.</span>
     </div><!--programar para que la cadena de texto se mueva a la izquierda-->
 
     <!--section four (start)-->
@@ -451,8 +357,8 @@ window.addEventListener('mouseup', function() {
         <div class="Section_access_top">
             <div class="Logo_monastery_simbol_3"></div>
             <div class="Access_networks">
-                <a  href=""><img class="Networks_button" src="./img/telegrama@3x.png" alt=""></a>
-                <a  href=""><img class="Networks_button" src="" alt=""></a>
+                <a  href=""><img class="Networks_button" src="./img/Footer/Telegram.png" alt=""></a>
+                <a  href=""><img class="Networks_button" src="./img/Footer/Twitter.png" alt=""></a>
             </div>
         </div>
 
