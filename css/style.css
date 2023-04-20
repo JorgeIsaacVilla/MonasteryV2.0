@@ -239,7 +239,6 @@ padding-bottom: 20%;
     height: 100px;
     background-image: url(../img/Grupo\ 14527@3x.png);
     background-size: 100%;
-    margin-left: 3.6vh; 
     transform: scale(3);
      
 }
@@ -561,7 +560,8 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 .Text_roadmap_description{
     color: #EAEAEA;
     margin: auto;
-    width: 70%;
+    margin-left: 3.6vh;
+    margin-right: 3.6vh;
     text-align:center;
     line-height: 1.4rem;
 }
@@ -570,6 +570,9 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 /*section seven (start)*/
 .Section_Q_movile{
     width: 100%;
+    background-image: url(../img/Carretera/Carretera\ completa.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .Div_line{
     height: 2px;
@@ -642,9 +645,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     width: 100%;
     height: 70vw;
     text-align: center;
-
-
-    
     animation-name: aparition;
     opacity: 1;
     transition: opacity 5s, background 5s, box-shadow 5s;
@@ -656,8 +656,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     width: 100%;
     height: 70vw;
     text-align: center;
-
-
     animation-name: aparition;
     opacity: 1;
     transition: opacity 5s, background 5s, box-shadow 5s;
@@ -669,7 +667,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     width: 100%;
     height: 70vw;
     text-align: center;
-
     animation-name: aparition;
     opacity: 1;
     transition: opacity 5s, background 5s, box-shadow 5s;
@@ -681,7 +678,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     width: 100%;
     height: 70vw;
     text-align: center;
-
     animation-name: aparition;
     opacity: 1;
     transition: opacity 5s, background 5s, box-shadow 5s;
@@ -702,7 +698,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     }
 }
 /*trancision al aparecer y segunda vista roaldmap movil(start)*/
-
 
 
 /*section seven (end)*/
@@ -731,8 +726,8 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     color: #EAEAEA;
     text-align: center;
     font-size: 1.1rem;
-    margin-left: 5vh;
-    margin-right: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     margin-bottom: 3vh; 
 }
 .acordeon{
@@ -741,7 +736,9 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 }
 .acordeon .acordeon-label-1{
     border-radius: 10px;
-    display: block;
+    display: flex;
+    justify-content:space-between; 
+    align-items:center;
     padding: 0.6vh 1.2vh;
     font-size: 1rem;
     background: #171C25;
@@ -750,8 +747,10 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     margin-bottom: 2px;
     transition: all 300ms ease;
 }
-.acordeon .acordeon-label-1:hover{
-    background: #171C25;
+.acordeon-label-1 img{
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
 }
 .Div_line_acordeon{
     height: 2px;
@@ -866,9 +865,18 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     border: none;
     margin: auto;
 }
+
+.List_container a{
+    text-decoration: none;
+    color:#EAEAEA;
+    font-size: 1rem;
+    font-family: 'Inter-regular' sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
 /*section nine (end)*/
 footer{
-    width: 25vh;
+    width: 90%;
     margin: auto;
     text-align: center;
     color: #cfcfcf;
