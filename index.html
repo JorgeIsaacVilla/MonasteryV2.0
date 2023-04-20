@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -176,7 +177,7 @@
     <!--section six (end)-->
 
     <!--section seven (start)-->
-    <section class="Section_Q_movile">
+   <!-- <section class="Section_Q_movile">
         <div class="Q1" id="div1">
             <img src="./img/Carretera/1.png" alt="">
         </div>
@@ -189,11 +190,58 @@
         <div class="Q4" id="div4">
             <img src="./img/Carretera/4.png" alt="">
         </div>
+      </section>-->
+      <section class="Section_Q_movile">
+            <div class="transitionDiv1" data-aos="fade-up" data-aos-duration="3000">
+                <h2 class="Text_tittle_Q">Q1</h2>
+                <p class="Text_p">Tour Exclusive Monastery (pendiente video del evento)</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Lanzamiento Plataforma de anclaje Nft, identificación de Holders compras y descuentos.</p>
+            </div>
+       
+            <div class="transitionDiv2" data-aos="fade-up" data-aos-duration="3000">
+                <h2 class="Text_tittle_Q">Q2</h2>
+                <p class="Text_p">Implementación chips NFC en las Gorras ancladas al NFT.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Entrega material de la gorra GYATSO.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">2 Prendas exclusivas para los eventos vip. 1er Evento Nft Gyatso.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">1er Evento Nft Gyatso.</p>
+            </div>
+
+            <div class="transitionDiv3" data-aos="fade-up"
+            data-aos-duration="3000">
+                <h2 class="Text_tittle_Q">Q3</h2>
+                <p class="Text_p">Lanzamiento Cápsulas Educativas para Holders.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Acceso a colecciones limitadas con entrada anticipada.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Participación De Holders en la creación de una nueva gorra con Monastery x RMA.</p>
+            </div>
+
+            <div class="transitionDiv4" data-aos="fade-up"
+            data-aos-duration="3000">
+                <h2 class="Text_tittle_Q">Q4</h2>
+                <p class="Text_p">Se Recibira GYATSO para usar en descentraland.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Bikinis Monastery exclusivo para Holders.</p>
+                <div class="Div_line"></div>
+                <p class="Text_p">Lanzamiento alianzas Exclusive Monastery NFT.</p>
+            </div>
+
+        </div>
       </section>
     <!--section seven (end)-->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script_scroll.js"></script>
+      <script>
+        AOS.init({
+  duration:3000,
+  once:true,
+});
 
+      </script>
     <section class="Div_image"></section>
 
     <!--section eight (start)-->
@@ -370,7 +418,7 @@
                     </ul> 
                 </div>
             </div>
-            
+
         </div>
     </section>
 

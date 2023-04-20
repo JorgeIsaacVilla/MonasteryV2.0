@@ -1,3 +1,10 @@
+AOS.init({
+  duration:3000,
+  once:true,
+  delay:1,
+});
+
+/*
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 const event = isMobile ? 'touchmove' : 'scroll';
 
@@ -24,7 +31,8 @@ function onScroll() {
   // Comprueba si se ha llegado a cada uno de los divs y cambia su contenido interno
   if (scrollPosition >= div1OffsetTop && scrollPosition < div2OffsetTop) {
     div1.innerHTML =  `
-    <div class="transitionDiv1">
+    <div class="transitionDiv1" data-aos="fade-up"
+    data-aos-duration="3000">
         <h2 class="Text_tittle_Q">Q1</h2>
         <p class="Text_p">Tour Exclusive Monastery (pendiente video del evento)</p>
         <div class="Div_line"></div>
@@ -33,7 +41,8 @@ function onScroll() {
   `;
   } else if (scrollPosition >= div2OffsetTop && scrollPosition < div3OffsetTop) {
     div2.innerHTML = `
-    <div class="transitionDiv2">
+    <div class="transitionDiv2" data-aos="fade-up"
+    data-aos-duration="3000">
         <h2 class="Text_tittle_Q">Q2</h2>
         <p class="Text_p">Implementación chips NFC en las Gorras ancladas al NFT.</p>
         <div class="Div_line"></div>
@@ -45,7 +54,8 @@ function onScroll() {
     </div>`;
   } else if (scrollPosition >= div3OffsetTop && scrollPosition < div4OffsetTop) {
     div3.innerHTML = `
-    <div class="transitionDiv3">
+    <div class="transitionDiv3" data-aos="fade-up"
+    data-aos-duration="3000">
         <h2 class="Text_tittle_Q">Q3</h2>
         <p class="Text_p">Lanzamiento Cápsulas Educativas para Holders.</p>
         <div class="Div_line"></div>
@@ -55,7 +65,8 @@ function onScroll() {
     </div>`;
   } else if (scrollPosition >= div4OffsetTop) {
     div4.innerHTML = `
-    <div class="transitionDiv4">
+    <div class="transitionDiv4" data-aos="fade-up"
+    data-aos-duration="3000">
         <h2 class="Text_tittle_Q">Q4</h2>
         <p class="Text_p">Se Recibira GYATSO para usar en descentraland.</p>
         <div class="Div_line"></div>
@@ -64,4 +75,4 @@ function onScroll() {
         <p class="Text_p">Lanzamiento alianzas Exclusive Monastery NFT.</p>
     </div>`;
   }
-}
+}*/
