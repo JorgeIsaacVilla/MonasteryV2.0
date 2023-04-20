@@ -32,15 +32,6 @@
     font-weight: normal;
     font-style: normal;
 }
-.hidden {
-    display: none;
-  }
-  
-  .visible {
-    display: block;
-    transition: opacity 0.5s;
-    opacity: 1;
-  }
 body{
     background: #010409;
     font-family: 'Inter';
@@ -559,7 +550,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 
 /*section six (start)*/
 .Section_roadmap_description{
-    background: #040c16;
     padding: 3.5vh 0vh 3.5vh 0vh;
 }
 .Text_roadmap_tittle{
@@ -578,6 +568,9 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 /*section six (end)*/
 
 /*section seven (start)*/
+.Section_Q_movile{
+    width: 100%;
+}
 .Div_line{
     height: 2px;
     width: 60%;
@@ -591,107 +584,126 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     height: 70vw;
     padding-top: 5%;
     text-align: center;
-    background: #040c16;
+
+}
+ .Q1 img{
+    height: 70vw;
+    width: 100%;
 }
 .Text_tittle_Q{
-    margin-bottom: 5%;
+    padding-top: 3.5vw;
+    margin-bottom: 3vw;
     color: #EAEAEA;
 }
-.Text_p1_Q1{
-    width: 60%;
-    margin: auto;
+.Text_p{
+    width: 80%;
+    margin: 1vw auto 1vw auto;
     height: 13vw;
     color: #EAEAEA;
+
+    font-size: 1rem;
 }
-.Text_p2_Q1{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-}
+
 .Q2{
     width: 100%;
     height: 70vw;
     text-align: center;
-    padding-top: 5%;
-    background: #040c16;
 }
-.Text_p1_Q2{
-    width: 60%;
-    margin: auto;
-    height: 13vw;
-    color: #EAEAEA;
+.Q2 img{
+    height: 70vw;
+    width: 100%;
 }
-.Text_p2_Q2{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-}
-.Text_p3_Q2{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-}
+
 .Q3{
     width: 100%;
     height: 70vw;
     text-align: center;
-    padding-top: 5%;
-    background: #040c16;
+
 }
-.Text_p1_Q3{
-    width: 60%;
-    margin: auto;
-    height: 13vw;
-    color: #EAEAEA;
+.Q3 img{
+    height: 70vw;
+    width: 100%;
 }
-.Text_p2_Q3{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-}
-.Text_p3_Q3{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-}
+
 .Q4{
     width: 100%;
     height: 70vw;
     text-align: center;
-    padding-top: 5%;
-    background: #040c16;
 }
-.Text_p1_Q4{
-    width: 60%;
-    margin: auto;
-    height: 13vw;
-    color: #EAEAEA;
+.Q4 img{
+    height: 70vw;
+    width: 100%;
 }
-.Text_p2_Q4{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
+
+
+
+/*trancision al aparecer y segunda vista roaldmap movil(start)*/
+.transitionDiv1{
+    width: 100%;
+    height: 70vw;
+    text-align: center;
+
+
+    
+    animation-name: aparition;
+    opacity: 1;
+    transition: opacity 5s, background 5s, box-shadow 5s;
+    overflow: hidden;
+    transition: 5s;
+    background: rgb(76, 73, 109);
 }
-.Text_p3_Q4{
-    width: 60%;
-    margin: auto;
-    margin-top: 3vw;
-    height: 13vw;
-    color: #EAEAEA;
-    background: #040c16;
+.transitionDiv2{
+    width: 100%;
+    height: 70vw;
+    text-align: center;
+
+
+    animation-name: aparition;
+    opacity: 1;
+    transition: opacity 5s, background 5s, box-shadow 5s;
+    overflow: hidden;
+    transition: 5s;
+    background: rgb(108, 109, 73);
 }
+.transitionDiv3{
+    width: 100%;
+    height: 70vw;
+    text-align: center;
+
+    animation-name: aparition;
+    opacity: 1;
+    transition: opacity 5s, background 5s, box-shadow 5s;
+    overflow: hidden;
+    transition: 5s;
+    background: rgb(109, 96, 73);
+}
+.transitionDiv4{
+    width: 100%;
+    height: 70vw;
+    text-align: center;
+
+    animation-name: aparition;
+    opacity: 1;
+    transition: opacity 5s, background 5s, box-shadow 5s;
+    overflow: hidden;
+    transition: 5s;
+    background: rgb(73, 108, 109);
+}
+
+
+@keyframes aparicion {
+    0%{
+        opacity: 0;
+        filter: grayscale(100%) blur(12px);
+    }
+    100%{
+        opacity: 1;
+        filter: grayscale(0%) blur(0);
+    }
+}
+/*trancision al aparecer y segunda vista roaldmap movil(start)*/
+
+
 
 /*section seven (end)*/
 
@@ -724,7 +736,6 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     margin-bottom: 3vh; 
 }
 .acordeon{
-    background: #171C25;
     border-radius: 10px;
     margin-bottom: 1.2vh;
 }
@@ -802,8 +813,8 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     align-items: center
 }
 .Logo_monastery_simbol_3{
-    width: 8vh;
-    height: 8vh;
+    width: 12vh;
+    height: 12vh;
     background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
     background-size: 100% 100%;
     margin-left: 3.6vh;
@@ -813,12 +824,12 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     margin-right: 3.6vh;
 }
 .Networks_button{
-    width: 3vh;
+    width: 2.5vh;
     height: 3vh;
     display: flex;
     justify-content: center;
     border: none;
-    margin: auto 10px auto 0;
+    margin: auto 20px auto 0;
 }
 .ul_container{
     margin: 1px;
@@ -832,15 +843,20 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     display: block;
     padding: 0.6vh 1.2vh;
     font-size: 1rem;
-    background: #171C25;
+
     color: #fff;
     cursor: pointer;
     margin-bottom: 2px;
     transition: all 300ms ease;
 
+    display: flex;
+    justify-content:space-between; 
+    align-items:center;
 }
-.acordeon .Acordeon-label-2:hover{
-    background: #171C25;
+
+.Acordeon-label-2 img{
+    width: 10px;
+    height: 10px;
 }
 .Div_line_acordeon_2{
     height: 2px;
