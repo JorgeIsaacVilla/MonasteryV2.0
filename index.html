@@ -13,9 +13,11 @@
     <header class="Section_header">
         <div class="Element_cotainer">
             <div class="Logo_monastery_text"></div>
-            <button class="music_button"></button><!--programar cuadno se unda click cambie imagen del boton-->
-            <button class="volumen_button"></button><!--programar para que  las lineas suban y bajen segun el nivel del volumen eliminar imagen y hacerlo dinamico-->
+            <button class="music_button" id="music_button1"><img id="play_pause_img" src="./img/Play.png" alt=""></button>
+            <button class="volumen_button"><img id="play_music" src="./img/Grupo 14417@3x2.png" alt=""></button>
         </div>
+        <audio id="my_audio" loop src="./docs/mp3/Ryan Castro, Feid - Monastery.mp3"></audio>
+        <script src="./js/script_mp3.js"></script>
         <div class="icono-menu">
             <img src="./img/Opciones.png" id="icon-menu">
        </div>
@@ -367,7 +369,7 @@
         </div>
 
         <div class="Box-acordeon-2">
-            <div class="acordeon">
+            <div class="acordeon" style="background: #171c2500;">
                 <input type="radio" name="acordeon" id="btn-acordeon_sectons" class="btn-acordeon">
                 <label class="Acordeon-label-2" id="icnonDespleg" for="btn-acordeon_sectons" >
                     SECCIONES <img src="./img/Footer/Plegable.png" alt="">
@@ -383,7 +385,7 @@
                 </div>
             </div>
        
-            <div class="acordeon">
+            <div class="acordeon" style="background: #171c2500;">
                 <input type="radio" name="acordeon" id="btn-acordeon_company" class="btn-acordeon">
                 <label class="Acordeon-label-2" for="btn-acordeon_company" >
                     COMPAÑIA <img src="./img/Footer/Plegable.png" alt="">
