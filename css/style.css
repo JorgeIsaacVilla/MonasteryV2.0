@@ -168,7 +168,8 @@ text-align: center;
 color: #EAEAEA;
 width: 100%;
 padding-bottom: 20%;
-
+background-image: url(../img/Monastery\ animación\ de\ logotipo.gif);
+background-size: 320%;
 }
 .Logo_monastery_simbol{/*programar para que se ajuste a pantalla en caso de tablet*/
     width: 60%;
@@ -188,7 +189,7 @@ padding-bottom: 20%;
     position:absolute;
     margin: auto;
     width: 80%;
-    height: 37%;
+    height: 55%;
 }
 .Section_comunity_3d_bottom{
     width: 100%;
@@ -242,7 +243,7 @@ padding-bottom: 20%;
 /*section one (end)*/
 .Video_NFT_monstery{
     width: 100%;
-    padding-bottom: 3.5vh;
+    margin-bottom: -5px;
 }
 .Video_NFT_monstery video {
     width: 100%;
@@ -250,7 +251,9 @@ padding-bottom: 20%;
   }
 /*section two (start)*/
 .Section_key_desciptio{
-    padding-bottom: 10vh;
+padding-bottom: 10vh;
+background-image: url(../img/Monastery\ animación\ de\ logotipo.gif);
+background-size: 320%;
 }
 .Key_image{
     width: 100px;
@@ -306,6 +309,7 @@ letter-spacing:0.3rem ;
     text-align: center  ;
     color: #FFFFFF;
     font-size: 21px;
+    letter-spacing:0.3rem ;
 }
 /*slider (start)*/
 .slider{
@@ -577,6 +581,8 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 2vh;
+    letter-spacing:0.3rem ;
+    
 }
 .Text_roadmap_description{
     color: #EAEAEA;
@@ -742,6 +748,7 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     margin-top: 8vh;
     margin-bottom: 3vh;
     color: #EAEAEA;
+    letter-spacing:0.3rem ;
 }
 .Text_acordeon{
     color: #EAEAEA;
