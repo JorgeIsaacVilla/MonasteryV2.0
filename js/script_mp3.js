@@ -7,11 +7,11 @@ let isPlaying = false;
 
 function togglePlayPauseImage() {
   if (isPlaying) {
-    playPauseImg.src = '../img/Pause.png';
-    playMusic.src = '../img/audio1.gif';
+    playPauseImg.src = './img/Play.png';
+    playMusic.src = './img/audio1.gif';
   } else {
-    playPauseImg.src = '../img/Play.png';
-    playMusic.src = '../img/Grupo 14417@3x2.png';
+    playPauseImg.src = './img/Pause.png';
+    playMusic.src = './img/Grupo 14417@3x2.png';
   }
 }
 

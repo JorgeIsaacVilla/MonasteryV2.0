@@ -168,8 +168,8 @@ text-align: center;
 color: #EAEAEA;
 width: 100%;
 padding-bottom: 20%;
-}
 
+}
 .Logo_monastery_simbol{/*programar para que se ajuste a pantalla en caso de tablet*/
     width: 60%;
     padding-bottom: 60%;
@@ -193,6 +193,17 @@ padding-bottom: 20%;
 .Section_comunity_3d_bottom{
     width: 100%;
 }
+
+.Section_comunity_3d_bottom video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
 .Text_monastery_comunity{
     width: 20rem;
     margin-top: 3.6vh;
@@ -339,7 +350,7 @@ letter-spacing:0.3rem ;
     background: #171C25;/*color de fondo del cuadro*/
 }
 .silde_img img{
-  width: 2.3rem;
+  width: 2.1rem;
   height: 2.3rem;
   margin: 1.8rem 0rem 0.5rem 1rem; 
 }
@@ -352,6 +363,9 @@ line-height: 1.4rem;
 color: #EAEAEA;
   }
 
+  #slide6{
+    margin-right: 2vh;
+  }
 .navigation-manual{
 position:absolute;
 width: 100%;
@@ -371,7 +385,7 @@ justify-content: center;
 .manual-btn:not(:last-child){
     margin-right: 1vh; /*espacio  entre bolitas de seleccion*/
 }
-.manual-btn:hover{
+/*.manual-btn:hover{
     background: #ffffff00;
 }
 #radio1:checked ~ .first{
@@ -391,7 +405,7 @@ justify-content: center;
 }
 #radio6:checked ~ .first{
     margin-left: -240%;
-}
+}*/
 .navigation-auto{
 position: absolute;
 display: flex;
@@ -409,7 +423,7 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 .navigation-auto div:not(:last-child){
     margin-right: 1vh;
 }
-#radio1:checked ~ .navigation-auto .auto-btn1{
+/*#radio1:checked ~ .navigation-auto .auto-btn1{
     background: rgb(255, 255, 255);
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
@@ -426,7 +440,7 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
 }
 #radio6:checked ~ .navigation-auto .auto-btn6{
     background: rgb(255, 255, 255);
-}
+}*/
 /*slider (end)*/
 .Text_benefist_2{
     color:#FFFFFF;
@@ -813,31 +827,32 @@ margin-top: 274.5px;/*automatizar la altura de los botoncitos del slider*/
     width: 100%;
 }
 .Section_access_top{
-    width: 100%;
+    width: 80%;
     display: flex;
     padding-top: 15%;
     padding-bottom: 8%;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin: auto;
 }
 .Logo_monastery_simbol_3{
     width: 12vh;
     height: 12vh;
     background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
     background-size: 100% 100%;
-    margin-left: 3.6vh;
 }
 .Access_networks{
     display: flex;
-    margin-right: 3.6vh;
+    justify-content: flex-end;
 }
 .Networks_button{
-    width: 2.5vh;
+    width: 3.5vh;
     height: 3vh;
     display: flex;
     justify-content: center;
     border: none;
-    margin: auto 20px auto 0;
+    margin: 0 0 0 35px;
+ 
 }
 .ul_container{
     margin: 1px;

@@ -28,21 +28,29 @@ wrapper.addEventListener('click', function() {
    restartInterva= setInterval(function() {
     document.getElementById('radio' + counter).checked = true;
   }, 1);
-  /*temporizador para reiniciar bucle(inicio)
-  function countSeconds(seconds, callback) {
-  let count = seconds;
-  const intervalId = setInterval(function() {
-    console.log(count);
-    count--;
-    if (count === 0) {
-      clearInterval(intervalId);
-      callback();
-    }
-  }, 1000);
-}*/
-// Uso de la función countSeconds
-/*temporizador para reiniciar bucle(fin)*/
 });
+
+
+
+
+
+wrapper.addEventListener('touchmove', function(e) {
+  if (!pressed) {
+    return;
+  }
+  // Detener el intervalo para cambiar de slide automáticamente si no se ha detenido
+  if (autoSlideInterval !== null) {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = null;
+  }
+  // Arrastrar el wrapper con el dedo
+  e.preventDefault();
+  scrollLeft = startX - e.touches[0].clientX;
+  wrapper.scrollLeft = scrollLeft * -1;
+});
+
+
+
 // Evento mousemove del wrapper
 wrapper.addEventListener('mousemove', function(e) {
   if (!pressed) {
