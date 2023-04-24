@@ -1,6 +1,9 @@
 window.onload = funciones
-const iconoMenu = document.querySelector('#icon-menu'),
-      menu = document.querySelector('#menu');
+function funciones(){
+const iconoMenu = document.querySelector('#icon-menu');
+const menu = document.querySelector('#menu');
+const menuLinks = document.querySelectorAll('#menu a');
+
 iconoMenu.addEventListener('click', (e) => {
     menu.classList.toggle('active');
     document.body.classList.toggle('opacity');
@@ -11,17 +14,18 @@ iconoMenu.addEventListener('click', (e) => {
         e.target.setAttribute('src','img/Cerrar.png');
     }
 });
-function funciones(){
-    document.getElementById("vent_flotante").onclick = aparecer;
-    document.getElementById("cerrar").onclick = desaparecer;
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        menu.classList.toggle('active');
+        document.body.classList.toggle('opacity');
+        const iconoMenu = document.querySelector('#icon-menu');
+        const rutaActual1 = iconoMenu.getAttribute('src');
+        if(rutaActual1 == 'img/Cerrar.png'){
+            iconoMenu.setAttribute('src','./img/Opciones.png');
+        }else{
+            iconoMenu.setAttribute('src','img/Cerrar.png');
+        }
+    });
+});
 }
-function aparecer(){
-     var x=document.getElementById("ventana_flotante").style;
-          x.display = "block";
-          menu.classList.toggle('active');
-document.body.classList.toggle('opacity');
-}
-function desaparecer(){
-     var x=document.getElementById("ventana_flotante").style;
-          x.display = "none";
-} 

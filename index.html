@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header class="Section_header">
         <div class="Element_cotainer">
@@ -25,8 +26,8 @@
             <ul>
                 <div class="Logo_monastery_text_2"></div>
                 <li id="list_style"><img src="./img/Logomark-Transparent White.png" alt=""><a href="https://opensea.io/collection/gyatso-nft-x-rma">OpenSea</a></li>
-                <li id="list_style"><a href="">Beneficios</a></li>
-                <li id="list_style"><a href="">Roadmap</a></li>
+                <li id="list_style"><a href="#Beneficios">Beneficios</a></li>
+                <li id="list_style"><a href="#Roadmap">Roadmap</a></li>
                 <li id="list_style"><a href="https://t.me/+gFM5TAKL29w4NjAx">Telegram</a></li>
                 <div class="Div_line_header"></div>
                 <li id="list_style">Español (Internacional)</li>
@@ -38,10 +39,7 @@
 
     <!--section one (start)-->
     <section class="Section_comunity_3d">
-       <!--<div id="video-container">
-            <video id="My_video_logo_monastery" src="./img/Monastery animación de logotipo.mp4" autoplay loop muted></video>
-          </div>-->
-          
+
         <div class="Section_comunity_3d_top">
             <div class="model-container">
                 <model-viewer src="./docs/Image_render_3d.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar class="NFT_3D_cap">
@@ -64,7 +62,7 @@
     </section>
     <!--section one (end)-->
 
-    <section class="Video_NFT_monstery"> <video id="My_video" src="./img/Nft gorra.mp4" autoplay loop muted></video> </section>
+    <section class="Video_NFT_monstery"><video id="My_video" src="./img/Nft gorra.mp4" autoplay loop muted></video> </section>
 
 <script src="./js/script_video.js"></script>
 
@@ -79,10 +77,9 @@
     <section class="Video_event_monstery"> <video src="./img/Monastery.mp4" autoplay loop muted></video></section>
 
     <!--section three (start)-->
-    <section class="Section_benefist_description">
+    <section class="Section_benefist_description" id="Beneficios">
         <div class="Logo_monastery_simbol_2"></div>
         <h2 class="Text_benefist">BENEFICIOS</h2>
-
     <div class="slider">
     <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" init="false">
     
@@ -96,14 +93,14 @@
         <swiper-slide>
           <div class="silde_img">
             <img src="./img/benefi/2.png" alt="">
-            <p>Visita y asiste a eventos exclusivos.</p>
+            <p>Con tu NFT desbloquea prendas exclusivas y descuentos únicos.</p>
           </div>
         </swiper-slide>
     
         <swiper-slide>
           <div class="silde_img">
             <img src="./img/benefi/3.png" alt="">
-            <p>Visita y asiste a eventos exclusivos.</p>
+            <p>Ingresa al metaverso de la mano de Monastery y utiliza sus prendas digitales.</p>
           </div>
         </swiper-slide>
     
@@ -130,48 +127,13 @@
 
     </swiper-container>
     
-      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-
-      <script>
-        const swiperEl = document.querySelector('swiper-container')
-        const params = {
-          injectStyles: [`
-          .swiper-pagination-bullet {
-            width: 8px;
-            height: 8px;
-            text-align: center;
-            line-height: 20px;
-            font-size: 12px;
-            color: #000;
-            opacity: 1;
-            background:gray;
-          }
-    
-          .swiper-pagination-bullet-active {
-            background: #EAEAEA;
-            box-shadow: 0 0 30px  #EAEAEA;(255, 255, 255, 0.349);
-          }
-          `],
-    
-        }
-    
-        Object.assign(swiperEl, params)
-    
-        swiperEl.initialize();
-
-        swiperEl.addEventListener("autoplaytimeleft", (e) => {
-      const [swiper, time, progress] = e.detail;
-      progressCircle.style.setProperty("--progress", 1 - progress);
-      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-    });
-      </script>
-
-</div>
-
-<script src="./js/script_slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./js/script_slider.js"></script>
+    </div>
 
         <p class="Text_benefist_2">Muchas más sorpresas esperan por ti</p>
-        <a href="#roadmap" class="Button_go_roadmap"> Ir al Roadmap</a>
+        <a href="#Roadmap" class="Button_go_roadmap"> Ir al Roadmap</a>
+
     </section>
     <!--section three (end)-->
 
@@ -180,12 +142,13 @@
     </div><!--programar para que la cadena de texto se mueva a la izquierda-->
 
     <!--section four (start)-->
-    <section class="section_picture_art"><!--falta colorear un gradiente en gir nuves-->
+    <section class="section_picture_art">
+
         <div class="Canva_photo">
             <div class="photo"></div>
+            <div class="image_art"></div>
         </div>
-        
-        <div class="image_art"></div>
+
     </section>
     <!--section four (end)-->
 
@@ -198,7 +161,7 @@
     <!--section five (end)-->
 
     <!--section six (start)-->
-    <section class="Section_roadmap_description" id="roadmap">
+    <section class="Section_roadmap_description" id="Roadmap">
         <h2 class="Text_roadmap_tittle">ROADMAP</h2>
         <p class="Text_roadmap_description">Proyecto exclusivo para sus hodlers, estos serán los beneficios que podrán reclamar. Noticias y actualizaciones adicionales se encontrarán en el futuro.</p>
     </section>
@@ -208,7 +171,7 @@
       <section class="Section_Q_movile">
             <div class="transitionDiv1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                 <h2 class="Text_tittle_Q">Q1</h2>
-                <p class="Text_p">Tour Exclusive Monastery pendiente video del evento</p>
+                <p class="Text_p">Tour Exclusive Monastery.</p>
                 <div class="Div_line"></div>
                 <p class="Text_p">Lanzamiento Plataforma de anclaje Nft, identificación de Holders compras y descuentos.</p>
             </div>
@@ -245,8 +208,10 @@
         </div>
       </section>
     <!--section seven (end)-->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script_scroll.js"></script>
+
 
     <section class="Div_image"></section>
 
@@ -257,7 +222,7 @@
 
         <div class="acordeon">
             <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
-            <label class="acordeon-label-1" id="icnonDespleg" class="acordeon-label-1" for="btn-acordeon1" >
+            <label class="acordeon-label-1" id="iconDespleg" class="acordeon-label-1" for="btn-acordeon1" >
                 1. ¿Qué es un NFT? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -292,8 +257,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon5" >
+            <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon4" >
                 4. ¿Qué es una billetera de MetaMask? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -304,8 +269,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon6" >
+            <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon5" >
                 5. ¿Qué son las tarifas (Fees) por transacción? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -316,8 +281,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon7" >
+            <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon6" >
                 6. ¿Dónde puedo ver el trabajo previo de RMA? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -328,8 +293,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon8" >
+            <input type="radio" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon7" >
                 7. ¿Cuál fue el precio inicial de la gorra Gyatso NFT? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -340,8 +305,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon10" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon10" >
+            <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon8" >
                 8. ¿Cuántas gorras Gyatso NFT puedo comprar? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -352,8 +317,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon11" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon11" >
+            <input type="radio" name="acordeon" id="btn-acordeon9" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon9" >
                 9. ¿Cuáles son los beneficios de tener una gorra Gyatso NFT? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -369,8 +334,8 @@
         </div>
 
         <div class="acordeon">
-            <input type="radio" name="acordeon" id="btn-acordeon12" class="btn-acordeon">
-            <label class="acordeon-label-1" for="btn-acordeon12" >
+            <input type="radio" name="acordeon" id="btn-acordeon10" class="btn-acordeon">
+            <label class="acordeon-label-1" for="btn-acordeon10" >
                 10. ¿Dónde puedo vender mi Gyatso NFT? <img src="./img/Footer/Plegable.png" alt="">
             </label>
             <div class="Content-acordeon">
@@ -381,7 +346,6 @@
         </div>
 
     </section>
-
     <!--section eight (end)-->
 
     <!--section nine (start)-->
@@ -389,7 +353,7 @@
         <div class="Section_access_top">
             <div class="Logo_monastery_simbol_3"></div>
             <div class="Access_networks">
-                <a  href=""><img class="Networks_button" src="./img/Footer/Telegram.png" alt=""></a>
+                <a  href="https://t.me/+gFM5TAKL29w4NjAx"><img class="Networks_button" src="./img/Footer/Telegram.png" alt=""></a>
                 <a  href=""><img class="Networks_button" src="./img/Footer/Twitter.png" alt=""></a>
             </div>
         </div>
@@ -397,7 +361,7 @@
         <div class="Box-acordeon-2">
             <div class="acordeon" style="background: #171c2500;">
                 <input type="radio" name="acordeon" id="btn-acordeon_sectons" class="btn-acordeon">
-                <label class="Acordeon-label-2" id="icnonDespleg" for="btn-acordeon_sectons" >
+                <label class="Acordeon-label-2" id="iconDespleg" for="btn-acordeon_sectons" >
                     SECCIONES <img src="./img/Footer/Plegable.png" alt="">
                 </label>
                 <div class="Content-acordeon">
@@ -434,5 +398,17 @@
     <footer>
         <p>Copyright ©2023 Monastery. Todos los derechos reservados.</p>
     </footer>
+    <script>
+        // Obtén todos los enlaces del menú
+        const menuLinks = document.querySelectorAll('#menu a');
+      
+        // Agrega un evento clic a cada enlace del menú
+        menuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            // Pliega el menú
+            document.querySelector('#menu').classList.remove('active');
+          });
+        });
+      </script>
 </body>
 </html>

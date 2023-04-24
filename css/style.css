@@ -35,8 +35,6 @@
 body{
     background: #010409;
     font-family: 'Inter';
-   /* background: #040c16;*/
-   /*#010409 este es el color de los fondos*/
 }
 /*header Style (start)*/
 .Section_header{
@@ -59,7 +57,6 @@ body{
     background-size: 100% 100%;
     margin: 3.5% 6% 3.5% 15%;
 }
-
 .music_button{
     background-color: rgba(240, 248, 255, 0);
     background-repeat: no-repeat;
@@ -73,7 +70,6 @@ body{
     width: 25px;
     height: 25px
 }
-
 .volumen_button{
     background-color: rgba(240, 248, 255, 0);
     background-repeat: no-repeat;
@@ -83,7 +79,6 @@ body{
     border: none;
     margin: 3.5% 0% 3.5% 0%;
 }
-
 .volumen_button img{
     width: 40px;
     height: 25px;
@@ -100,7 +95,6 @@ body{
 .active{
     transform: translate(2000px);
 }
-
 /* style menu list(inicio) */
 .cont-menu ul{
     list-style: none;
@@ -168,10 +162,10 @@ text-align: center;
 color: #EAEAEA;
 width: 100%;
 padding-bottom: 20%;
-background-image: url(../img/Monastery\ animación\ de\ logotipo.gif);
-background-size: 320%;
+background-image: url(../img/Isitpo\ monastery.gif);
+background-size: 100%;
 }
-.Logo_monastery_simbol{/*programar para que se ajuste a pantalla en caso de tablet*/
+.Logo_monastery_simbol{
     width: 60%;
     padding-bottom: 60%;
     background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
@@ -185,16 +179,17 @@ background-size: 320%;
     margin: auto;
     margin-bottom: 10%;
 }
-.NFT_3D_cap{/*programar para que se ajuste a pantalla en caso de tablet*/
+.NFT_3D_cap{
     position:absolute;
-    margin: auto;
-    width: 80%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     height: 55%;
 }
 .Section_comunity_3d_bottom{
     width: 100%;
 }
-
 .Section_comunity_3d_bottom video {
     position: absolute;
     top: 0;
@@ -204,7 +199,6 @@ background-size: 320%;
     object-fit: cover;
     z-index: -1;
   }
-
 .Text_monastery_comunity{
     width: 20rem;
     margin-top: 3.6vh;
@@ -243,7 +237,8 @@ background-size: 320%;
 /*section one (end)*/
 .Video_NFT_monstery{
     width: 100%;
-    margin-bottom: -5px;
+    display: flex; 
+    justify-content: center;
 }
 .Video_NFT_monstery video {
     width: 100%;
@@ -251,9 +246,10 @@ background-size: 320%;
   }
 /*section two (start)*/
 .Section_key_desciptio{
-padding-bottom: 10vh;
-background-image: url(../img/Monastery\ animación\ de\ logotipo.gif);
-background-size: 320%;
+padding-bottom: 100px;;
+padding-top: 50px;
+background-image: url(../img/Isitpo\ monastery.gif);
+background-size: 100%;
 }
 .Key_image{
     width: 100px;
@@ -261,7 +257,6 @@ background-size: 320%;
     background-image: url(../img/Grupo\ 14527@3x.png);
     background-size: 100%;
     transform: scale(3);
-     
 }
 .Key_text_description{
 width: 35.4vh;
@@ -282,13 +277,12 @@ letter-spacing:0.3rem ;
     color: #EAEAEA;
     font-family: 'Inter-light';
 }
-
 /*section two (end)*/
 .Video_event_monstery{
     width: 100%;
     height: 25vh;
+    margin: auto;
 }
-
 .Video_event_monstery video {
     width: 100%;
   }
@@ -310,8 +304,12 @@ letter-spacing:0.3rem ;
     color: #FFFFFF;
     font-size: 21px;
     letter-spacing:0.3rem ;
+    margin-bottom: 2rem;
 }
 /*slider (start)*/
+swiper-container{
+    margin-bottom: 50px;
+}
 swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -319,31 +317,34 @@ swiper-slide {
     justify-content: center;
     align-items: center;
   }
-
 swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-
 swiper-slide {
     width: 200px;
-    height: 200px;
+    height: 230px;
     padding-bottom: 30px;
   }
-  .silde_img{
+.silde_img{
   margin-left: 3vh;
   margin-right: 3vh;
   width: 10rem;
   height:12rem;
   border-radius:15px;
-  background: #171C25;/*color de fondo del cuadro*/
+  background: #171C25;
 }
 .silde_img img{
-width: 2.1rem;
-height: 2.3rem;
-margin: 1.8rem 0rem 1rem 1rem;
+width: 2rem;
+height:2rem;
+margin: 1.5rem 0rem 1rem 1rem;
+border: none;
+background: rgba(255, 255, 255, 0.176);
+box-shadow:  0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
+border-radius: 5px;
+filter: brightness(1.2);
 }
 .silde_img p{
 margin: 0rem 1rem 1rem 1rem; 
@@ -352,8 +353,8 @@ width: 8rem;
 font-size: 0.8rem;
 line-height: 1.4rem;
 color: #EAEAEA;
+text-align: left;
 }
-
 /*slider (end)*/
 .Text_benefist_2{
     color:#FFFFFF;
@@ -380,7 +381,6 @@ color: #EAEAEA;
     text-decoration: none;
 }
 /*section three (end)*/
-
 .Text_fashion_week {
     width: 100%;
     height: 2rem;
@@ -414,7 +414,7 @@ color: #EAEAEA;
     padding-top: 8vh;
     width: 100%;
     background-image: url(../img/Banner\ RMA\ DESING.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .photo{
@@ -523,7 +523,6 @@ color: #EAEAEA;
     height: 70vw;
     padding-top: 5%;
     text-align: center;
-
 }
  .Q1 img{
     height: 70vw;
@@ -539,7 +538,6 @@ color: #EAEAEA;
     margin: 1vw auto 1vw auto;
     height: 13vw;
     color: #EAEAEA;
-
     font-size: 1rem;
 }
 
@@ -574,8 +572,6 @@ color: #EAEAEA;
     width: 100%;
 }
 
-
-
 /*trancision al aparecer y segunda vista roaldmap movil(start)*/
 .transitionDiv1{
     width: 100%;
@@ -586,7 +582,8 @@ color: #EAEAEA;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background: rgb(76, 73, 109);
+    background-image: url(../img/Q1.png);
+    background-size: 100% 100%;
 }
 .transitionDiv2{
     width: 100%;
@@ -597,7 +594,8 @@ color: #EAEAEA;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background: rgb(108, 109, 73);
+    background-image: url(../img/Q2.png);
+    background-size: 100% 100%;
 }
 .transitionDiv3{
     width: 100%;
@@ -608,7 +606,8 @@ color: #EAEAEA;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background: rgb(109, 96, 73);
+    background-image: url(../img/Q3.png);
+    background-size: 100% 100%;
 }
 .transitionDiv4{
     width: 100%;
@@ -619,10 +618,9 @@ color: #EAEAEA;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background: rgb(73, 108, 109);
+    background-image: url(../img/Q4.png);
+    background-size: 100% 100%;
 }
-
-
 @keyframes aparicion {
     0%{
         opacity: 0;
@@ -635,9 +633,7 @@ color: #EAEAEA;
 }
 /*trancision al aparecer y segunda vista roaldmap movil(start)*/
 
-
 /*section seven (end)*/
-
 .Div_image{
     width: 100%;
     padding-bottom: 50%;
@@ -698,7 +694,6 @@ color: #EAEAEA;
     border: none;
     margin: auto;
 }
-
 .Image_acordeon{
     width: 50%;
     margin: 1.4vh 0px;
@@ -722,13 +717,10 @@ color: #EAEAEA;
     margin-bottom: 1.2vh;
     list-style: none;
 }
-
 .acordeon.activo .Content-acordeon {
     max-height: 600px;
     padding: 0px 0px 15px 0px;
   }
-
-
 .btn-acordeon{
     display: none;
 }
@@ -768,7 +760,6 @@ color: #EAEAEA;
     justify-content: center;
     border: none;
     margin: 0 0 0 35px;
- 
 }
 .ul_container{
     margin: 1px;
@@ -787,12 +778,10 @@ color: #EAEAEA;
     cursor: pointer;
     margin-bottom: 2px;
     transition: all 300ms ease;
-
     display: flex;
     justify-content:space-between; 
     align-items:center;
 }
-
 .Acordeon-label-2 img{
     width: 10px;
     height: 10px;
@@ -805,7 +794,6 @@ color: #EAEAEA;
     border: none;
     margin: auto;
 }
-
 .List_container a{
     text-decoration: none;
     color:#EAEAEA;

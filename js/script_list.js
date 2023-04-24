@@ -9,7 +9,6 @@ function toggleAcordeon() {
     this.querySelector('img').setAttribute('src','./img/Footer/Desplegable.png');
   }
 }
-
 var labels = document.getElementsByTagName('label');
 for (var i = 0; i < labels.length; i++) {
   labels[i].addEventListener('click', toggleAcordeon);
