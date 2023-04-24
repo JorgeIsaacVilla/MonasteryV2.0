@@ -84,68 +84,88 @@
         <h2 class="Text_benefist">BENEFICIOS</h2>
 
     <div class="slider">
-    <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
-        <input type="radio" name="radio-btn" id="radio6">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" init="false">
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/1.png" alt="">
+            <p>Visita y asiste a eventos exclusivos.</p>
+          </div>
+        </swiper-slide>
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/2.png" alt="">
+            <p>Visita y asiste a eventos exclusivos.</p>
+          </div>
+        </swiper-slide>
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/3.png" alt="">
+            <p>Visita y asiste a eventos exclusivos.</p>
+          </div>
+        </swiper-slide>
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/4.png" alt="">
+            <p>Viaja, disfruta y vive como el equipo MST.</p>
+          </div>
+        </swiper-slide>
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/5.png" alt="">
+            <p>Participa en la creación de prendas únicas.</p>
+          </div>
+        </swiper-slide>
+    
+        <swiper-slide>
+          <div class="silde_img">
+            <img src="./img/benefi/6.png" alt="">
+            <p>Accede a los beneficios y descuentos con nuestros aliados.</p>
+          </div>
+      </swiper-slide>
 
-        <div class="slide first" id="slide1">
-            <div class="silde_img">
-                <img src="./img/benefi/1.png" alt="">
-                <p>Visita y asiste a eventos exclusivos.</p>
-            </div>
-        </div>
-        <div class="slide" id="slide2">
-            <div class="silde_img">
-                <img src="./img/benefi/2.png" alt="">
-                <p>Visita y asiste a eventos exclusivos.</p>
-            </div>
-        </div>
-        <div class="slide" id="slide3">
-            <div class="silde_img">
-                <img src="./img/benefi/3.png" alt="">
-                <p>Visita y asiste a eventos exclusivos.</p>
-            </div>
-        </div>
-        <div class="slide" id="slide4">
-            <div class="silde_img">
-                <img src="./img/benefi/4.png" alt="">
-                <p>Viaja, disfruta y vive como el equipo MST.</p>
-            </div>
-        </div>
-        <div class="slide" id="slide5">
-            <div class="silde_img">
-                <img src="./img/benefi/5.png" alt="">
-                <p>Participa en la creación de prendas únicas.</p>
-            </div>
-        </div>
-        <div class="slide"id="slide6">
-            <div class="silde_img">
-                <img src="./img/benefi/6.png" alt="">
-                <p>Accede a los beneficios y descuentos con nuestros aliados.</p>
-            </div>
-        </div>
+    </swiper-container>
+    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-            <div class="auto-btn6"></div>
-        </div>
-    </div>
-    <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-        <label for="radio5" class="manual-btn"></label>
-        <label for="radio6" class="manual-btn"></label>
-    </div>
+      <script>
+        const swiperEl = document.querySelector('swiper-container')
+        const params = {
+          injectStyles: [`
+          .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: #000;
+            opacity: 1;
+            background:gray;
+          }
+    
+          .swiper-pagination-bullet-active {
+            background: #EAEAEA;
+            box-shadow: 0 0 30px  #EAEAEA;(255, 255, 255, 0.349);
+          }
+          `],
+    
+        }
+    
+        Object.assign(swiperEl, params)
+    
+        swiperEl.initialize();
+
+        swiperEl.addEventListener("autoplaytimeleft", (e) => {
+      const [swiper, time, progress] = e.detail;
+      progressCircle.style.setProperty("--progress", 1 - progress);
+      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    });
+      </script>
+
 </div>
 
 <script src="./js/script_slider.js"></script>
