@@ -1,0 +1,341 @@
+@media (min-width:640px){
+/*section one (start)*/
+.Section_comunity_3d{
+    background-size: 100%;
+}
+.model-container{
+    width: 25rem;
+    height:0px;
+    margin: 0px;
+    padding-bottom: 0%;
+}
+.NFT_3D_cap{
+    top:12rem;
+    left: 15rem;
+    width: 38rem;
+    height:25rem;
+}
+.Section_comunity_3d_top{
+    display: flex;
+    
+}
+.Logo_monastery_simbol{
+    margin-top: 3rem;
+    width: 40%;
+    padding-bottom: 40%;
+    margin-bottom: 5%;
+}
+/*section one (end)*/
+
+
+/*section two(start)*/
+.To_query{
+    display: flex;
+}
+.Video_NFT_monstery {
+    margin: auto;
+    width: 15rem;
+    float: right; /*Establece el video a la derecha*/
+  }
+  .Section_key_desciptio {
+    background-image: none;
+    padding-bottom: 100px;;
+    width: 50%; 
+    float: left; /*Establece la sección a la izquierda*/
+  }
+  .Key_text_description{
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+  .Text_descripton_art{
+    width: 20rem;
+  }
+/*section two(end)*/
+
+/*section five(start)*/
+.To_query_movile{
+  display: none;
+}
+.photo{
+  width: 50%;
+  padding-bottom: 50%;
+  background-position: 0 0;
+  background-image: url(../img/Web/RMA\ DESING.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 5rem;
+  background-repeat: no-repeat;
+}
+.image_art{
+margin:auto;
+margin-left: 3vh;
+margin-right: 0.5rem;
+width: 50%;
+padding-bottom: 50%;
+background-image: url(../img/Web/RMA.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.Text_tittle_RMA{
+  font-family: 'Inter-Regular';
+  letter-spacing: 0.3rem;
+  color: #EAEAEA;
+  margin-left: 0vh;
+  margin-top: 0vh;
+  margin-bottom: 1.8vh;
+}
+.Text_desciption_RMA{
+  font-family: 'Inter-light';
+  font-size: 1rem;
+  color: #EAEAEA;
+  margin-left: 0vh;
+  margin-right: 3vh;
+  margin-bottom: 2vh;
+  line-height: 1.4rem;
+  text-align: justify;
+}
+/*section five(end)*/
+.To_query_desk{
+  display: inline;
+}
+.section_picture_art_desk_bottom{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.Text_art_desck {
+  justify-content: right;
+  width: 50%;
+  order: 2; /* Agrega esta línea */
+}
+/*section seven (start)*/
+.Section_Q_movile{
+display: none;
+}
+.Section_Q_desk{
+  display: inline;
+  width: 100%;  
+}
+
+.Text_tittle_Q{
+  padding-top: 3.5vw;
+  margin-bottom: 3vw;
+  color: #EAEAEA;
+}
+.Text_p{
+  width: 80%;
+  margin: 1vw auto 1vw auto;
+  height: 6vw;
+  color: #EAEAEA;
+  font-size: 1rem;
+}
+/*Section_Q_desk road-map Desk (start)*/
+.road_q1{
+  position: relative;
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-image: url(../img/Carretera/1.png);
+  background-position: center;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+.transitionDiv1{
+  position: absolute;
+  top: 78%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 20rem;
+  text-align: center;
+  background-image: none;
+  background-size: 100% 100%;
+  transition: opacity 1.5s ease;
+}
+.road1{
+  margin: auto;
+  z-index:+10;
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.car1{
+  height: 6rem;
+  width: 100%;  
+  margin: auto;
+  background-image: url(../img/Carretera/Camioneta.png);
+  background-size: 6rem 4rem;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+  align-items: center;
+  padding-left: 25%;  
+  }
+.line_car1{
+  width: 25%;
+  height: 5px;
+  border-radius: 5px;
+  background: #EAEAEA;
+  box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
+}
+.road_q1:hover .transitionDiv1 {
+  background-color: rgba(1, 4, 9, 0.274);
+  background-image: url(../img/Q1.png);
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+.road_q1:hover .road1 {
+  opacity: 1;
+}
+
+.road_q2{
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-image: url(../img/Carretera/2.png);
+  background-position: center;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+.transitionDiv2{
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  width: 48%;
+  height: 20rem;
+  text-align: center;
+  background-image: none;
+  background-size: 100% 100%;
+  transition: opacity 1.5s ease;
+}
+.road2{
+  margin: auto;
+  z-index: +10;
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.car2{
+height: 6rem;
+width: 100%;  
+margin: auto;
+background-image: url(../img/Carretera/Camioneta.png);
+background-size: 6rem 4rem;
+background-repeat: no-repeat;
+display: flex;
+background-position: center;
+align-items: center;
+/*display: none;*/
+}
+.line_car2{
+  width: 25%;
+  height: 5px;
+  margin-left: 50%;
+  border-radius: 5px;
+  background: #EAEAEA;
+  box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
+}
+.road_q2:hover .transitionDiv2 {
+  background-color: rgba(1, 4, 9, 0.274);
+  background-image: url(../img/Q2.png);
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+.road_q2:hover .road2 {
+  opacity: 1;
+}
+
+.road_q3{
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-image: url(../img/Carretera/3.png);
+  background-position: center;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+.transitionDiv3{
+  position: absolute;
+  top: 78%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 20rem;
+  text-align: center;
+  background-image: none;
+  background-size: 100% 100%;
+  transition: opacity 1.5s ease;
+}
+.road3{
+  margin: auto;
+  z-index: +10;
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.road_q3:hover .transitionDiv3 {
+  background-color: rgba(1, 4, 9, 0.274);
+  background-image: url(../img/Q3.png);
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+.road_q3:hover .road3 {
+  opacity: 1;
+}
+
+.road_q4{
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-image: url(../img/Carretera/4.png);
+  background-position: center;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+.transitionDiv4{
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  width: 48%;
+  height: 20rem;
+  text-align: center;
+  background-image: none;
+  background-size: 100% 100%;
+  transition: opacity 1.5s ease; 
+}
+.road4{
+  margin: auto;
+  z-index: +10;
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.road_q4:hover .transitionDiv4 {
+  background-color: rgba(1, 4, 9, 0.274);
+  background-image: url(../img/Q4.png);
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+.road_q4:hover .road4 {
+  opacity: 1;
+}
+/*Section_Q_desk road-map Desk (end)*/
+
+/*section seven (end)*/
+}

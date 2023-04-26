@@ -157,6 +157,7 @@ margin-right: 15px;
 /*header Style (end)*/
 
 /*section one (start)*/
+
 .Section_comunity_3d{
 text-align: center;
 color: #EAEAEA;
@@ -235,6 +236,8 @@ background-size: 100%;
     margin-right: 5px;
 }
 /*section one (end)*/
+
+/*section two (start)*/
 .Video_NFT_monstery{
     width: 100%;
     display: flex; 
@@ -244,7 +247,6 @@ background-size: 100%;
     width: 100%;
     max-width: 800px;
   }
-/*section two (start)*/
 .Section_key_desciptio{
 padding-bottom: 100px;;
 padding-top: 50px;
@@ -280,7 +282,7 @@ letter-spacing:0.3rem ;
 /*section two (end)*/
 .Video_event_monstery{
     width: 100%;
-    height: 25vh;
+    height: 30%;
     margin: auto;
 }
 .Video_event_monstery video {
@@ -480,7 +482,9 @@ text-align: left;
     text-decoration: none;
 }
 /*section five (end)*/
-
+.To_query_desk{
+    display: none;
+}
 /*section six (start)*/
 .Section_roadmap_description{
     padding: 3.5vh 0vh 3.5vh 0vh;
@@ -509,6 +513,9 @@ text-align: left;
     background-image: url(../img/Carretera/Carretera\ completa.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.Section_Q_desk{
+ display: none; 
 }
 .Div_line{
     height: 2px;
