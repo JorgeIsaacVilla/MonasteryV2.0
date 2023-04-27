@@ -1,0 +1,165 @@
+@media (min-width:850px){
+    /*pendiente header*/
+
+/*section one (start)*/
+      .Section_comunity_3d{
+        text-align: center;
+        color: #EAEAEA;
+        width: 100%;
+        padding-bottom: 5%;
+        background-image: url(../img/Banner\ monastery\ desk.jpg);
+        }
+        .Logo_monastery_simbol{
+         width: 25%;
+         padding-bottom: 25%;
+         background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
+         background-size: 100% 100%;
+         margin-top: 8%;
+         margin-right: 15rem;
+         margin-bottom: 3%;
+         }
+         .NFT_3D_cap{
+         position:absolute;
+         top: 35%;
+         left: 30%;
+         transform: translate(-50%, -50%);
+         width: 80%;
+         height: 80%;
+         }
+         .Text_monastery_comunity{
+         width: 100%;
+         margin-top: 3.6vh;
+         margin: auto;
+         margin-bottom: 3.6vh;
+         font-size: 2.5rem;
+         letter-spacing:0.3rem;
+         }
+         .button_join_telegram{
+         width: 23rem;
+         height: 4rem;
+         padding: 5px;
+         font-size: 1.6rem;
+        }
+        .Telegram_image{
+         width:40px;
+         height:40px;
+      }
+/*section one (end)*/
+
+/*section two (start)*/
+         .To_query{
+          margin-top: 3.5vh;
+         margin-bottom: 3.5vh;
+         }
+         .Key_text_description{
+         width: 35rem;
+         font-size: 1.5rem;
+         line-height: 3rem;
+         font-size: 2.5rem;
+         }
+         .Video_NFT_monstery{
+         width: 50%;
+         }
+         .Video_NFT_monstery video {
+         width: 50%;
+         }
+         .Section_key_desciption{
+         padding-bottom: 100px;
+         padding-top: 50px;
+         background-image: none;
+            }
+         .Text_descripton_art{
+         margin-left: 3.6vh;
+         width: 35rem;
+         font-size: 1.563rem;
+         line-height: 2.3rem;
+         color: #EAEAEA;
+         font-family: 'Inter-light';
+         }
+/*section two (end)*/
+
+/*section three (start)*/
+         .Section_benefist_description{
+         padding-top: 5%;
+         }
+         .Logo_monastery_simbol_2{
+         width: 10%;
+         padding-bottom: 10%;
+         }
+         .Text_benefist{
+         font-size: 1.6rem;
+}
+/*ojo, falta programar los slides style query-desk(start)*/
+.mySwiper{display: none;}
+/*ojo, falta programar los slides style query-desk(end)*/
+
+         .Text_benefist_2{
+         font-size: 1.5rem;
+         }
+         .Button_go_roadmap{
+         width: 23rem;
+         height: 4rem;
+         padding: 5px;
+         font-size: 1.6rem;
+         margin-top: 2.5rem;
+         margin-bottom: 4rem;
+         }
+/*section three (end)*/
+
+/*section five(start)*/
+         .photo{
+         width: 30%;
+         padding-bottom: 30%;
+         }
+         .image_art{
+         width: 30%;
+         padding-bottom: 30%;
+         }
+         .Text_art_desck {
+         justify-content: right;
+         width: 45%;
+         order: 2;
+         margin: 5%;
+         }
+         .Text_tittle_RMA{
+         font-size: 2.5rem;
+         letter-spacing: 0.3rem;
+         margin-bottom: 1.8vh;
+         }
+         .Text_desciption_RMA{
+         font-size: 1.25rem;
+         margin-bottom: 3rem  ;
+         }
+         .Button_ARM{
+         width: 23rem;
+         height: 4rem;
+         padding: 5px;
+         font-size: 1.6rem;
+         margin: 0;
+         }
+/*section five(end)*/
+
+/*section six (start)*/
+.Text_roadmap_tittle{
+font-size: 2.5rem;
+margin-top: 6rem;
+margin-bottom: 3rem;
+}
+.Text_roadmap_description{
+width: 53rem;
+margin: auto;
+font-size: 1.25rem;
+line-height: 2.33rem;
+margin-bottom: 3rem;
+}
+/*roadmap(start)*/
+/*ojo ajustar*/ .Section_Q_desk{display: none;}
+/*roadmap(end)*/
+/*section six (end)*/
+
+/*section nine (start)*/
+
+/*section nine (end)*/
+
+
+}

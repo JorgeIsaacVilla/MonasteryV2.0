@@ -117,6 +117,7 @@ body{
     display: flex;
 }
 .cont-menu ul li a{
+    width: 100%;
     text-decoration: none;
     color:#EAEAEA;
     font-size: 1.25rem;
@@ -163,7 +164,7 @@ text-align: center;
 color: #EAEAEA;
 width: 100%;
 padding-bottom: 20%;
-background-image: url(../img/Isitpo\ monastery.gif);
+background-image: url(../img/Fondo\ monastery.jpg);
 background-size: 100%;
 }
 .Logo_monastery_simbol{
@@ -177,7 +178,7 @@ background-size: 100%;
 .model-container{
     width: 80%;
     padding-bottom: 80%;
-    margin: auto;
+    margin: auto;/*comprobar incidencia y eliminar si no hace nada*/
     margin-bottom: 10%;
 }
 .NFT_3D_cap{
@@ -208,7 +209,7 @@ background-size: 100%;
     color: #EAEAEA;
     font-size: 1.1rem;
     font-family: 'Inter-regular';
-    letter-spacing:0.3rem ;
+    letter-spacing:0.3rem;
 }
 .button_join_telegram{
     width: 11rem;
@@ -247,10 +248,10 @@ background-size: 100%;
     width: 100%;
     max-width: 800px;
   }
-.Section_key_desciptio{
-padding-bottom: 100px;;
+.Section_key_desciption{
+padding-bottom: 100px;
 padding-top: 50px;
-/*background-image: url(../img/Isitpo\ monastery.gif);*/
+background-image: url(../img/Fondo\ monastery.jpg);
 background-size: 100%;
 }
 .Key_image{
@@ -262,7 +263,6 @@ background-size: 100%;
 }
 .Key_text_description{
 width: 35.4vh;
-font-size: 1.5rem;
 line-height: 1.4rem;
 margin-left: 3.6vh;
 margin-bottom: 2.5vh; 
@@ -363,7 +363,7 @@ text-align: left;
     text-align: center;
     margin-bottom: 3.5vh;
     font-family: 'Inter-medium';
-    font-family: 1.5rem;
+    font-size: 1.1rem;
 }
 .Button_go_roadmap{
     width: 11rem;
@@ -495,7 +495,6 @@ text-align: left;
     font-size: 1.5rem;
     margin-bottom: 2vh;
     letter-spacing:0.3rem ;
-    
 }
 .Text_roadmap_description{
     color: #EAEAEA;
@@ -713,7 +712,6 @@ text-align: left;
     overflow-y: auto;
     transition: all 300ms ease;
     color: #EAEAEA;
-
 }
 
 .acordeon .Content-acordeon ul{
@@ -780,7 +778,6 @@ text-align: left;
     display: block;
     padding: 0.6vh 1.2vh;
     font-size: 1rem;
-
     color: #fff;
     cursor: pointer;
     margin-bottom: 2px;
