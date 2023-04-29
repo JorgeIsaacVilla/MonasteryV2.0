@@ -4,8 +4,12 @@
 .Section_header{
   /* height: 80px;*/
   height: 80px;
-  background: rgba(0, 0, 0, 0.829)
+  background: rgba(0, 0, 0, 0.98)
    
+}
+.Logo_monastery_text{
+   width: 230px;
+   height: 30px;
 }
 .Element_cotainer{
    margin-left: 10rem;
@@ -64,12 +68,11 @@
 
 .lang-menu {
    width: 80px;
-   border-radius: 5px;
-   background: #171C25;
+   border-radius: 8px;
+   background: #010409;
    position: relative;
    color: white;
-   padding: 15px 10px 15px 20px;
-   border: outset 0.1px  #171c2548;
+   padding: 10px 10px 10px 20px;
 }
 
 .lang-menu img{
@@ -84,22 +87,21 @@
 
 .lang-menu ul {
    display: none;
-   background: #171C25;
-   border: 1px solid #f8f8f8;
+   background: #010409;
    position: absolute;
-   top: 45px;
+   top: 28px;
    right: 0px;
    width: 100%;
-   border-radius: 5px;
-   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+   border-radius: 8px;
+
 }
 
 
 .lang-menu ul li {
-   border-radius: 5px;
+   border-radius: 0 0 10px 10px;
    list-style: none;
    text-align: left;
-   padding: 1px 10px 5px 23px;
+   padding: 10px 15px 15px 20px;
 
 
 }
@@ -115,7 +117,6 @@
 }
 .lang-menu:hover ul {
    display: block;
-   background: rgba(48, 48, 75, 0.651);
 }
 
 

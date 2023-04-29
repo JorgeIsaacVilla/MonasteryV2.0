@@ -129,7 +129,9 @@ width: 30px;
 height: 30px;
 margin-right: 15px;
 }
-
+/*.cont-menu ul li:hover{
+    background-color: rgba(228, 228, 228, 0.233);
+}*/
 .Div_line_header{
     height: 2px;
     width: 80%;

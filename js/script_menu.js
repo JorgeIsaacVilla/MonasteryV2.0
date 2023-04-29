@@ -29,3 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+
+  document.addEventListener("ContenLang",()=>{
+
+  });
