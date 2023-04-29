@@ -1,6 +1,139 @@
 @media (min-width:850px){
     /*pendiente header*/
+/*header Style (start)*/
+.Section_header{
+  /* height: 80px;*/
+  height: 80px;
+  background: rgba(0, 0, 0, 0.829)
+   
+}
+.Element_cotainer{
+   margin-left: 10rem;
+}
+.icono-menu{
+   display: none;
+   }
+.active{
+   transform: translate(0%);
+}
+.cont-menu{
+   padding: 0;
+   position: relative;
+   width: 80%;
+   background: rgba(0, 0, 0, 0);
+  display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+.cont-menu ul{
+   margin-left: 10rem;
+   padding: none;
+   list-style: none;
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.cont-menu ul li{
+   width: 8rem;
+   margin-bottom: 0;
+   padding: 0;
+}
+#list_style a {
+   text-align: center;
+ }
+ 
+.Div_line_header{
+   display: none;
+}
+.Logo_monastery_text_2{
+   display: none;
+}
+.lu_idiom_movil{
+   display: none !important;
+}
 
+
+
+
+
+
+
+
+
+
+.lang-menu {
+   width: 80px;
+   border-radius: 5px;
+   background: #171C25;
+   position: relative;
+   color: white;
+   padding: 15px 10px 15px 20px;
+   border: outset 0.1px  #171c2548;
+}
+
+.lang-menu img{
+   width: 10px;
+   height: 10px;
+   margin-left: 30px;
+}
+
+.lang-menu .selected-lang {
+   cursor: pointer;
+}
+
+.lang-menu ul {
+   display: none;
+   background: #171C25;
+   border: 1px solid #f8f8f8;
+   position: absolute;
+   top: 45px;
+   right: 0px;
+   width: 100%;
+   border-radius: 5px;
+   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+   border-radius: 5px;
+   list-style: none;
+   text-align: left;
+   padding: 1px 10px 5px 23px;
+
+
+}
+
+.lang-menu ul li a {
+   font-size: 1rem;
+   display: block;
+}
+
+.lang-menu ul li a:before {
+   width: 25px;
+   height: 25px;
+}
+.lang-menu:hover ul {
+   display: block;
+   background: rgba(48, 48, 75, 0.651);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header Style (end)*/
 /*section one (start)*/
       .Section_comunity_3d{
         text-align: center;
@@ -90,7 +223,43 @@
          font-size: 1.6rem;
 }
 /*ojo, falta programar los slides style query-desk(start)*/
-.mySwiper{display: none;}
+.swiper_movil{
+   display: none;
+}
+
+.swiper_desk{
+   width: 60%;
+   justify-content: center;
+   justify-items: center;
+   display: flex;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.silde_img{
+   width: 28%;
+   height: 40vh;
+   margin-bottom: 8%;
+   
+}
+.silde_img img{
+   width: 18%;
+   height:18%;
+   border-radius: 15px;
+   background: rgba(250, 250, 250, 0.250);
+   box-shadow:solid   0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
+   margin: 15% 0rem 5% 10%;
+   }
+
+   .silde_img p{
+      margin: 0rem 5% 1rem 10%; 
+      font-family: 'Inter';
+      width: 80%;
+      font-size:100%;
+      /*line-height: 1.4rem;*/
+      }
+
 /*ojo, falta programar los slides style query-desk(end)*/
 
          .Text_benefist_2{
@@ -105,6 +274,20 @@
          margin-bottom: 4rem;
          }
 /*section three (end)*/
+.Text_fashion_week {
+   height: 3rem;
+   overflow: hidden;
+   font-size: 1.5rem;
+   letter-spacing:0.5rem ;
+   padding-top: 0.9rem;
+ }
+ .Text_fashion_week span {
+   display: inline-block;
+   white-space: nowrap;
+   animation: marquee 15s linear infinite;
+   transform: translateX(100%);
+   color: black;  
+ }
 
 /*section five(start)*/
          .photo{
@@ -153,12 +336,35 @@ line-height: 2.33rem;
 margin-bottom: 3rem;
 }
 /*roadmap(start)*/
-/*ojo ajustar*/ .Section_Q_desk{display: none;}
+
 /*roadmap(end)*/
 /*section six (end)*/
-
+.Div_image{
+   background-image: url(../img/Web/Metaverso.png);
+   background-size: 100%;
+}
 /*section nine (start)*/
-
+.Section_access{
+   display: none;
+}
+.Section_access_desk{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20rem;
+   padding: 3rem;
+   border-top: 0.3px solid #171C25;
+   border-bottom: 0.3px solid #171C25;
+}
+.acordeon .Acordeon-label-2{
+   padding: 0px;
+}
+.acordeon ul{
+   margin-top: 8px;
+   }
+.acordeon ul li{
+list-style: none;
+margin-bottom: 8px;
+}
 /*section nine (end)*/
 
 

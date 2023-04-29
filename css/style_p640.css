@@ -1,4 +1,7 @@
 @media (min-width:640px){
+  .lu_idiom_movil{
+    display: none;
+ }
   /*section one (start)*/
   .Section_comunity_3d{
       background-size: 100%;
@@ -27,6 +30,9 @@
   /*section one (end)*/
 
   /*section two(start)*/
+  #My_video{
+      border-radius: 15PX;
+  }
   .To_query{
       display: flex;
   }
@@ -49,20 +55,6 @@
       width: 20rem;
     }
   /*section two(end)*/
-  .Text_fashion_week {
-    height: 3rem;
-    overflow: hidden;
-    font-size: 1.5rem;
-    letter-spacing:0.5rem ;
-    padding-top: 0.9rem;
-  }
-  .Text_fashion_week span {
-    display: inline-block;
-    white-space: nowrap;
-    animation: marquee 15s linear infinite;
-    transform: translateX(100%);
-    color: black;  
-  }
   @keyframes marquee {
     0% {
       transform: translateX(100%);
@@ -163,7 +155,7 @@
   .transitionDiv1{
     position: absolute;
     top: 78%;
-    left: 22%;
+    left: 25%;
     transform: translate(-50%, -50%);
     width: 50%;
     height: 20rem;
@@ -222,9 +214,9 @@
   .transitionDiv2{
     position: absolute;
     top: 15%;
-    left: 78%;
+    left: 77%;
     transform: translate(-50%, -50%);
-    width: 48%;
+    width: 45%;
     height: 20rem;
     text-align: center;
     background-image: none;
@@ -322,9 +314,9 @@
   .transitionDiv4{
     position: absolute;
     top: 15%;
-    left: 78%;
+    left: 77%;
     transform: translate(-50%, -50%);
-    width: 48%;
+    width: 45%;
     height: 20rem;
     text-align: center;
     background-image: none;
