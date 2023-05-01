@@ -1,7 +1,5 @@
 @media (min-width:640px){
-  .lu_idiom_movil{
-    display: none;
- }
+
   /*section one (start)*/
   .Section_comunity_3d{
       background-size: 100%;
@@ -133,6 +131,7 @@
     padding-top: 3.5vw;
     margin-bottom: 3vw;
     color: #EAEAEA;
+    padding-left: 10%;
   }
   .Text_p{
     width: 80%;
@@ -141,6 +140,9 @@
     color: #EAEAEA;
     font-size: 1rem;
   }
+  .Div_line{
+    width: 80%;
+}
   /*Section_Q_desk road-map Desk (start)*/
   .road_q1{
     position: relative;
@@ -152,6 +154,7 @@
     background-size: 50% 100%;
     background-repeat: no-repeat;
   }
+
   .transitionDiv1{
     position: absolute;
     top: 78%;
@@ -159,7 +162,7 @@
     transform: translate(-50%, -50%);
     width: 50%;
     height: 20rem;
-    text-align: center;
+    text-align: left;
     background-image: none;
     background-size: 100% 100%;
     transition: opacity 1.5s ease;
@@ -186,7 +189,7 @@
     padding-left: 25%;  
     }
   .line_car1{
-    width: 25%;
+    width: 0%;
     height: 5px;
     border-radius: 5px;
     background: #EAEAEA;
@@ -218,7 +221,7 @@
     transform: translate(-50%, -50%);
     width: 45%;
     height: 20rem;
-    text-align: center;
+    text-align: left;
     background-image: none;
     background-size: 100% 100%;
     transition: opacity 1.5s ease;
@@ -245,7 +248,7 @@
   /*display: none;*/
   }
   .line_car2{
-    width: 25%;
+    width: 0%;
     height: 5px;
     margin-left: 50%;
     border-radius: 5px;
@@ -265,7 +268,7 @@
     position: relative;
     display: flex;
     margin: auto;
-    justify-content: center;
+    text-align: left;
     background-image: url(../img/Carretera/3.png);
     background-position: center;
     background-size: 50% 100%;
@@ -274,11 +277,11 @@
   .transitionDiv3{
     position: absolute;
     top: 78%;
-    left: 22%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 45%;
     height: 20rem;
-    text-align: center;
+    text-align: left;
     background-image: none;
     background-size: 100% 100%;
     transition: opacity 1.5s ease;
@@ -318,7 +321,7 @@
     transform: translate(-50%, -50%);
     width: 45%;
     height: 20rem;
-    text-align: center;
+    text-align: left;
     background-image: none;
     background-size: 100% 100%;
     transition: opacity 1.5s ease; 

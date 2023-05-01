@@ -36,6 +36,9 @@ body{
     background: #010409;
     font-family: 'Inter';
 }
+.lang-menu{
+    display: none;
+}
 /*header Style (start)*/
 .Section_header{
     width: 100%;
@@ -525,6 +528,7 @@ text-align: left;
     background: rgba(48, 48, 75, 0.651);
     border: none;
     margin: auto;
+    margin-top: 1.5vw;
 }
 .Q1{
     width: 100%;
@@ -729,6 +733,9 @@ text-align: left;
     padding: 0px 0px 15px 0px;
   }
 .btn-acordeon{
+    display: none;
+}
+.section_desk_queztions{
     display: none;
 }
 /*section eight (end)*/

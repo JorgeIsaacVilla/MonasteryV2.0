@@ -1,11 +1,13 @@
 @media (min-width:850px){
-    /*pendiente header*/
+   
 /*header Style (start)*/
 .Section_header{
   /* height: 80px;*/
   height: 80px;
   background: rgba(0, 0, 0, 0.98)
-   
+}
+.lu_idiom_movil{
+   display: none;
 }
 .Logo_monastery_text{
    width: 230px;
@@ -56,17 +58,8 @@
 .lu_idiom_movil{
    display: none !important;
 }
-
-
-
-
-
-
-
-
-
-
 .lang-menu {
+   display: inline;
    width: 80px;
    border-radius: 8px;
    background: #010409;
@@ -74,7 +67,6 @@
    color: white;
    padding: 10px 10px 10px 20px;
 }
-
 .lang-menu img{
    width: 10px;
    height: 10px;
@@ -93,17 +85,13 @@
    right: 0px;
    width: 100%;
    border-radius: 8px;
-
 }
-
 
 .lang-menu ul li {
    border-radius: 0 0 10px 10px;
    list-style: none;
    text-align: left;
    padding: 10px 15px 15px 20px;
-
-
 }
 
 .lang-menu ul li a {
@@ -118,21 +106,6 @@
 .lang-menu:hover ul {
    display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*header Style (end)*/
 /*section one (start)*/
@@ -221,47 +194,56 @@
          padding-bottom: 10%;
          }
          .Text_benefist{
-         font-size: 1.6rem;
+         font-size: 2.5rem;
 }
-/*ojo, falta programar los slides style query-desk(start)*/
+/*style query-desk(start)*/
 .swiper_movil{
    display: none;
 }
-
 .swiper_desk{
    width: 60%;
    justify-content: center;
    justify-items: center;
-   display: flex;
+   display: inline;
    margin: auto;
-   flex-wrap: wrap;
-   justify-content: space-between;
+ 
+}
+.swiper_desk_top{
+display: flex;
+width: calc((20rem * 3) + 6vh);
+margin: auto;
+margin-top: 5rem;
+}
+.swiper_desk_bottom{
+   display: flex;
+   width: calc((20rem * 3) + 6vh);
+   margin: auto;
 }
 
+
 .silde_img{
-   width: 28%;
-   height: 40vh;
+   width: 18rem;
+   height: 20rem;
    margin-bottom: 8%;
    
 }
 .silde_img img{
-   width: 18%;
-   height:18%;
+   width: 4rem;
+   height:4rem;
    border-radius: 15px;
    background: rgba(250, 250, 250, 0.250);
    box-shadow:solid   0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
-   margin: 15% 0rem 5% 10%;
+   margin: 15% 0rem 15% 10%;
    }
-
    .silde_img p{
       margin: 0rem 5% 1rem 10%; 
       font-family: 'Inter';
       width: 80%;
-      font-size:100%;
+      font-size:1.25rem;
       /*line-height: 1.4rem;*/
       }
 
-/*ojo, falta programar los slides style query-desk(end)*/
+/*tyle query-desk(end)*/
 
          .Text_benefist_2{
          font-size: 1.5rem;
@@ -340,10 +322,350 @@ margin-bottom: 3rem;
 
 /*roadmap(end)*/
 /*section six (end)*/
+
 .Div_image{
    background-image: url(../img/Web/Metaverso.png);
    background-size: 100%;
+   padding-bottom: 35%;
 }
+
+/*section seven (start)*/
+
+.Text_tittle_Q{
+font-size: 2.5rem;
+padding-left: 30%;
+ }
+ .Text_p{
+  /* 
+   margin: 1vw auto 1vw auto;
+   
+   color: #EAEAEA;*/
+   width: 40%;
+   height: 3rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   font-size: 1.25rem;
+ }
+ .Div_line{
+   margin-top: 2rem;
+   width: 40%;
+}
+ /*Section_Q_desk road-map Desk (start)*/
+ .road_q1{
+   position: relative;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   background-image: url(../img/Carretera/1.png);
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+ }
+ .transitionDiv1{
+   position: absolute;
+   top: 78%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   width: 45%;
+   height: 40rem;
+   text-align: left;
+   background-image: none;
+   background-size: 100% 100%;
+   transition: opacity 1.5s ease;
+ }
+ .road1{
+   margin: auto;
+   z-index:+10;
+   width: 20rem;
+   height: 45vh;
+   display: flex;
+   opacity: 0;
+   transition: opacity 1.5s;
+ }
+ .car1{
+   height: 12rem;
+   width: 100%;  
+   margin: auto;
+   background-image: url(../img/Carretera/Camioneta.png);
+   background-size: 11rem 8rem;
+   background-repeat: no-repeat;
+   display: flex;
+   background-position: center;
+   align-items: center;
+   padding-left: 0;
+   }
+ .line_car1{
+   width: 50%;
+   height: 5px;
+   border-radius: 5px;
+   background: #EAEAEA;
+   box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
+ }
+ .road_q1:hover .transitionDiv1 {
+   background-color: rgba(1, 4, 9, 0.274);
+   background-image: url(../img/Q1.png);
+   background-blend-mode: multiply;
+   background-position: center center;
+ }
+ .road_q1:hover .road1 {
+   opacity: 1;
+ }
+ .road_q2{
+   position: relative;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   background-image: url(../img/Carretera/2.png);
+   background-position: center;
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+ }
+ .transitionDiv2{
+   position: absolute;
+   top: 15%;
+   left: 77%;
+   transform: translate(-50%, -50%);
+   width: 45%;
+   height: 40rem;
+   text-align: left;
+   background-image: none;
+   background-size: 100% 100%;
+   transition: opacity 1.5s ease;
+ }
+ .road2{
+   margin: auto;
+   z-index: +10;
+   width: 20rem;
+   height: 45vh;
+   display: flex;
+   opacity: 0;
+   transition: opacity 1.5s;
+ }
+ .car2{
+   height: 12rem;
+ width: 100%;  
+ margin: auto;
+ background-image: url(../img/Carretera/Camioneta.png);
+ background-size: 11rem 8rem;
+ background-repeat: no-repeat;
+ display: flex;
+ background-position: center;
+ align-items: center;
+ /*display: none;*/
+ }
+ .line_car2{
+   width: 50%;
+   height: 5px;
+   margin-left: 50%;
+   border-radius: 5px;
+   background: #EAEAEA;
+   box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
+ }
+ .road_q2:hover .transitionDiv2 {
+   background-color: rgba(1, 4, 9, 0.274);
+   background-image: url(../img/Q2.png);
+   background-blend-mode: multiply;
+   background-position: center center;
+ }
+ .road_q2:hover .road2 {
+   opacity: 1;
+ }
+ .road_q3{
+   position: relative;
+   display: flex;
+   margin: auto;
+   text-align: left;
+   background-image: url(../img/Carretera/3.png);
+   background-position: center;
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+ }
+ .transitionDiv3{
+   position: absolute;
+   top: 78%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   width: 45%;
+   height: 40rem;
+   text-align: left;
+   background-image: none;
+   background-size: 100% 100%;
+   transition: opacity 1.5s ease;
+ }
+ .road3{
+   margin: auto;
+   z-index: +10;
+   width: 20rem;
+   height: 45vh;
+   display: flex;
+   opacity: 0;
+   transition: opacity 1.5s;
+ }
+ .road_q3:hover .transitionDiv3 {
+   background-color: rgba(1, 4, 9, 0.274);
+   background-image: url(../img/Q3.png);
+   background-blend-mode: multiply;
+   background-position: center center;
+ }
+ .road_q3:hover .road3 {
+   opacity: 1;
+ }
+ .road_q4{
+   position: relative;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   background-image: url(../img/Carretera/4.png);
+   background-position: center;
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+ }
+ .transitionDiv4{
+   position: absolute;
+   top: 15%;
+   left: 77%;
+   transform: translate(-50%, -50%);
+   width: 45%;
+   height: 38rem;
+   text-align: left;
+   background-image: none;
+   background-size: 100% 100%;
+   transition: opacity 1.5s ease; 
+ }
+ .road4{
+   margin: auto;
+   z-index: +10;
+   width: 20rem;
+   height: 45vh;
+   display: flex;
+   opacity: 0;
+   transition: opacity 1.5s;
+ }
+ .road_q4:hover .transitionDiv4 {
+   background-color: rgba(1, 4, 9, 0.274);
+   background-image: url(../img/Q4.png);
+   background-blend-mode: multiply;
+   background-position: center center;
+ }
+ .road_q4:hover .road4 {
+   opacity: 1;
+ }
+ /*Section_Q_desk road-map Desk (end)*/
+
+/*section seven (end)*/
+
+/*section eight (start)*/
+.Container-acordeon{
+   display: none;
+}
+.section_desk_queztions{
+   width: 80%;
+   margin: auto;
+}
+.section_desk_queztions h2{
+   text-align: center;
+   font-size: 2.5rem;
+   margin-top: 8vh;
+   margin-bottom: 3vh;
+   color: #EAEAEA;
+   letter-spacing:0.3rem ;
+}
+
+.section_desk_queztions p{
+   font-size: 1.25rem;
+}
+
+.section_desk_queztions{
+   display: inline;
+   width: 100%;
+}
+.Text_acordeon{
+   margin-top: 3rem;
+   margin-bottom: 5rem;
+}
+.canva_quez{
+   display: flex;
+   justify-content: center;
+}
+.scroll_quez{
+width: 50rem;
+height: 38.6rem;
+overflow: auto;
+direction: rtl;
+}
+.scroll_quez div{
+   direction: ltr;
+}
+.scroll_quez::-webkit-scrollbar {
+   width: 16px;
+   
+ }
+ .scroll_quez::-webkit-scrollbar-thumb {
+   background: #171C25;
+   border-radius: 10rem;
+   
+ }
+ .scroll_quez::-webkit-scrollbar-track {
+   position: absolute;
+   right: -3rem;
+   top: -50rem;
+   background: transparent;
+   
+ }
+.acordeon-label-1{
+   padding: 3.5%;
+   width: 86%;
+   border-radius: 8px;
+   background: #171C25;
+   margin: 25px;
+   color: #EAEAEA;
+   font-size: 1.25rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.acordeon-label-1:hover {
+   border: 2px solid;
+   border-style: #eaeaea79;
+   box-shadow: 0 0 15px  rgba(255, 255, 255, 0.349);
+ }
+ .acordeon-label-1 img{
+transform: rotate(270deg);
+width: 15px;
+height: 15px;
+}
+
+.answer{
+background: #171C25;
+border-radius: 5px;
+width: 45rem;
+height: 38.6rem;
+color: #EAEAEA;
+}
+.answer img{
+   margin: 2.5rem;
+   width: 18rem;
+   height: 14rem;
+}
+.answer p{
+   margin: 2.5rem;
+   font-size: 1.25rem;
+   color: #EAEAEA;
+}
+
+.answer ul{
+   list-style: disc;
+   margin: 2.5rem;
+   margin-top: 0.5em;
+}
+.answer li{
+   margin-bottom: 1rem;
+   font-size: 1.25rem;
+}
+
+
+
+/*section eight (end)*/
+
 /*section nine (start)*/
 .Section_access{
    display: none;
