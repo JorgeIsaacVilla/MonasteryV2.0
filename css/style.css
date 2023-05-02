@@ -54,7 +54,7 @@ body{
     display: flex;
 }
 .Logo_monastery_text{
-    width: 165px;
+    width: 175px;
     height: 26px;
     background-image: url(../img/LOGO-MONASTERY-2@2x.png);
     background-size: 100% 100%;
@@ -103,7 +103,7 @@ body{
     list-style: none;
 }
 .Logo_monastery_text_2{
-    width: 140px;
+    width: 130px;
     height: 26px;
     background-image: url(../img/LOGO-MONASTERY-2@2x.png);
     background-size: 100% 100%;
@@ -111,7 +111,7 @@ body{
 }
 .cont-menu ul li{
     color:#EAEAEA;
-    font-size: 1.25rem;
+    font-size: 1.313rem;
     margin-bottom: 30px;
     text-decoration: none;
     padding: 10px 50px;
@@ -209,7 +209,7 @@ background-size: 100%;
     margin: auto;
     margin-bottom: 3.6vh;
     color: #EAEAEA;
-    font-size: 1.1rem;
+    font-size: 1.313rem;
     font-family: 'Inter-regular';
     letter-spacing:0.3rem;
 }
@@ -264,19 +264,18 @@ background-size: 100%;
     transform: scale(3);
 }
 .Key_text_description{
-width: 35.4vh;
-line-height: 1.4rem;
+width: 40vh;
 margin-left: 3.6vh;
 margin-bottom: 2.5vh; 
 color: #EAEAEA;
-font-size: 1.1rem;
 font-family: 'Inter-regular';
+font-size: 1.313rem;
 letter-spacing:0.3rem ;
 }
 .Text_descripton_art{
     margin-left: 3.6vh;
     width: 38vh;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.4rem;
     color: #EAEAEA;
     font-family: 'Inter-light';
@@ -292,7 +291,7 @@ letter-spacing:0.3rem ;
   }
 /*section three (start)*/
 .Section_benefist_description{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 6vh;
 }
 .Logo_monastery_simbol_2{
@@ -306,7 +305,7 @@ letter-spacing:0.3rem ;
 .Text_benefist{
     text-align: center  ;
     color: #FFFFFF;
-    font-size: 21px;
+    font-size: 1.313rem;
     letter-spacing:0.3rem ;
     margin-bottom: 2rem;
 }
@@ -323,6 +322,11 @@ swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 220px;
+    height: 230px;
+    padding-bottom: 30px;
+
   }
 swiper-slide img {
     display: block;
@@ -330,16 +334,11 @@ swiper-slide img {
     height: 100%;
     object-fit: cover;
   }
-swiper-slide {
-    width: 200px;
-    height: 230px;
-    padding-bottom: 30px;
-  }
 .silde_img{
   margin-left: 3vh;
   margin-right: 3vh;
-  width: 10rem;
-  height:12rem;
+  width: 11rem;
+  height:14rem;
   border-radius:15px;
   background: #171C25;
 }
@@ -356,8 +355,8 @@ filter: brightness(1.2);
 .silde_img p{
 margin: 0rem 1rem 1rem 1rem; 
 font-family: 'Inter';
-width: 8rem;
-font-size: 0.8rem;
+width: 9rem;
+font-size: 1rem;
 line-height: 1.4rem;
 color: #EAEAEA;
 text-align: left;
@@ -368,7 +367,7 @@ text-align: left;
     text-align: center;
     margin-bottom: 3.5vh;
     font-family: 'Inter-medium';
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .Button_go_roadmap{
     width: 11rem;
@@ -458,16 +457,16 @@ text-align: left;
     margin-left: 3.6vh;
     margin-top: 3.6vh;
     margin-bottom: 1.8vh;
+    font-size: 1.313rem;
 }
 .Text_desciption_RMA{
     font-family: 'Inter-light';
-    font-size: 1.083rem;
+    font-size: 1rem;
     color: #EAEAEA;
     margin-left: 3.6vh;
     margin-right: 3.6vh;
     margin-bottom: 3.6vh;
     line-height: 1.4rem;
-    text-align: justify;
 }
 .Button_ARM{
     width: 11rem;
@@ -497,7 +496,7 @@ text-align: left;
 .Text_roadmap_tittle{
     color: #EAEAEA;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.313rem;
     margin-bottom: 2vh;
     letter-spacing:0.3rem ;
 }
@@ -521,15 +520,6 @@ text-align: left;
 .Section_Q_desk{
  display: none; 
 }
-.Div_line{
-    height: 2px;
-    width: 60%;
-    border-radius: 1px;
-    background: rgba(48, 48, 75, 0.651);
-    border: none;
-    margin: auto;
-    margin-top: 1.5vw;
-}
 .Q1{
     width: 100%;
     height: 70vw;
@@ -541,16 +531,21 @@ text-align: left;
     width: 100%;
 }
 .Text_tittle_Q{
-    padding-top: 3.5vw;
+    padding-top: 8vw;
     margin-bottom: 3vw;
     color: #EAEAEA;
+    font-size: 1.313rem;
 }
 .Text_p{
-    width: 80%;
-    margin: 1vw auto 1vw auto;
-    height: 13vw;
+    width: 83%;
+    margin: auto;
+    padding-bottom: 0.8rem;
     color: #EAEAEA;
     font-size: 1rem;
+
+    text-align: center;
+
+    
 }
 
 .Q2{
@@ -632,7 +627,10 @@ text-align: left;
     transition: 5s;
     background-image: url(../img/Q4.png);
     background-size: 100% 100%;
+
+
 }
+
 @keyframes aparicion {
     0%{
         opacity: 0;
@@ -661,16 +659,16 @@ text-align: left;
 }
 .Container-acordeon h2{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.313rem;
     margin-top: 8vh;
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
     color: #EAEAEA;
     letter-spacing:0.3rem ;
 }
 .Text_acordeon{
     color: #EAEAEA;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 2vh;
     margin-right: 2vh;
     margin-bottom: 3vh; 

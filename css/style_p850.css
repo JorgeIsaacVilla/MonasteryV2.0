@@ -346,10 +346,7 @@ padding-left: 30%;
    margin-bottom: 1rem;
    font-size: 1.25rem;
  }
- .Div_line{
-   margin-top: 2rem;
-   width: 40%;
-}
+
  /*Section_Q_desk road-map Desk (start)*/
  .road_q1{
    position: relative;
@@ -656,6 +653,7 @@ color: #EAEAEA;
    list-style: disc;
    margin: 2.5rem;
    margin-top: 0.5em;
+   margin-left: 4rem;
 }
 .answer li{
    margin-bottom: 1rem;
