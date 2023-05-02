@@ -122,7 +122,6 @@ body{
     width: 100%;
     text-decoration: none;
     color:#EAEAEA;
-    font-size: 1.25rem;
     font-family: 'Inter-regular' sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -204,7 +203,7 @@ background-size: 100%;
     z-index: -1;
   }
 .Text_monastery_comunity{
-    width: 20rem;
+    width: 17rem;
     margin-top: 3.6vh;
     margin: auto;
     margin-bottom: 3.6vh;
@@ -265,7 +264,7 @@ background-size: 100%;
 }
 .Key_text_description{
 width: 40vh;
-margin-left: 3.6vh;
+margin-left: 3.1vh;
 margin-bottom: 2.5vh; 
 color: #EAEAEA;
 font-family: 'Inter-regular';
@@ -273,7 +272,7 @@ font-size: 1.313rem;
 letter-spacing:0.3rem ;
 }
 .Text_descripton_art{
-    margin-left: 3.6vh;
+    margin-left: 3.1vh;
     width: 38vh;
     font-size: 1rem;
     line-height: 1.4rem;
@@ -346,11 +345,12 @@ swiper-slide img {
 width: 2rem;
 height:2rem;
 margin: 1.5rem 0rem 1rem 1rem;
-border: none;
+transform: scale(3.5);
+/*border: none;
 background: rgba(255, 255, 255, 0.176);
 box-shadow:  0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
 border-radius: 5px;
-filter: brightness(1.2);
+filter: brightness(1.2);*/
 }
 .silde_img p{
 margin: 0rem 1rem 1rem 1rem; 
@@ -582,7 +582,7 @@ text-align: left;
 /*trancision al aparecer y segunda vista roaldmap movil(start)*/
 .transitionDiv1{
     width: 100%;
-    height: 70vw;
+    height: 80vw;
     text-align: center;
     animation-name: aparition;
     opacity: 1;
@@ -594,7 +594,7 @@ text-align: left;
 }
 .transitionDiv2{
     width: 100%;
-    height: 70vw;
+    height: 80vw;
     text-align: center;
     animation-name: aparition;
     opacity: 1;
@@ -606,7 +606,7 @@ text-align: left;
 }
 .transitionDiv3{
     width: 100%;
-    height: 70vw;
+    height: 80vw;
     text-align: center;
     animation-name: aparition;
     opacity: 1;
@@ -618,7 +618,7 @@ text-align: left;
 }
 .transitionDiv4{
     width: 100%;
-    height: 70vw;
+    height: 80vw;
     text-align: center;
     animation-name: aparition;
     opacity: 1;
@@ -781,8 +781,6 @@ text-align: left;
     list-style: none;
 }
 .acordeon .Acordeon-label-2{
-    border-radius: 10px;
-    display: block;
     padding: 0.6vh 1.2vh;
     font-size: 1rem;
     color: #fff;
@@ -792,6 +790,10 @@ text-align: left;
     display: flex;
     justify-content:space-between; 
     align-items:center;
+
+
+    margin-left:-3.6vh;
+    margin-right:-3.6vh;
 }
 .Acordeon-label-2 img{
     width: 10px;

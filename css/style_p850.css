@@ -2,19 +2,18 @@
    
 /*header Style (start)*/
 .Section_header{
-  /* height: 80px;*/
   height: 80px;
-  background: rgba(0, 0, 0, 0.98)
+  background: rgba(0, 0, 0, 0.98);
 }
 .lu_idiom_movil{
    display: none;
 }
 .Logo_monastery_text{
-   width: 230px;
-   height: 30px;
+   width: 260px;
+   height: 40px;
 }
 .Element_cotainer{
-   margin-left: 10rem;
+   margin-left: 5%;
 }
 .icono-menu{
    display: none;
@@ -25,30 +24,31 @@
 .cont-menu{
    padding: 0;
    position: relative;
-   width: 80%;
    background: rgba(0, 0, 0, 0);
-  display: flex;
+   display: flex;
    justify-content: center;
    justify-items: center;
+   margin-right: 10%;
+   width: 50rem;
 }
 .cont-menu ul{
    margin-left: 10rem;
    padding: none;
    list-style: none;
-   width: 60%;
+   width: 100%;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
 }
 .cont-menu ul li{
    width: 8rem;
    margin-bottom: 0;
    padding: 0;
+   margin-left: 15px;
+   margin-right: 15px;
 }
 #list_style a {
+   margin-top: 8px;
    text-align: center;
  }
- 
 .Div_line_header{
    display: none;
 }
@@ -72,16 +72,15 @@
    height: 10px;
    margin-left: 30px;
 }
-
 .lang-menu .selected-lang {
    cursor: pointer;
+   font-size: 1.313rem;
 }
-
 .lang-menu ul {
    display: none;
    background: #010409;
    position: absolute;
-   top: 28px;
+   top: 32px;
    right: 0px;
    width: 100%;
    border-radius: 8px;
@@ -91,11 +90,11 @@
    border-radius: 0 0 10px 10px;
    list-style: none;
    text-align: left;
-   padding: 10px 15px 15px 20px;
+   padding: 10px 15px 15px 10px;
 }
 
 .lang-menu ul li a {
-   font-size: 1rem;
+   font-size: 1.313rem;
    display: block;
 }
 
@@ -115,33 +114,37 @@
         width: 100%;
         padding-bottom: 5%;
         background-image: url(../img/Banner\ monastery\ desk.jpg);
+        
         }
         .Logo_monastery_simbol{
-         width: 25%;
-         padding-bottom: 25%;
+         width: 25rem;
+         padding-bottom: 25rem;
          background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
+         margin-right: 15%;
          background-size: 100% 100%;
-         margin-top: 8%;
+         /*margin-top: 8%;
          margin-right: 15rem;
-         margin-bottom: 3%;
+         margin-bottom: 3%;*/
          }
          .NFT_3D_cap{
          position:absolute;
-         top: 35%;
+         top: 15rem;
          left: 30%;
-         transform: translate(-50%, -50%);
-         width: 80%;
-         height: 80%;
+         transform: translate(-50%, -50%); 
+         width: 100%;
+         height: 45rem;
+        /* width: 80%;
+         height: 80%;*/
          }
          .Text_monastery_comunity{
          width: 100%;
          margin-top: 3.6vh;
          margin: auto;
          margin-bottom: 3.6vh;
-         font-size: 2.5rem;
+         font-size: 1.5rem;
          letter-spacing:0.3rem;
          }
-         .button_join_telegram{
+        /* .button_join_telegram{
          width: 23rem;
          height: 4rem;
          padding: 5px;
@@ -150,22 +153,30 @@
         .Telegram_image{
          width:40px;
          height:40px;
-      }
+      }*/
 /*section one (end)*/
 
 /*section two (start)*/
          .To_query{
           margin-top: 3.5vh;
          margin-bottom: 3.5vh;
+
+
+
+         justify-content: center;
+         justify-items: center;
          }
          .Key_text_description{
-         width: 35rem;
-         font-size: 1.5rem;
-         line-height: 3rem;
-         font-size: 2.5rem;
+         width: 20rem;
+         /*font-size: 1.5rem;*/
+         /*line-height: 3rem;*/
+         /*font-size: 2.5rem;
+         width: 35rem;*/
          }
          .Video_NFT_monstery{
-         width: 50%;
+            /*width: 50%;*/
+         width: 40%;
+         justify-content: right;
          }
          .Video_NFT_monstery video {
          width: 50%;
@@ -174,12 +185,15 @@
          padding-bottom: 100px;
          padding-top: 50px;
          background-image: none;
-            }
+            
+         width: 50%;
+         }
          .Text_descripton_art{
-         margin-left: 3.6vh;
-         width: 35rem;
-         font-size: 1.563rem;
-         line-height: 2.3rem;
+         /*margin-left: 3.6vh;
+         width: 35rem;*/
+         width: 20rem;
+        /* font-size: 1.563rem;
+         line-height: 2.3rem;*/
          color: #EAEAEA;
          font-family: 'Inter-light';
          }
@@ -193,9 +207,9 @@
          width: 10%;
          padding-bottom: 10%;
          }
-         .Text_benefist{
+        /* .Text_benefist{
          font-size: 2.5rem;
-}
+}*/
 /*style query-desk(start)*/
 .swiper_movil{
    display: none;
@@ -216,36 +230,44 @@ margin-top: 5rem;
 }
 .swiper_desk_bottom{
    display: flex;
-   width: calc((20rem * 3) + 6vh);
    margin: auto;
+   justify-content: center;
 }
 
-
+.swiper_desk_top{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
 .silde_img{
-   width: 18rem;
-   height: 20rem;
+   width: 15rem;
+   height: 18rem;
    margin-bottom: 8%;
    
 }
 .silde_img img{
-   width: 4rem;
-   height:4rem;
+   width: 3.5rem;
+   height:3.5rem;
    border-radius: 15px;
+   background: none;
+   box-shadow:none;
+   transform: scale(3.1);
+  /* border-radius: 15px;
    background: rgba(250, 250, 250, 0.250);
    box-shadow:solid   0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
-   margin: 15% 0rem 15% 10%;
+   margin: 15% 0rem 15% 10%;*/
    }
    .silde_img p{
       margin: 0rem 5% 1rem 10%; 
       font-family: 'Inter';
       width: 80%;
-      font-size:1.25rem;
+      /*font-size:1.25rem;*/
       /*line-height: 1.4rem;*/
       }
 
 /*tyle query-desk(end)*/
 
-         .Text_benefist_2{
+        /* .Text_benefist_2{
          font-size: 1.5rem;
          }
          .Button_go_roadmap{
@@ -255,13 +277,13 @@ margin-top: 5rem;
          font-size: 1.6rem;
          margin-top: 2.5rem;
          margin-bottom: 4rem;
-         }
+         }*/
 /*section three (end)*/
 .Text_fashion_week {
-   height: 3rem;
+  /* height: 3rem;*/
    overflow: hidden;
-   font-size: 1.5rem;
-   letter-spacing:0.5rem ;
+  /* font-size: 1.5rem;
+   letter-spacing:0.5rem */;
    padding-top: 0.9rem;
  }
  .Text_fashion_week span {
@@ -274,49 +296,60 @@ margin-top: 5rem;
 
 /*section five(start)*/
          .photo{
-         width: 30%;
-         padding-bottom: 30%;
+        /* width: 30%;
+         padding-bottom: 30%;*/
+         width: 30rem;
+         padding-bottom: 30rem;
+
          }
          .image_art{
-         width: 30%;
-         padding-bottom: 30%;
+        /* width: 30%;
+         padding-bottom: 30%;*/
+         width: 28rem;
+         padding-bottom: 28rem;
          }
          .Text_art_desck {
          justify-content: right;
-         width: 45%;
+         width: 25rem;
          order: 2;
          margin: 5%;
          }
          .Text_tittle_RMA{
-         font-size: 2.5rem;
-         letter-spacing: 0.3rem;
+         /*font-size: 2.5rem;
+         letter-spacing: 0.3rem;*/
          margin-bottom: 1.8vh;
          }
          .Text_desciption_RMA{
-         font-size: 1.25rem;
+        /* font-size: 1.25rem;*/
+            
          margin-bottom: 3rem  ;
+         width: 25rem;
          }
-         .Button_ARM{
-         width: 23rem;
+        .Button_ARM{
+         /*width: 23rem;
          height: 4rem;
          padding: 5px;
          font-size: 1.6rem;
-         margin: 0;
+         margin: 0;*/
+         margin: 0 0 0 3.3vh;
+
          }
 /*section five(end)*/
 
 /*section six (start)*/
-.Text_roadmap_tittle{
+/*.Text_roadmap_tittle{
 font-size: 2.5rem;
 margin-top: 6rem;
 margin-bottom: 3rem;
-}
+}*/
 .Text_roadmap_description{
-width: 53rem;
+   width: 43rem;
+   margin: auto;
+/*width: 53rem;
 margin: auto;
 font-size: 1.25rem;
 line-height: 2.33rem;
-margin-bottom: 3rem;
+margin-bottom: 3rem;*/
 }
 /*roadmap(start)*/
 
@@ -332,18 +365,27 @@ margin-bottom: 3rem;
 /*section seven (start)*/
 
 .Text_tittle_Q{
-font-size: 2.5rem;
-padding-left: 30%;
+/*font-size: 2.5rem;
+padding-left: 30%;*/
+
+margin-top: 45px;
+margin-bottom: 30px;
+ }
+
+ .Section_Q_desk{
+   background-size: 36% 100%;
+
  }
  .Text_p{
-  /* 
-   margin: 1vw auto 1vw auto;
-   
-   color: #EAEAEA;*/
+  /* margin: 1vw auto 1vw auto;
+   color: #EAEAEA;
    width: 40%;
-   height: 3rem;
+   height: 3rem;*/
+
+   width:27rem;
+   height:2.3rem;
    margin-top: 1rem;
-   margin-bottom: 1rem;
+   margin-bottom: 0;
    font-size: 1.25rem;
  }
 
@@ -353,17 +395,17 @@ padding-left: 30%;
    display: flex;
    margin: auto;
    justify-content: center;
-   background-image: url(../img/Carretera/1.png);
+   /*background-image: url(../img/Carretera/1.png);*/
    background-size: 50% 100%;
    background-repeat: no-repeat;
  }
  .transitionDiv1{
    position: absolute;
-   top: 78%;
+   top: 89%;
    left: 25%;
    transform: translate(-50%, -50%);
-   width: 45%;
-   height: 40rem;
+   width: 35rem;
+   height: 30rem;
    text-align: left;
    background-image: none;
    background-size: 100% 100%;
@@ -381,13 +423,9 @@ padding-left: 30%;
  .car1{
    height: 12rem;
    width: 100%;  
-   margin: auto;
-   background-image: url(../img/Carretera/Camioneta.png);
-   background-size: 11rem 8rem;
-   background-repeat: no-repeat;
-   display: flex;
-   background-position: center;
-   align-items: center;
+
+   background-size: 8rem 5rem;
+   background-position: 60%;
    padding-left: 0;
    }
  .line_car1{
@@ -411,7 +449,7 @@ padding-left: 30%;
    display: flex;
    margin: auto;
    justify-content: center;
-   background-image: url(../img/Carretera/2.png);
+  /* background-image: url(../img/Carretera/2.png);*/
    background-position: center;
    background-size: 50% 100%;
    background-repeat: no-repeat;
@@ -421,8 +459,8 @@ padding-left: 30%;
    top: 15%;
    left: 77%;
    transform: translate(-50%, -50%);
-   width: 45%;
-   height: 40rem;
+   width: 35rem;
+   height: 30rem;
    text-align: left;
    background-image: none;
    background-size: 100% 100%;
@@ -438,16 +476,11 @@ padding-left: 30%;
    transition: opacity 1.5s;
  }
  .car2{
-   height: 12rem;
+height: 12rem;
  width: 100%;  
- margin: auto;
- background-image: url(../img/Carretera/Camioneta.png);
- background-size: 11rem 8rem;
- background-repeat: no-repeat;
- display: flex;
- background-position: center;
- align-items: center;
- /*display: none;*/
+ 
+ background-size: 8rem 5rem;
+ background-position: 60%;
  }
  .line_car2{
    width: 50%;
@@ -471,18 +504,18 @@ padding-left: 30%;
    display: flex;
    margin: auto;
    text-align: left;
-   background-image: url(../img/Carretera/3.png);
+   /*background-image: url(../img/Carretera/3.png);*/
    background-position: center;
    background-size: 50% 100%;
    background-repeat: no-repeat;
  }
  .transitionDiv3{
    position: absolute;
-   top: 78%;
+   top: 68%;
    left: 25%;
    transform: translate(-50%, -50%);
-   width: 45%;
-   height: 40rem;
+   width: 35rem;
+   height: 30rem;
    text-align: left;
    background-image: none;
    background-size: 100% 100%;
@@ -511,18 +544,18 @@ padding-left: 30%;
    display: flex;
    margin: auto;
    justify-content: center;
-   background-image: url(../img/Carretera/4.png);
+   /*background-image: url(../img/Carretera/4.png);*/
    background-position: center;
    background-size: 50% 100%;
    background-repeat: no-repeat;
  }
  .transitionDiv4{
    position: absolute;
-   top: 15%;
+   top: 45%;
    left: 77%;
    transform: translate(-50%, -50%);
-   width: 45%;
-   height: 38rem;
+   width: 35rem;
+   height: 30rem;
    text-align: left;
    background-image: none;
    background-size: 100% 100%;
@@ -560,9 +593,12 @@ padding-left: 30%;
 }
 .section_desk_queztions h2{
    text-align: center;
-   font-size: 2.5rem;
-   margin-top: 8vh;
-   margin-bottom: 3vh;
+   /*font-size: 2.5rem;
+      margin-bottom: 3vh;
+         margin-top: 8vh;*/
+   font-size: 1.313;
+   margin-top: 5vh;
+   margin-bottom: 1vh;
    color: #EAEAEA;
    letter-spacing:0.3rem ;
 }
@@ -570,7 +606,6 @@ padding-left: 30%;
 .section_desk_queztions p{
    font-size: 1.25rem;
 }
-
 .section_desk_queztions{
    display: inline;
    width: 100%;
@@ -584,10 +619,11 @@ padding-left: 30%;
    justify-content: center;
 }
 .scroll_quez{
-width: 50rem;
-height: 38.6rem;
+width: 36rem;
+height: 40rem;
 overflow: auto;
 direction: rtl;
+margin-right: 0.5rem;
 }
 .scroll_quez div{
    direction: ltr;
@@ -610,12 +646,12 @@ direction: rtl;
  }
 .acordeon-label-1{
    padding: 3.5%;
-   width: 86%;
+   width: 90%;
    border-radius: 8px;
    background: #171C25;
-   margin: 25px;
+   margin: 10px;
    color: #EAEAEA;
-   font-size: 1.25rem;
+   /*font-size: 1.25rem;*/
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -634,8 +670,8 @@ height: 15px;
 .answer{
 background: #171C25;
 border-radius: 5px;
-width: 45rem;
-height: 38.6rem;
+width: 36rem;
+height: 40rem;
 color: #EAEAEA;
 }
 .answer img{
@@ -645,7 +681,7 @@ color: #EAEAEA;
 }
 .answer p{
    margin: 2.5rem;
-   font-size: 1.25rem;
+   font-size: 1rem;
    color: #EAEAEA;
 }
 
@@ -657,7 +693,7 @@ color: #EAEAEA;
 }
 .answer li{
    margin-bottom: 1rem;
-   font-size: 1.25rem;
+   font-size: 1rem;
 }
 
 
@@ -671,13 +707,15 @@ color: #EAEAEA;
 .Section_access_desk{
    display: flex;
    justify-content: space-around;
-   margin-top: 20rem;
+   margin-top: 12rem;
    padding: 3rem;
    border-top: 0.3px solid #171C25;
    border-bottom: 0.3px solid #171C25;
 }
 .acordeon .Acordeon-label-2{
    padding: 0px;
+   margin-left:0vh;
+   margin-right:0vh;
 }
 .acordeon ul{
    margin-top: 8px;
@@ -687,6 +725,10 @@ list-style: none;
 margin-bottom: 8px;
 }
 /*section nine (end)*/
+footer{
 
+   font-size: 1.313rem;
+
+}
 
 }

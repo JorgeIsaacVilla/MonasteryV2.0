@@ -3,6 +3,7 @@
   /*section one (start)*/
   .Section_comunity_3d{
       background-size: 100%;
+      padding-bottom: 5%;
   }
   .model-container{
       width: 25rem;
@@ -25,6 +26,10 @@
       padding-bottom: 40%;
       margin-bottom: 5%;
   }
+  .Text_monastery_comunity{
+    width: 30rem;
+}
+
   /*section one (end)*/
 
   /*section two(start)*/
@@ -39,10 +44,14 @@
       width: 15rem;
       float: right; /*Establece el video a la derecha*/
     }
+    .Key_image{
+      margin-left: 0.8rem;
+
+  }
     .Section_key_desciption {
       background-image: none;
       padding-bottom: 100px;;
-      width: 50%; 
+      width: 53%; 
       float: left; /*Establece la sección a la izquierda*/
     }
     .Key_text_description{
@@ -66,8 +75,8 @@
     display: none;
   }
   .photo{
-    width: 50%;
-    padding-bottom: 50%;
+    width: 40%;
+    padding-bottom: 40%;
     background-position: 0 0;
     background-image: url(../img/Web/RMA\ DESING.png);
     background-size: 100% 100%;
@@ -78,9 +87,9 @@
   .image_art{
   margin:auto;
   margin-left: 3vh;
-  margin-right: 0.5rem;
-  width: 50%;
-  padding-bottom: 50%;
+  margin-right:0;
+  width:40%;
+  padding-bottom:40%;
   background-image: url(../img/Web/RMA.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -89,19 +98,20 @@
     font-family: 'Inter-Regular';
     letter-spacing: 0.3rem;
     color: #EAEAEA;
-    margin-left: 0vh;
+    margin-left: 3vh;
     margin-top: 0vh;
     margin-bottom: 1.8vh;
   }
   .Text_desciption_RMA{
+    width: 90%;
     font-family: 'Inter-light';
     font-size: 1rem;
     color: #EAEAEA;
-    margin-left: 0vh;
+    margin-left: 3vh;
     margin-right: 3vh;
     margin-bottom: 2vh;
     line-height: 1.4rem;
-    text-align: justify;
+    text-align: left;
   }
   /*section five(end)*/
   .To_query_desk{
@@ -124,14 +134,19 @@
   display: none;
   }
   .Section_Q_desk{
-    display: inline;
-    width: 100%;  
+    display: block;
+    width: 100%; 
+    background-image: url(../img/Carretera/Carretera\ completa.png);
+    background-size: 40% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
   }
   .Text_tittle_Q{
+    text-align: center;
     padding-top: 3.5vw;
     margin-bottom: 3vw;
     color: #EAEAEA;
-    padding-left: 10%;
   }
   .Text_p{
     width: 80%;
@@ -146,18 +161,17 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    background-image: url(../img/Carretera/1.png);
+    /*background-image: url(../img/Carretera/1.png);*/
     background-position: center;
-    background-size: 50% 100%;
     background-repeat: no-repeat;
   }
 
   .transitionDiv1{
     position: absolute;
-    top: 78%;
-    left: 25%;
+    top: 63%;
+    left: 23%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 48%;
     height: 20rem;
     text-align: left;
     background-image: none;
@@ -206,14 +220,14 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    background-image: url(../img/Carretera/2.png);
+    /*background-image: url(../img/Carretera/2.png);*/
     background-position: center;
     background-size: 50% 100%;
     background-repeat: no-repeat;
   }
   .transitionDiv2{
     position: absolute;
-    top: 15%;
+    top: 45%;
     left: 77%;
     transform: translate(-50%, -50%);
     width: 45%;
@@ -266,17 +280,17 @@
     display: flex;
     margin: auto;
     text-align: left;
-    background-image: url(../img/Carretera/3.png);
+   /* background-image: url(../img/Carretera/3.png);*/
     background-position: center;
     background-size: 50% 100%;
     background-repeat: no-repeat;
   }
   .transitionDiv3{
     position: absolute;
-    top: 78%;
-    left: 25%;
+    top: 50%;
+    left: 23%;
     transform: translate(-50%, -50%);
-    width: 45%;
+    width: 48%;
     height: 20rem;
     text-align: left;
     background-image: none;
@@ -306,14 +320,14 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    background-image: url(../img/Carretera/4.png);
+    /*background-image: url(../img/Carretera/4.png);*/
     background-position: center;
     background-size: 50% 100%;
     background-repeat: no-repeat;
   }
   .transitionDiv4{
     position: absolute;
-    top: 15%;
+    top: 60%;
     left: 77%;
     transform: translate(-50%, -50%);
     width: 45%;
@@ -344,4 +358,15 @@
   /*Section_Q_desk road-map Desk (end)*/
 
   /*section seven (end)*/
+}
+
+/*section nine (start)*/
+.acordeon .Acordeon-label-2{
+  padding: 0.6vh 45px;
+}
+/*section nine (end)*/
+footer{
+
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
