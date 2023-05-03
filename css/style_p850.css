@@ -45,6 +45,10 @@
    margin-left: 15px;
    margin-right: 15px;
 }
+.cont-menu ul li img{
+   margin-top: 5px;
+   margin-right: 5px;
+   }
 #list_style a {
    margin-top: 8px;
    text-align: center;
@@ -62,7 +66,8 @@
    display: inline;
    width: 80px;
    border-radius: 8px;
-   background: #010409;
+   /*background: #010409;*/
+   background: #171C25;
    position: relative;
    color: white;
    padding: 10px 10px 10px 20px;
@@ -78,7 +83,8 @@
 }
 .lang-menu ul {
    display: none;
-   background: #010409;
+   /*background: #010409;*/
+   background: #171C25;
    position: absolute;
    top: 32px;
    right: 0px;
@@ -90,12 +96,13 @@
    border-radius: 0 0 10px 10px;
    list-style: none;
    text-align: left;
-   padding: 10px 15px 15px 10px;
+   padding: 10px 15px 15px 5px;
 }
 
 .lang-menu ul li a {
    font-size: 1.313rem;
    display: block;
+   margin-left: 3px;
 }
 
 .lang-menu ul li a:before {
@@ -117,8 +124,8 @@
         
         }
         .Logo_monastery_simbol{
-         width: 25rem;
-         padding-bottom: 25rem;
+         width: 23rem;
+         padding-bottom: 23rem;
          background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
          margin-right: 15%;
          background-size: 100% 100%;
@@ -242,7 +249,7 @@ margin-top: 5rem;
 .silde_img{
    width: 15rem;
    height: 18rem;
-   margin-bottom: 8%;
+   margin-bottom: 3%;
    
 }
 .silde_img img{
@@ -401,7 +408,7 @@ margin-bottom: 30px;
  }
  .transitionDiv1{
    position: absolute;
-   top: 89%;
+   top: 78%;
    left: 25%;
    transform: translate(-50%, -50%);
    width: 35rem;
@@ -428,13 +435,7 @@ margin-bottom: 30px;
    background-position: 60%;
    padding-left: 0;
    }
- .line_car1{
-   width: 50%;
-   height: 5px;
-   border-radius: 5px;
-   background: #EAEAEA;
-   box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
- }
+
  .road_q1:hover .transitionDiv1 {
    background-color: rgba(1, 4, 9, 0.274);
    background-image: url(../img/Q1.png);
@@ -456,7 +457,7 @@ margin-bottom: 30px;
  }
  .transitionDiv2{
    position: absolute;
-   top: 15%;
+   top: 45%;
    left: 77%;
    transform: translate(-50%, -50%);
    width: 35rem;
@@ -476,19 +477,11 @@ margin-bottom: 30px;
    transition: opacity 1.5s;
  }
  .car2{
-height: 12rem;
- width: 100%;  
+   height: 12rem;
+   width: 100%;  
  
  background-size: 8rem 5rem;
  background-position: 60%;
- }
- .line_car2{
-   width: 50%;
-   height: 5px;
-   margin-left: 50%;
-   border-radius: 5px;
-   background: #EAEAEA;
-   box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
  }
  .road_q2:hover .transitionDiv2 {
    background-color: rgba(1, 4, 9, 0.274);
@@ -511,7 +504,7 @@ height: 12rem;
  }
  .transitionDiv3{
    position: absolute;
-   top: 68%;
+   top: 53%;
    left: 25%;
    transform: translate(-50%, -50%);
    width: 35rem;
@@ -725,10 +718,9 @@ list-style: none;
 margin-bottom: 8px;
 }
 /*section nine (end)*/
+
 footer{
-
-   font-size: 1.313rem;
-
-}
+   padding-top: 3%;
+ }
 
 }

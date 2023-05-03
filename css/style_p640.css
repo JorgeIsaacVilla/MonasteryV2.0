@@ -199,13 +199,6 @@
     align-items: center;
     padding-left: 25%;  
     }
-  .line_car1{
-    width: 0%;
-    height: 5px;
-    border-radius: 5px;
-    background: #EAEAEA;
-    box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
-  }
   .road_q1:hover .transitionDiv1 {
     background-color: rgba(1, 4, 9, 0.274);
     background-image: url(../img/Q1.png);
@@ -257,14 +250,6 @@
   background-position: center;
   align-items: center;
   /*display: none;*/
-  }
-  .line_car2{
-    width: 0%;
-    height: 5px;
-    margin-left: 50%;
-    border-radius: 5px;
-    background: #EAEAEA;
-    box-shadow: 0 0 30px  rgba(255, 255, 255, 0.747);
   }
   .road_q2:hover .transitionDiv2 {
     background-color: rgba(1, 4, 9, 0.274);
