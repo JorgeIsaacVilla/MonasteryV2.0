@@ -66,7 +66,6 @@
    display: inline;
    width: 80px;
    border-radius: 8px;
-   /*background: #010409;*/
    background: #171C25;
    position: relative;
    color: white;
@@ -83,7 +82,6 @@
 }
 .lang-menu ul {
    display: none;
-   /*background: #010409;*/
    background: #171C25;
    position: absolute;
    top: 32px;
@@ -129,9 +127,6 @@
          background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
          margin-right: 15%;
          background-size: 100% 100%;
-         /*margin-top: 8%;
-         margin-right: 15rem;
-         margin-bottom: 3%;*/
          }
          .NFT_3D_cap{
          position:absolute;
@@ -140,8 +135,6 @@
          transform: translate(-50%, -50%); 
          width: 100%;
          height: 45rem;
-        /* width: 80%;
-         height: 80%;*/
          }
          .Text_monastery_comunity{
          width: 100%;
@@ -151,37 +144,20 @@
          font-size: 1.5rem;
          letter-spacing:0.3rem;
          }
-        /* .button_join_telegram{
-         width: 23rem;
-         height: 4rem;
-         padding: 5px;
-         font-size: 1.6rem;
-        }
-        .Telegram_image{
-         width:40px;
-         height:40px;
-      }*/
+
 /*section one (end)*/
 
 /*section two (start)*/
          .To_query{
           margin-top: 3.5vh;
          margin-bottom: 3.5vh;
-
-
-
          justify-content: center;
          justify-items: center;
          }
          .Key_text_description{
          width: 20rem;
-         /*font-size: 1.5rem;*/
-         /*line-height: 3rem;*/
-         /*font-size: 2.5rem;
-         width: 35rem;*/
          }
          .Video_NFT_monstery{
-            /*width: 50%;*/
          width: 40%;
          justify-content: right;
          }
@@ -196,11 +172,7 @@
          width: 50%;
          }
          .Text_descripton_art{
-         /*margin-left: 3.6vh;
-         width: 35rem;*/
          width: 20rem;
-        /* font-size: 1.563rem;
-         line-height: 2.3rem;*/
          color: #EAEAEA;
          font-family: 'Inter-light';
          }
@@ -214,104 +186,84 @@
          width: 10%;
          padding-bottom: 10%;
          }
-        /* .Text_benefist{
-         font-size: 2.5rem;
-}*/
-/*style query-desk(start)*/
-.swiper_movil{
-   display: none;
-}
-.swiper_desk{
-   width: 60%;
-   justify-content: center;
-   justify-items: center;
-   display: inline;
-   margin: auto;
- 
-}
-.swiper_desk_top{
-display: flex;
-width: calc((20rem * 3) + 6vh);
-margin: auto;
-margin-top: 5rem;
-}
-.swiper_desk_bottom{
-   display: flex;
-   margin: auto;
-   justify-content: center;
-}
 
-.swiper_desk_top{
-   display: flex;
-   justify-content: center;
-   margin: auto;
-}
-.silde_img{
-   width: 15rem;
-   height: 18rem;
-   margin-bottom: 3%;
-   
-}
-.silde_img img{
-   width: 3.5rem;
-   height:3.5rem;
-   border-radius: 15px;
-   background: none;
-   box-shadow:none;
-   transform: scale(3.1);
-  /* border-radius: 15px;
-   background: rgba(250, 250, 250, 0.250);
-   box-shadow:solid   0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
-   margin: 15% 0rem 15% 10%;*/
-   }
-   .silde_img p{
-      margin: 0rem 5% 1rem 10%; 
-      font-family: 'Inter';
-      width: 80%;
-      /*font-size:1.25rem;*/
-      /*line-height: 1.4rem;*/
-      }
+/*style query-desk(start)*/
+         .swiper_movil{
+            display: none;
+         }
+         .swiper_desk{
+            width: 60%;
+            justify-content: center;
+            justify-items: center;
+            display: inline;
+            margin: auto;
+         }
+         .swiper_desk_top{
+         display: flex;
+         width: calc((20rem * 3) + 6vh);
+         margin: auto;
+         margin-top: 5rem;
+         }
+         .swiper_desk_bottom{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+         }
+
+         .swiper_desk_top{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+         }
+         .silde_img{
+            width: 15rem;
+            height: 18rem;
+            margin-bottom: 3%;
+            
+         }
+         .silde_img img{
+            width: 3.5rem;
+            height:3.5rem;
+            border-radius: 15px;
+            background: none;
+            box-shadow:none;
+            transform: scale(3.1);
+            }
+         .silde_img p{
+            margin: 0rem 5% 1rem 10%; 
+            font-family: 'Inter';
+            width: 80%;
+            }
 
 /*tyle query-desk(end)*/
 
-        /* .Text_benefist_2{
-         font-size: 1.5rem;
-         }
-         .Button_go_roadmap{
-         width: 23rem;
-         height: 4rem;
-         padding: 5px;
-         font-size: 1.6rem;
-         margin-top: 2.5rem;
-         margin-bottom: 4rem;
-         }*/
 /*section three (end)*/
-.Text_fashion_week {
-  /* height: 3rem;*/
-   overflow: hidden;
-  /* font-size: 1.5rem;
-   letter-spacing:0.5rem */;
-   padding-top: 0.9rem;
- }
- .Text_fashion_week span {
-   display: inline-block;
-   white-space: nowrap;
-   animation: marquee 15s linear infinite;
-   transform: translateX(100%);
-   color: black;  
- }
+         .Text_fashion_week {
+            overflow: hidden;
+            padding-top: 0.9rem;
+         }
+         .Text_fashion_week span {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+            transform: translateX(100%);
+            color: black;  
+         }
+         @keyframes marquee {
+            0% {
+              transform: translateX(140%);
+            }
+            100% {
+              transform: translateX(-140%);
+            }
+          }
 
 /*section five(start)*/
          .photo{
-        /* width: 30%;
-         padding-bottom: 30%;*/
          width: 30rem;
          padding-bottom: 30rem;
-
          }
          .image_art{
-        /* width: 30%;
-         padding-bottom: 30%;*/
          width: 28rem;
          padding-bottom: 28rem;
          }
@@ -322,256 +274,216 @@ margin-top: 5rem;
          margin: 5%;
          }
          .Text_tittle_RMA{
-         /*font-size: 2.5rem;
-         letter-spacing: 0.3rem;*/
          margin-bottom: 1.8vh;
          }
          .Text_desciption_RMA{
-        /* font-size: 1.25rem;*/
-            
          margin-bottom: 3rem  ;
          width: 25rem;
          }
         .Button_ARM{
-         /*width: 23rem;
-         height: 4rem;
-         padding: 5px;
-         font-size: 1.6rem;
-         margin: 0;*/
          margin: 0 0 0 3.3vh;
-
          }
-/*section five(end)*/
-
-/*section six (start)*/
-/*.Text_roadmap_tittle{
-font-size: 2.5rem;
-margin-top: 6rem;
-margin-bottom: 3rem;
-}*/
-.Text_roadmap_description{
-   width: 43rem;
-   margin: auto;
-/*width: 53rem;
-margin: auto;
-font-size: 1.25rem;
-line-height: 2.33rem;
-margin-bottom: 3rem;*/
-}
+         .Text_roadmap_description{
+            width: 43rem;
+            margin: auto;
+         }
 /*roadmap(start)*/
 
 /*roadmap(end)*/
 /*section six (end)*/
 
-.Div_image{
-   background-image: url(../img/Web/Metaverso.png);
-   background-size: 100%;
-   padding-bottom: 35%;
-}
+         .Div_image{
+            background-image: url(../img/Web/Metaverso.png);
+            background-size: 100%;
+            padding-bottom: 35%;
+         }
 
 /*section seven (start)*/
 
-.Text_tittle_Q{
-/*font-size: 2.5rem;
-padding-left: 30%;*/
-
-margin-top: 45px;
-margin-bottom: 30px;
- }
-
- .Section_Q_desk{
-   background-size: 36% 100%;
-
- }
- .Text_p{
-  /* margin: 1vw auto 1vw auto;
-   color: #EAEAEA;
-   width: 40%;
-   height: 3rem;*/
-
-   width:27rem;
-   height:2.3rem;
-   margin-top: 1rem;
-   margin-bottom: 0;
-   font-size: 1.25rem;
- }
+         .Text_tittle_Q{
+         margin-top: 45px;
+         margin-bottom: 30px;
+         }
+         .Section_Q_desk{
+            background-size: 36% 100%;
+         }
+         .Text_p{
+            width:27rem;
+            height:2.3rem;
+            margin-top: 1rem;
+            margin-bottom: 0;
+            font-size: 1.25rem;
+         }
 
  /*Section_Q_desk road-map Desk (start)*/
- .road_q1{
-   position: relative;
-   display: flex;
-   margin: auto;
-   justify-content: center;
-   /*background-image: url(../img/Carretera/1.png);*/
-   background-size: 50% 100%;
-   background-repeat: no-repeat;
- }
- .transitionDiv1{
-   position: absolute;
-   top: 78%;
-   left: 25%;
-   transform: translate(-50%, -50%);
-   width: 35rem;
-   height: 30rem;
-   text-align: left;
-   background-image: none;
-   background-size: 100% 100%;
-   transition: opacity 1.5s ease;
- }
- .road1{
-   margin: auto;
-   z-index:+10;
-   width: 20rem;
-   height: 45vh;
-   display: flex;
-   opacity: 0;
-   transition: opacity 1.5s;
- }
- .car1{
-   height: 12rem;
-   width: 100%;  
-
-   background-size: 8rem 5rem;
-   background-position: 60%;
-   padding-left: 0;
-   }
-
- .road_q1:hover .transitionDiv1 {
-   background-color: rgba(1, 4, 9, 0.274);
-   background-image: url(../img/Q1.png);
-   background-blend-mode: multiply;
-   background-position: center center;
- }
- .road_q1:hover .road1 {
-   opacity: 1;
- }
- .road_q2{
-   position: relative;
-   display: flex;
-   margin: auto;
-   justify-content: center;
-  /* background-image: url(../img/Carretera/2.png);*/
-   background-position: center;
-   background-size: 50% 100%;
-   background-repeat: no-repeat;
- }
- .transitionDiv2{
-   position: absolute;
-   top: 45%;
-   left: 77%;
-   transform: translate(-50%, -50%);
-   width: 35rem;
-   height: 30rem;
-   text-align: left;
-   background-image: none;
-   background-size: 100% 100%;
-   transition: opacity 1.5s ease;
- }
- .road2{
-   margin: auto;
-   z-index: +10;
-   width: 20rem;
-   height: 45vh;
-   display: flex;
-   opacity: 0;
-   transition: opacity 1.5s;
- }
- .car2{
-   height: 12rem;
-   width: 100%;  
- 
- background-size: 8rem 5rem;
- background-position: 60%;
- }
- .road_q2:hover .transitionDiv2 {
-   background-color: rgba(1, 4, 9, 0.274);
-   background-image: url(../img/Q2.png);
-   background-blend-mode: multiply;
-   background-position: center center;
- }
- .road_q2:hover .road2 {
-   opacity: 1;
- }
- .road_q3{
-   position: relative;
-   display: flex;
-   margin: auto;
-   text-align: left;
-   /*background-image: url(../img/Carretera/3.png);*/
-   background-position: center;
-   background-size: 50% 100%;
-   background-repeat: no-repeat;
- }
- .transitionDiv3{
-   position: absolute;
-   top: 53%;
-   left: 25%;
-   transform: translate(-50%, -50%);
-   width: 35rem;
-   height: 30rem;
-   text-align: left;
-   background-image: none;
-   background-size: 100% 100%;
-   transition: opacity 1.5s ease;
- }
- .road3{
-   margin: auto;
-   z-index: +10;
-   width: 20rem;
-   height: 45vh;
-   display: flex;
-   opacity: 0;
-   transition: opacity 1.5s;
- }
- .road_q3:hover .transitionDiv3 {
-   background-color: rgba(1, 4, 9, 0.274);
-   background-image: url(../img/Q3.png);
-   background-blend-mode: multiply;
-   background-position: center center;
- }
- .road_q3:hover .road3 {
-   opacity: 1;
- }
- .road_q4{
-   position: relative;
-   display: flex;
-   margin: auto;
-   justify-content: center;
-   /*background-image: url(../img/Carretera/4.png);*/
-   background-position: center;
-   background-size: 50% 100%;
-   background-repeat: no-repeat;
- }
- .transitionDiv4{
-   position: absolute;
-   top: 45%;
-   left: 77%;
-   transform: translate(-50%, -50%);
-   width: 35rem;
-   height: 30rem;
-   text-align: left;
-   background-image: none;
-   background-size: 100% 100%;
-   transition: opacity 1.5s ease; 
- }
- .road4{
-   margin: auto;
-   z-index: +10;
-   width: 20rem;
-   height: 45vh;
-   display: flex;
-   opacity: 0;
-   transition: opacity 1.5s;
- }
- .road_q4:hover .transitionDiv4 {
-   background-color: rgba(1, 4, 9, 0.274);
-   background-image: url(../img/Q4.png);
-   background-blend-mode: multiply;
-   background-position: center center;
- }
- .road_q4:hover .road4 {
-   opacity: 1;
- }
+         .road_q1{
+            position: relative;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+         }
+         .transitionDiv1{
+            position: absolute;
+            top: 90%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            width: 35rem;
+            height: 30rem;
+            text-align: left;
+            background-image: none;
+            background-size: 100% 100%;
+            transition: opacity 1.5s ease;
+         }
+         .road1{
+            margin: auto;
+            z-index:+10;
+            width: 20rem;
+            height: 45vh;
+            display: flex;
+            opacity: 0;
+            transition: opacity 1.5s;
+         }
+         .car1{
+            height: 12rem;
+            width: 100%;  
+            background-size: 8rem 5rem;
+            background-position: 60%;
+            padding-left: 0;
+            }
+         .road_q1:hover .transitionDiv1 {
+            background-color: rgba(1, 4, 9, 0.274);
+            background-image: url(../img/Q1.png);
+            background-blend-mode: multiply;
+            background-position: center center;
+         }
+         .road_q1:hover .road1 {
+            opacity: 1;
+         }
+         .road_q2{
+            position: relative;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            background-position: center;
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+         }
+         .transitionDiv2{
+            position: absolute;
+            top: 45%;
+            left: 77%;
+            transform: translate(-50%, -50%);
+            width: 35rem;
+            height: 30rem;
+            text-align: left;
+            background-image: none;
+            background-size: 100% 100%;
+            transition: opacity 1.5s ease;
+         }
+         .road2{
+            margin: auto;
+            z-index: +10;
+            width: 20rem;
+            height: 45vh;
+            display: flex;
+            opacity: 0;
+            transition: opacity 1.5s;
+         }
+         .car2{
+            height: 12rem;
+            width: 100%;
+            background-size: 8rem 5rem;
+            background-position: 60%;
+         }
+         .road_q2:hover .transitionDiv2 {
+            background-color: rgba(1, 4, 9, 0.274);
+            background-image: url(../img/Q2.png);
+            background-blend-mode: multiply;
+            background-position: center center;
+         }
+         .road_q2:hover .road2 {
+            opacity: 1;
+         }
+         .road_q3{
+            position: relative;
+            display: flex;
+            margin: auto;
+            text-align: left;
+            background-position: center;
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+         }
+         .transitionDiv3{
+            position: absolute;
+            top: 53%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            width: 35rem;
+            height: 30rem;
+            text-align: left;
+            background-image: none;
+            background-size: 100% 100%;
+            transition: opacity 1.5s ease;
+         }
+         .road3{
+            margin: auto;
+            z-index: +10;
+            width: 20rem;
+            height: 45vh;
+            display: flex;
+            opacity: 0;
+            transition: opacity 1.5s;
+         }
+         .road_q3:hover .transitionDiv3 {
+            background-color: rgba(1, 4, 9, 0.274);
+            background-image: url(../img/Q3.png);
+            background-blend-mode: multiply;
+            background-position: center center;
+         }
+         .road_q3:hover .road3 {
+            opacity: 1;
+         }
+         .road_q4{
+            position: relative;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            background-position: center;
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+         }
+         .transitionDiv4{
+            position: absolute;
+            top: 45%;
+            left: 77%;
+            transform: translate(-50%, -50%);
+            width: 35rem;
+            height: 30rem;
+            text-align: left;
+            background-image: none;
+            background-size: 100% 100%;
+            transition: opacity 1.5s ease; 
+         }
+         .road4{
+            margin: auto;
+            z-index: +10;
+            width: 20rem;
+            height: 45vh;
+            display: flex;
+            opacity: 0;
+            transition: opacity 1.5s;
+         }
+         .road_q4:hover .transitionDiv4 {
+            background-color: rgba(1, 4, 9, 0.274);
+            background-image: url(../img/Q4.png);
+            background-blend-mode: multiply;
+            background-position: center center;
+         }
+         .road_q4:hover .road4 {
+            opacity: 1;
+         }
  /*Section_Q_desk road-map Desk (end)*/
 
 /*section seven (end)*/
@@ -586,16 +498,12 @@ margin-bottom: 30px;
 }
 .section_desk_queztions h2{
    text-align: center;
-   /*font-size: 2.5rem;
-      margin-bottom: 3vh;
-         margin-top: 8vh;*/
    font-size: 1.313;
    margin-top: 5vh;
    margin-bottom: 1vh;
    color: #EAEAEA;
    letter-spacing:0.3rem ;
 }
-
 .section_desk_queztions p{
    font-size: 1.25rem;
 }
@@ -623,7 +531,6 @@ margin-right: 0.5rem;
 }
 .scroll_quez::-webkit-scrollbar {
    width: 16px;
-   
  }
  .scroll_quez::-webkit-scrollbar-thumb {
    background: #171C25;
@@ -635,7 +542,6 @@ margin-right: 0.5rem;
    right: -3rem;
    top: -50rem;
    background: transparent;
-   
  }
 .acordeon-label-1{
    padding: 3.5%;
@@ -644,7 +550,6 @@ margin-right: 0.5rem;
    background: #171C25;
    margin: 10px;
    color: #EAEAEA;
-   /*font-size: 1.25rem;*/
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -659,7 +564,6 @@ transform: rotate(270deg);
 width: 15px;
 height: 15px;
 }
-
 .answer{
 background: #171C25;
 border-radius: 5px;
@@ -677,7 +581,6 @@ color: #EAEAEA;
    font-size: 1rem;
    color: #EAEAEA;
 }
-
 .answer ul{
    list-style: disc;
    margin: 2.5rem;
@@ -688,9 +591,6 @@ color: #EAEAEA;
    margin-bottom: 1rem;
    font-size: 1rem;
 }
-
-
-
 /*section eight (end)*/
 
 /*section nine (start)*/
@@ -722,5 +622,4 @@ margin-bottom: 8px;
 footer{
    padding-top: 3%;
  }
-
 }

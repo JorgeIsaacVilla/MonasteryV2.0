@@ -131,9 +131,6 @@ width: 30px;
 height: 30px;
 margin-right: 15px;
 }
-/*.cont-menu ul li:hover{
-    background-color: rgba(228, 228, 228, 0.233);
-}*/
 .Div_line_header{
     height: 2px;
     width: 80%;
@@ -146,7 +143,6 @@ margin-right: 15px;
 .icono-menu{
     position: relative;
     z-index: 10;
-   /* margin: 3.5% 10% 3.5% 0%;*/
     justify-content: center;
     display: flex;   
 }
@@ -156,6 +152,7 @@ margin-right: 15px;
     cursor: pointer;
 }
 /* style menu list(end) */
+
 /*header Style (end)*/
 
 /*section one (start)*/
@@ -179,7 +176,7 @@ background-size: 100%;
 .model-container{
     width: 80%;
     padding-bottom: 80%;
-    margin: auto;/*comprobar incidencia y eliminar si no hace nada*/
+    margin: auto;
     margin-bottom: 10%;
 }
 .NFT_3D_cap{
@@ -346,11 +343,6 @@ width: 2rem;
 height:2rem;
 margin: 1.5rem 0rem 1rem 1rem;
 transform: scale(3.5);
-/*border: none;
-background: rgba(255, 255, 255, 0.176);
-box-shadow:  0 0 5px  rgba(255, 255, 255, 0), 0 0 30px  rgba(255, 255, 255, 0.528);
-border-radius: 5px;
-filter: brightness(1.2);*/
 }
 .silde_img p{
 margin: 0rem 1rem 1rem 1rem; 
@@ -406,11 +398,10 @@ text-align: left;
     animation: marquee 15s linear infinite;
     transform: translateX(100vh);
     color: black;
-    /*text-indent: -100px;*/
   }
   @keyframes marquee {
     0% { transform: translateX(100vh); }
-    100% { transform: translateX(-65%); }
+    100% { transform: translateX(-68%); }
   }
 /*section four (start)*/
 .section_picture_art{
@@ -432,13 +423,13 @@ text-align: left;
   background-repeat: no-repeat;
 }
 .image_art{
-    margin-top: 3.6vh;
-    margin-left: 24%;
-    width: 76%;
-  padding-bottom: 70%;
-  background-image: url(../img/Grupo\ 14615@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+margin-top: 3.6vh;
+margin-left: 24%;
+width: 76%;
+padding-bottom: 70%;
+background-image: url(../img/Grupo\ 14615@3x.png);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 /*section four (end)*/
@@ -542,12 +533,8 @@ text-align: left;
     padding-bottom: 0.8rem;
     color: #EAEAEA;
     font-size: 1rem;
-
     text-align: center;
-
-    
 }
-
 .Q2{
     width: 100%;
     height: 70vw;
@@ -557,7 +544,6 @@ text-align: left;
     height: 70vw;
     width: 100%;
 }
-
 .Q3{
     width: 100%;
     height: 70vw;
@@ -568,7 +554,6 @@ text-align: left;
     height: 70vw;
     width: 100%;
 }
-
 .Q4{
     width: 100%;
     height: 70vw;
@@ -627,10 +612,7 @@ text-align: left;
     transition: 5s;
     background-image: url(../img/Q4.png);
     background-size: 100% 100%;
-
-
 }
-
 @keyframes aparicion {
     0%{
         opacity: 0;
@@ -717,7 +699,6 @@ text-align: left;
     transition: all 300ms ease;
     color: #EAEAEA;
 }
-
 .acordeon .Content-acordeon ul{
     list-style: disc;
     margin-top: 0.5em;
@@ -790,8 +771,6 @@ text-align: left;
     display: flex;
     justify-content:space-between; 
     align-items:center;
-
-
     margin-left:-3.6vh;
     margin-right:-3.6vh;
 }
@@ -815,7 +794,6 @@ text-align: left;
     font-weight: 400;
     font-style: normal;
     }
-
     .Section_access_desk{
         display: none;
      }

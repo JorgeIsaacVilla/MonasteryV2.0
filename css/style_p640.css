@@ -42,17 +42,16 @@
   .Video_NFT_monstery {
       margin: auto;
       width: 15rem;
-      float: right; /*Establece el video a la derecha*/
+      float: right;
     }
     .Key_image{
       margin-left: 0.8rem;
-
-  }
+    }
     .Section_key_desciption {
       background-image: none;
       padding-bottom: 100px;;
       width: 53%; 
-      float: left; /*Establece la sección a la izquierda*/
+      float: left;
     }
     .Key_text_description{
       width: 20rem;
@@ -161,9 +160,6 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    /*background-image: url(../img/Carretera/1.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
   .transitionDiv1{
@@ -213,10 +209,6 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    /*background-image: url(../img/Carretera/2.png);*/
-    background-position: center;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
   }
   .transitionDiv2{
     position: absolute;
@@ -265,10 +257,6 @@
     display: flex;
     margin: auto;
     text-align: left;
-   /* background-image: url(../img/Carretera/3.png);*/
-    background-position: center;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
   }
   .transitionDiv3{
     position: absolute;
@@ -305,10 +293,6 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    /*background-image: url(../img/Carretera/4.png);*/
-    background-position: center;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
   }
   .transitionDiv4{
     position: absolute;
