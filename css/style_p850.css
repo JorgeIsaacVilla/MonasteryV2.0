@@ -145,6 +145,12 @@
          letter-spacing:0.3rem;
          }
 
+         .button_join_telegram{
+            width: 13rem;
+            height: 2.3rem;
+            padding: 5px;
+        }
+
 /*section one (end)*/
 
 /*section two (start)*/
@@ -185,6 +191,10 @@
          .Logo_monastery_simbol_2{
          width: 10%;
          padding-bottom: 10%;
+         }
+         .Button_go_roadmap{
+            width: 13rem;
+            height: 2.3rem;
          }
 
 /*style query-desk(start)*/
@@ -281,6 +291,8 @@
          width: 25rem;
          }
         .Button_ARM{
+         width: 13rem;
+         height: 2.3rem;
          margin: 0 0 0 3.3vh;
          }
          .Text_roadmap_description{
@@ -304,8 +316,11 @@
          margin-top: 45px;
          margin-bottom: 30px;
          }
-         .Section_Q_desk{
+        /* .Section_Q_desk{
             background-size: 36% 100%;
+         }*/
+         .Section_Q_desk{
+            display: none;
          }
          .Text_p{
             width:27rem;
@@ -316,7 +331,7 @@
          }
 
  /*Section_Q_desk road-map Desk (start)*/
-         .road_q1{
+        /* .road_q1{
             position: relative;
             display: flex;
             margin: auto;
@@ -483,7 +498,90 @@
          }
          .road_q4:hover .road4 {
             opacity: 1;
-         }
+         }*/
+
+
+
+         .Section_Q_desk_vert{
+            width: 100%;
+            padding-bottom: 12%;
+            display: block;
+            transition: background-color 1.5s ease;
+            }
+
+            .roadmaper{
+                margin: auto;
+                width: 80%;
+                height: 25vh;
+                background-image: url(../img/Carretera/Carretera\ completa\ rotada.png);
+                background-repeat: no-repeat;
+                background-size: 95% 205%;
+                background-position: center;
+                display: flex;
+                justify-content: space-between;
+            }
+            .transitionDiv_car{
+                width: 25%;
+                height: 25vh;
+                transition: background-color 1.5s;
+            }
+            .car_desk{
+                width: 60%;
+                padding-bottom: 34%;
+                margin: auto;
+                margin-top: 10%;
+                background-image: url(../img/Carretera/Camioneta.png);
+                background-size: 70% 68%;
+                background-repeat: no-repeat;
+                background-position: center;
+                opacity: 0;
+                transform: translateX(-100px);
+                transition: opacity 1.5s ease, transform 1.5s ease;
+            }
+            .transitionDiv_car:hover .car_desk {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+            .line_car{
+                height: 30%;
+                width: 5px;
+                border-radius: 5px;
+                background: #EAEAEA;
+                box-shadow: 0 0 30px  rgb(255, 255, 255);
+                margin: auto;
+                opacity: 0;
+                transform: translateY(-20px);
+                transition: opacity 1.5s ease, transform 1.5s ease;
+            }
+            .transitionDiv_car:hover .line_car {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            
+            .roadmaper_text{
+                margin: auto;
+                width: 80%;
+                height: 35vh;
+                display: flex;
+                justify-content: space-between;
+            }
+            .content_roadmap_desk{
+                width: 25%;
+                text-align: center;
+            }
+            .Road_tittle_Q{
+                color: #EAEAEA;
+                margin-bottom: 15px;
+                font-size: 1.313rem;
+                margin-top: 5%;
+            }
+            .Road_p{
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-bottom: 15px;
+                color: #EAEAEA;
+                font-size: 1rem;
+            }
  /*Section_Q_desk road-map Desk (end)*/
 
 /*section seven (end)*/

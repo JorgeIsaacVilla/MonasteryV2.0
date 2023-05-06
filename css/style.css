@@ -511,6 +511,9 @@ background-repeat: no-repeat;
 .Section_Q_desk{
  display: none; 
 }
+.Section_Q_desk_vert{
+    display: none;         
+}
 .Q1{
     width: 100%;
     height: 70vw;
