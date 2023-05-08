@@ -94,7 +94,7 @@
    border-radius: 0 0 10px 10px;
    list-style: none;
    text-align: left;
-   padding: 10px 15px 15px 5px;
+   padding: 10px 15px 15px 3px;
 }
 
 .lang-menu ul li a {
@@ -300,7 +300,9 @@
             margin: auto;
          }
 /*roadmap(start)*/
-
+  .road_display_movile{
+   display: none;
+ }
 /*roadmap(end)*/
 /*section six (end)*/
 
@@ -309,16 +311,12 @@
             background-size: 100%;
             padding-bottom: 35%;
          }
-
 /*section seven (start)*/
 
          .Text_tittle_Q{
          margin-top: 45px;
          margin-bottom: 30px;
          }
-        /* .Section_Q_desk{
-            background-size: 36% 100%;
-         }*/
          .Section_Q_desk{
             display: none;
          }
@@ -329,193 +327,22 @@
             margin-bottom: 0;
             font-size: 1.25rem;
          }
-
- /*Section_Q_desk road-map Desk (start)*/
-        /* .road_q1{
-            position: relative;
-            display: flex;
-            margin: auto;
-            justify-content: center;
-            background-size: 50% 100%;
-            background-repeat: no-repeat;
-         }
-         .transitionDiv1{
-            position: absolute;
-            top: 90%;
-            left: 25%;
-            transform: translate(-50%, -50%);
-            width: 35rem;
-            height: 30rem;
-            text-align: left;
-            background-image: none;
-            background-size: 100% 100%;
-            transition: opacity 1.5s ease;
-         }
-         .road1{
-            margin: auto;
-            z-index:+10;
-            width: 20rem;
-            height: 45vh;
-            display: flex;
-            opacity: 0;
-            transition: opacity 1.5s;
-         }
-         .car1{
-            height: 12rem;
-            width: 100%;  
-            background-size: 8rem 5rem;
-            background-position: 60%;
-            padding-left: 0;
-            }
-         .road_q1:hover .transitionDiv1 {
-            background-color: rgba(1, 4, 9, 0.274);
-            background-image: url(../img/Q1.png);
-            background-blend-mode: multiply;
-            background-position: center center;
-         }
-         .road_q1:hover .road1 {
-            opacity: 1;
-         }
-         .road_q2{
-            position: relative;
-            display: flex;
-            margin: auto;
-            justify-content: center;
-            background-position: center;
-            background-size: 50% 100%;
-            background-repeat: no-repeat;
-         }
-         .transitionDiv2{
-            position: absolute;
-            top: 45%;
-            left: 77%;
-            transform: translate(-50%, -50%);
-            width: 35rem;
-            height: 30rem;
-            text-align: left;
-            background-image: none;
-            background-size: 100% 100%;
-            transition: opacity 1.5s ease;
-         }
-         .road2{
-            margin: auto;
-            z-index: +10;
-            width: 20rem;
-            height: 45vh;
-            display: flex;
-            opacity: 0;
-            transition: opacity 1.5s;
-         }
-         .car2{
-            height: 12rem;
-            width: 100%;
-            background-size: 8rem 5rem;
-            background-position: 60%;
-         }
-         .road_q2:hover .transitionDiv2 {
-            background-color: rgba(1, 4, 9, 0.274);
-            background-image: url(../img/Q2.png);
-            background-blend-mode: multiply;
-            background-position: center center;
-         }
-         .road_q2:hover .road2 {
-            opacity: 1;
-         }
-         .road_q3{
-            position: relative;
-            display: flex;
-            margin: auto;
-            text-align: left;
-            background-position: center;
-            background-size: 50% 100%;
-            background-repeat: no-repeat;
-         }
-         .transitionDiv3{
-            position: absolute;
-            top: 53%;
-            left: 25%;
-            transform: translate(-50%, -50%);
-            width: 35rem;
-            height: 30rem;
-            text-align: left;
-            background-image: none;
-            background-size: 100% 100%;
-            transition: opacity 1.5s ease;
-         }
-         .road3{
-            margin: auto;
-            z-index: +10;
-            width: 20rem;
-            height: 45vh;
-            display: flex;
-            opacity: 0;
-            transition: opacity 1.5s;
-         }
-         .road_q3:hover .transitionDiv3 {
-            background-color: rgba(1, 4, 9, 0.274);
-            background-image: url(../img/Q3.png);
-            background-blend-mode: multiply;
-            background-position: center center;
-         }
-         .road_q3:hover .road3 {
-            opacity: 1;
-         }
-         .road_q4{
-            position: relative;
-            display: flex;
-            margin: auto;
-            justify-content: center;
-            background-position: center;
-            background-size: 50% 100%;
-            background-repeat: no-repeat;
-         }
-         .transitionDiv4{
-            position: absolute;
-            top: 45%;
-            left: 77%;
-            transform: translate(-50%, -50%);
-            width: 35rem;
-            height: 30rem;
-            text-align: left;
-            background-image: none;
-            background-size: 100% 100%;
-            transition: opacity 1.5s ease; 
-         }
-         .road4{
-            margin: auto;
-            z-index: +10;
-            width: 20rem;
-            height: 45vh;
-            display: flex;
-            opacity: 0;
-            transition: opacity 1.5s;
-         }
-         .road_q4:hover .transitionDiv4 {
-            background-color: rgba(1, 4, 9, 0.274);
-            background-image: url(../img/Q4.png);
-            background-blend-mode: multiply;
-            background-position: center center;
-         }
-         .road_q4:hover .road4 {
-            opacity: 1;
-         }*/
-
-
-
          .Section_Q_desk_vert{
             width: 100%;
             padding-bottom: 12%;
             display: block;
-            transition: background-color 1.5s ease;
+            transition: background-image 1.5s ease;
+            background-image: url(../img/Q10.png);
+            background-repeat: no-repeat;
+            background-position: center;
             }
-
             .roadmaper{
                 margin: auto;
                 width: 80%;
                 height: 25vh;
-                background-image: url(../img/Carretera/Carretera\ completa\ rotada.png);
+                background-image: url(../img/Carretera/Carretera.png);
                 background-repeat: no-repeat;
-                background-size: 95% 205%;
+                background-size: 80% 45%;
                 background-position: center;
                 display: flex;
                 justify-content: space-between;
@@ -523,7 +350,6 @@
             .transitionDiv_car{
                 width: 25%;
                 height: 25vh;
-                transition: background-color 1.5s;
             }
             .car_desk{
                 width: 60%;
@@ -541,23 +367,7 @@
             .transitionDiv_car:hover .car_desk {
                 opacity: 1;
                 transform: translateX(0px);
-            }
-            .line_car{
-                height: 30%;
-                width: 5px;
-                border-radius: 5px;
-                background: #EAEAEA;
-                box-shadow: 0 0 30px  rgb(255, 255, 255);
-                margin: auto;
-                opacity: 0;
-                transform: translateY(-20px);
-                transition: opacity 1.5s ease, transform 1.5s ease;
-            }
-            .transitionDiv_car:hover .line_car {
-                opacity: 1;
-                transform: translateY(0px);
-            }
-            
+            }            
             .roadmaper_text{
                 margin: auto;
                 width: 80%;
