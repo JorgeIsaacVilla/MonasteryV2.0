@@ -665,6 +665,7 @@ background-repeat: no-repeat;
 .acordeon{
     border-radius: 10px;
     margin-bottom: 1.2vh;
+    background: #171C25;
 }
 .acordeon .acordeon-label-1{
     border-radius: 10px;
@@ -803,6 +804,9 @@ background-repeat: no-repeat;
     .Section_access_desk{
         display: none;
      }
+.sec_foot{
+    background: #00000000;
+}
 /*section nine (end)*/
 footer{
     width: 90%;

@@ -64,7 +64,7 @@
 }
 .lang-menu {
    display: inline;
-   width: 80px;
+   width: 50px;
    border-radius: 8px;
    background: #171C25;
    position: relative;
@@ -74,7 +74,16 @@
 .lang-menu img{
    width: 10px;
    height: 10px;
-   margin-left: 30px;
+   margin-top: 5px;
+   margin-left: 15px;
+}
+.selected-lang {
+   display: flex;
+}
+.lang{
+   width: 22px;
+   height: 22px;
+   /*border-radius: 100%;*/
 }
 .lang-menu .selected-lang {
    cursor: pointer;
@@ -100,9 +109,17 @@
 .lang-menu ul li a {
    font-size: 1.313rem;
    display: block;
-   margin-left: 3px;
+   margin-left: 2.4px;
+   width: 0px;
 }
-
+.es{
+   background-image: url(../img/lang/Es.PNG);
+   background-size: 100% 100%;
+}
+.en{
+   background-image: url(../img/lang/En.PNG);
+   background-size: 100% 100%;
+}
 .lang-menu ul li a:before {
    width: 25px;
    height: 25px;
@@ -331,8 +348,8 @@
             width: 100%;
             padding-bottom: 12%;
             display: block;
-            transition: background-image 1.5s ease;
             background-image: url(../img/Q_10.png);
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
             }
