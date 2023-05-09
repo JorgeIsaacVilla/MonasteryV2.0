@@ -5,7 +5,7 @@ const div3 = document.querySelector(".div3");
 const div4 = document.querySelector(".div4");
 
 div1.addEventListener("mouseover",()=>{
-    SectionQdeskvert.style.backgroundImage ="url(../img/Q_10.png)";
+    SectionQdeskvert.style.backgroundImage ="url(../img/Q1.png)";
 });
 div2.addEventListener("mouseover",()=>{
     SectionQdeskvert.style.backgroundImage ="url(../img/Q_20.png)";
