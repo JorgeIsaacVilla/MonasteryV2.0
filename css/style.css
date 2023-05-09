@@ -36,6 +36,9 @@ body{
     background: #010409;
     font-family: 'Inter';
 }
+html{
+    scroll-behavior: smooth;
+}
 .lang-menu{
     display: none;
 }
@@ -483,6 +486,7 @@ background-repeat: no-repeat;
 /*section six (start)*/
 .Section_roadmap_description{
     padding: 3.5vh 0vh 3.5vh 0vh;
+    scroll-margin-top: 8ex;
 }
 .Text_roadmap_tittle{
     color: #EAEAEA;
