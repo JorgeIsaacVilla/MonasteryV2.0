@@ -112,14 +112,6 @@
    margin-left: 2.4px;
    width: 0px;
 }
-.es{
-   background-image: url(../img/lang/Es.PNG);
-   background-size: 100% 100%;
-}
-.en{
-   background-image: url(../img/lang/En.PNG);
-   background-size: 100% 100%;
-}
 .lang-menu ul li a:before {
    width: 25px;
    height: 25px;
