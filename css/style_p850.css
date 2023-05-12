@@ -119,7 +119,6 @@
 .lang-menu:hover ul {
    display: block;
 }
-
 /*header Style (end)*/
 /*section one (start)*/
       .Section_comunity_3d{
@@ -135,6 +134,7 @@
          padding-bottom: 23rem;
          background-image: url(../img/Enmascarar\ grupo\ 172@3x.png);
          margin-right: 15%;
+         margin-top: 100px;
          background-size: 100% 100%;
          }
          .NFT_3D_cap{
@@ -338,20 +338,23 @@
          }
          .Section_Q_desk_vert{
             width: 100%;
-            padding-bottom: 12%;
+            padding-bottom: 10.6%;
             display: block;
-            background-image: url(../img/Q_10.png);
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            background-position: center;
+            }
+            .Section_Q_desk_vert video{
+               position: absolute; 
+               opacity:0.4;
+               width: 100%;
+               padding-bottom: 12%;
+               z-index: -10;
             }
             .roadmaper{
                 margin: auto;
                 width: 80%;
-                height: 25vh;
+                padding-bottom: 5%;
                 background-image: url(../img/Carretera/Carretera.png);
                 background-repeat: no-repeat;
-                background-size: 80% 45%;
+                background-size: 80% 33%;
                 background-position: center;
                 display: flex;
                 justify-content: space-between;
@@ -361,12 +364,12 @@
                 height: 25vh;
             }
             .car_desk{
-                width: 60%;
-                padding-bottom: 34%;
+                width: 90%;
+                padding-bottom: 90%;
                 margin: auto;
-                margin-top: 10%;
+                margin-top: -5%;
                 background-image: url(../img/Carretera/Camioneta.png);
-                background-size: 70% 68%;
+                background-size: 130%;
                 background-repeat: no-repeat;
                 background-position: center;
                 opacity: 0;
@@ -470,11 +473,13 @@ margin-right: 0.5rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
+
+   padding-right: 10px;
 }
 .acordeon-label-1:hover {
    border: 2px solid;
    border-style: #eaeaea79;
-   box-shadow: 0 0 15px  rgba(255, 255, 255, 0.349);
+   box-shadow: 0 0 10px  rgba(255, 255, 255, 0.349);
  }
  .acordeon-label-1 img{
 transform: rotate(270deg);

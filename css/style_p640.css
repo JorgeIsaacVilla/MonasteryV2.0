@@ -185,14 +185,14 @@
     transition: opacity 1.5s;
   }
   .car1{
-    height: 6rem;
+    height: 10rem;
     width: 100%;  
     margin: auto;
     background-image: url(../img/Carretera/Camioneta.png);
-    background-size: 6rem 4rem;
+    background-size: 13rem;
     background-repeat: no-repeat;
     display: flex;
-    background-position: center;
+    background-position: 60%;
     align-items: center;
     padding-left: 25%;  
     }
@@ -233,16 +233,15 @@
     transition: opacity 1.5s;
   }
   .car2{
-  height: 6rem;
+  height:10rem;
   width: 100%;  
   margin: auto;
   background-image: url(../img/Carretera/Camioneta.png);
-  background-size: 6rem 4rem;
+  background-size: 13rem;
   background-repeat: no-repeat;
   display: flex;
-  background-position: center;
+  background-position: 60%;
   align-items: center;
-  /*display: none;*/
   }
   .road_q2:hover .transitionDiv2 {
     background-color: rgba(1, 4, 9, 0.274);
