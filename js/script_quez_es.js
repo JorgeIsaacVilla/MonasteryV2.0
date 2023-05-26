@@ -56,5 +56,3 @@ quezEs9.addEventListener("click",() =>{
     canvaAnswer.innerHTML ='<img src="./img/8.png" alt=""><p>Puedes comprar o vender el Nft Gyatso en cualquier plataforma, que soporte la red blockchain de Ethereum, Algunas de las opciones más populares son: </p><p class="acordeon-queztion-9">OpenSea: Es la plataforma de venta de NFT más grande y popular, con una amplia variedad de NFT disponibles y una gran base de usuarios.</p><p class="acordeon-queztion-9">Rarible: Esta plataforma también es popular y permite a los creadores de NFT vender, comprar y crear su propio contenido.</p><p class="acordeon-queztion-9">SuperRare: Una plataforma exclusiva de NFTs con un enfoque en arte digital de alta calidad y ediciones limitadas.</p>'
 });
 
-
-
