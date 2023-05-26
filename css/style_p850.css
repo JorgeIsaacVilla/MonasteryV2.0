@@ -441,7 +441,7 @@
 }
 .scroll_quez{
 width: 36rem;
-height: 40rem;
+height: 36rem;
 overflow: auto;
 direction: rtl;
 margin-right: 0.5rem;
@@ -449,6 +449,7 @@ margin-right: 0.5rem;
 .scroll_quez div{
    direction: ltr;
 }
+
 .scroll_quez::-webkit-scrollbar {
    width: 16px;
  }
@@ -463,6 +464,7 @@ margin-right: 0.5rem;
    top: -50rem;
    background: transparent;
  }
+ 
 .acordeon-label-1{
    padding: 3.5%;
    width: 90%;
@@ -473,7 +475,7 @@ margin-right: 0.5rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
-
+   cursor: pointer;
    padding-right: 10px;
 }
 .acordeon-label-1:hover {
@@ -490,16 +492,18 @@ height: 15px;
 background: #171C25;
 border-radius: 5px;
 width: 36rem;
-height: 40rem;
+height: 36rem;
 color: #EAEAEA;
 }
 .answer img{
-   margin: 2.5rem;
-   width: 18rem;
-   height: 14rem;
+   margin-top: 2.5rem;
+   margin-left: 2.5rem;
+   width: 20vh;
 }
 .answer p{
-   margin: 2.5rem;
+   margin-left: 2.5rem;
+   margin-right: 2.5rem;
+   margin-top: 1rem;
    font-size: 1rem;
    color: #EAEAEA;
 }
