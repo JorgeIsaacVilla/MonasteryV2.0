@@ -7,7 +7,6 @@ const quezEs6 = document.querySelector("#quez_Es6");
 const quezEs7 = document.querySelector("#quez_Es7");
 const quezEs8 = document.querySelector("#quez_Es8");
 const quezEs9 = document.querySelector("#quez_Es9");
-const quezEs10 = document.querySelector("#quez_Es10");
 
 const quezEn1 = document.querySelector("#quez_En1");
 const quezEn2 = document.querySelector("#quez_En2");
@@ -18,7 +17,6 @@ const quezEn6 = document.querySelector("#quez_En6");
 const quezEn7 = document.querySelector("#quez_En7");
 const quezEn8 = document.querySelector("#quez_En8");
 const quezEn9 = document.querySelector("#quez_En9");
-const quezEn10 = document.querySelector("#quez_En10");
 
 const canvaAnswer = document.querySelector("#canva_answer");
 
@@ -56,9 +54,5 @@ quezEs8.addEventListener("click",() =>{
 
 quezEs9.addEventListener("click",() =>{
     canvaAnswer.innerHTML ='<img class="Image_acordeon" src="./img/9.png" alt=""><ul><li>3 piezas de MONASTERY Esto incluye: GYATSO y dos prendas random de la marca.</i><li>Dos NFT, uno para Decentraland y uno para la colección de RMA.</li><li>También, como parte del lujoso estilo de vida MST, invitaciones a fiestas que sólo poseedores de la Gyatso VIP, podrán acceder.</i><li>Poder adquirir las adquirir prendas de nuevas colecciones con anticipación.</li></ul>'
-});
-
-quezEs10.addEventListener("click",() =>{
-    canvaAnswer.innerHTML ='<img class="Image_acordeon" src="./img/10.png" alt=""><p>En cualquier mercado de NFT que soporte Ethereum, como OpenSea, Rarible o LooksRare.</p>'
 });
 

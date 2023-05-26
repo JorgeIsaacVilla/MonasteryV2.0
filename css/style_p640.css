@@ -327,8 +327,11 @@
   /*Section_Q_desk road-map Desk (end)*/
 
   /*section seven (end)*/
-}
 
+.Image_acordeon{
+  width: 25%;
+}
+}
 /*section nine (start)*/
 .acordeon .Acordeon-label-2{
   padding: 0.6vh 45px;
@@ -338,3 +341,4 @@ footer{
   padding-top: 10%;
   padding-bottom: 5%;
 }
+

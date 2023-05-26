@@ -732,6 +732,9 @@ background-repeat: no-repeat;
 .section_desk_queztions{
     display: none;
 }
+.acordeon-queztion-8{
+    margin-top: 15px;
+}
 /*section eight (end)*/
 
 /*section nine (start)*/
@@ -777,7 +780,7 @@ background-repeat: no-repeat;
     list-style: none;
 }
 .acordeon .Acordeon-label-2{
-    padding: 0.6vh 1.2vh;
+    padding: 0.6vh 45px;
     font-size: 1rem;
     color: #fff;
     cursor: pointer;
@@ -788,6 +791,7 @@ background-repeat: no-repeat;
     align-items:center;
     margin-left:-3.6vh;
     margin-right:-3.6vh;
+    
 }
 .Acordeon-label-2 img{
     width: 10px;
@@ -823,5 +827,6 @@ footer{
     color: #cfcfcf;
     font-size: 1rem;
     padding-top: 10%;
-    padding-bottom: 18%;
+    padding-bottom: 5%;
 }
+
