@@ -831,3 +831,903 @@ footer{
     padding-bottom: 5%;
 }
 
+@media (min-width:640px){
+
+    /*section one (start)*/
+    .Section_comunity_3d{
+        background-size: 100%;
+        padding-bottom: 5%;
+    }
+    .model-container{
+        width: 25rem;
+        height:0px;
+        margin: 0px;
+        padding-bottom: 0%;
+    }
+    .NFT_3D_cap{
+        top:12rem;
+        left: 15rem;
+        width: 38rem;
+        height:25rem;
+    }
+    .Section_comunity_3d_top{
+        display: flex;
+    }
+    .Logo_monastery_simbol{
+        margin-top: 5rem;
+        width: 40%;
+        padding-bottom: 40%;
+        margin-bottom: 5%;
+    }
+    .Text_monastery_comunity{
+      width: 30rem;
+  }
+  
+    /*section one (end)*/
+  
+    /*section two(start)*/
+    #My_video{
+        border-radius: 15PX;
+    }
+    .To_query{
+        display: flex;
+    }
+    .Video_NFT_monstery {
+        margin: auto;
+        width: 15rem;
+        float: right;
+      }
+      .Key_image{
+        margin-left: 0.8rem;
+      }
+      .Section_key_desciption {
+        background-image: none;
+        padding-bottom: 100px;;
+        width: 53%; 
+        float: left;
+      }
+      .Key_text_description{
+        width: 20rem;
+        margin-bottom: 2rem;
+      }
+      .Text_descripton_art{
+        width: 20rem;
+      }
+    /*section two(end)*/
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    /*section five(start)*/
+    .To_query_movile{
+      display: none;
+    }
+    .photo{
+      width: 40%;
+      padding-bottom: 40%;
+      background-position: 0 0;
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Web/RMA+DESING.png");
+      background-size: 100% 100%;
+      margin: auto;
+      margin-top: 5rem;
+      background-repeat: no-repeat;
+    }
+    .image_art{
+    margin:auto;
+    margin-left: 3vh;
+    margin-right:0;
+    width:40%;
+    padding-bottom:40%;
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Web/RMA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+    .Text_tittle_RMA{
+      font-family: 'Inter-Regular';
+      letter-spacing: 0.3rem;
+      color: #EAEAEA;
+      margin-left: 3vh;
+      margin-top: 0vh;
+      margin-bottom: 1.8vh;
+    }
+    .Text_desciption_RMA{
+      width: 90%;
+      font-family: 'Inter-light';
+      font-size: 1rem;
+      color: #EAEAEA;
+      margin-left: 3vh;
+      margin-right: 3vh;
+      margin-bottom: 2vh;
+      line-height: 1.4rem;
+      text-align: left;
+    }
+    /*section five(end)*/
+    .To_query_desk{
+      display: inline;
+    }
+    .section_picture_art_desk_bottom{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    .Text_art_desck {
+      justify-content: right;
+      width: 50%;
+      order: 2;
+    }
+  
+    /*section seven (start)*/
+    .Section_Q_movile{
+    display: none;
+    }
+    .Section_Q_desk{
+      display: block;
+      width: 100%; 
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Carretera+completa.png");
+      background-size: 40% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 100px;
+    }
+    .Text_tittle_Q{
+      text-align: center;
+      padding-top: 3.5vw;
+      margin-bottom: 3vw;
+      color: #EAEAEA;
+    }
+    .Text_p{
+      width: 80%;
+      margin: 1vw auto 1vw auto;
+      height: 6vw;
+      color: #EAEAEA;
+      font-size: 1rem;
+    }
+    /*Section_Q_desk road-map Desk (start)*/
+    .road_q1{
+      position: relative;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+    }
+  
+    .transitionDiv1{
+      position: absolute;
+      top: 63%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      width: 48%;
+      height: 20rem;
+      text-align: left;
+      background-image: none;
+      background-size: 100% 100%;
+      transition: opacity 1.5s ease;
+    }
+    .road1{
+      margin: auto;
+      z-index:+10;
+      width: 20rem;
+      height: 12rem;
+      display: flex;
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
+    .car1{
+      height: 10rem;
+      width: 100%;  
+      margin: auto;
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Camioneta.png");
+      background-size: 13rem;
+      background-repeat: no-repeat;
+      display: flex;
+      background-position: 60%;
+      align-items: center;
+      padding-left: 25%;  
+      }
+    .road_q1:hover .transitionDiv1 {
+      background-color: rgba(1, 4, 9, 0.274);
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q1.png");
+      background-blend-mode: multiply;
+      background-position: center center;
+    }
+    .road_q1:hover .road1 {
+      opacity: 1;
+    }
+    .road_q2{
+      position: relative;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+    }
+    .transitionDiv2{
+      position: absolute;
+      top: 45%;
+      left: 77%;
+      transform: translate(-50%, -50%);
+      width: 45%;
+      height: 20rem;
+      text-align: left;
+      background-image: none;
+      background-size: 100% 100%;
+      transition: opacity 1.5s ease;
+    }
+    .road2{
+      margin: auto;
+      z-index: +10;
+      width: 20rem;
+      height: 12rem;
+      display: flex;
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
+    .car2{
+    height:10rem;
+    width: 100%;  
+    margin: auto;
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Camioneta.png");
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: 60%;
+    align-items: center;
+    }
+    .road_q2:hover .transitionDiv2 {
+      background-color: rgba(1, 4, 9, 0.274);
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q2.png");
+      background-blend-mode: multiply;
+      background-position: center center;
+    }
+    .road_q2:hover .road2 {
+      opacity: 1;
+    }
+    .road_q3{
+      position: relative;
+      display: flex;
+      margin: auto;
+      text-align: left;
+    }
+    .transitionDiv3{
+      position: absolute;
+      top: 50%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      width: 48%;
+      height: 20rem;
+      text-align: left;
+      background-image: none;
+      background-size: 100% 100%;
+      transition: opacity 1.5s ease;
+    }
+    .road3{
+      margin: auto;
+      z-index: +10;
+      width: 20rem;
+      height: 12rem;
+      display: flex;
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
+    .road_q3:hover .transitionDiv3 {
+      background-color: rgba(1, 4, 9, 0.274);
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q3.png");
+      background-blend-mode: multiply;
+      background-position: center center;
+    }
+    .road_q3:hover .road3 {
+      opacity: 1;
+    }
+    .road_q4{
+      position: relative;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+    }
+    .transitionDiv4{
+      position: absolute;
+      top: 60%;
+      left: 77%;
+      transform: translate(-50%, -50%);
+      width: 45%;
+      height: 20rem;
+      text-align: left;
+      background-image: none;
+      background-size: 100% 100%;
+      transition: opacity 1.5s ease; 
+    }
+    .road4{
+      margin: auto;
+      z-index: +10;
+      width: 20rem;
+      height: 12rem;
+      display: flex;
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
+    .road_q4:hover .transitionDiv4 {
+      background-color: rgba(1, 4, 9, 0.274);
+      background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q4.png");
+      background-blend-mode: multiply;
+      background-position: center center;
+    }
+    .road_q4:hover .road4 {
+      opacity: 1;
+    }
+    /*Section_Q_desk road-map Desk (end)*/
+  
+    /*section seven (end)*/
+  
+  .Image_acordeon{
+    width: 25%;
+  }
+  }
+  /*section nine (start)*/
+  .acordeon .Acordeon-label-2{
+    padding: 0.6vh 45px;
+  }
+  /*section nine (end)*/
+  footer{
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  @media (min-width:850px){
+   
+    /*header Style (start)*/
+    .Section_header{
+      height: 80px;
+      background: rgba(0, 0, 0, 0.98);
+    }
+    .lu_idiom_movil{
+       display: none;
+    }
+    .Logo_monastery_text{
+       width: 260px;
+       height: 40px;
+    }
+    .Element_cotainer{
+       margin-left: 5%;
+    }
+    .icono-menu{
+       display: none;
+       }
+    .active{
+       transform: translate(0%);
+    }
+    .cont-menu{
+       padding: 0;
+       position: relative;
+       background: rgba(0, 0, 0, 0);
+       display: flex;
+       justify-content: center;
+       justify-items: center;
+       margin-right: 10%;
+       width: 50rem;
+    }
+    .cont-menu ul{
+       margin-left: 10rem;
+       padding: none;
+       list-style: none;
+       width: 100%;
+       display: flex;
+    }
+    .cont-menu ul li{
+       width: 8rem;
+       margin-bottom: 0;
+       padding: 0;
+       margin-left: 15px;
+       margin-right: 15px;
+    }
+    .cont-menu ul li img{
+       margin-top: 5px;
+       margin-right: 5px;
+       }
+       .cont-menu ul li a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          }
+    
+    #list_style a {
+       margin-top: 8px;
+       text-align: center;
+     }
+    .Div_line_header{
+       display: none;
+    }
+    .Logo_monastery_text_2{
+       display: none;
+    }
+    .lu_idiom_movil{
+       display: none !important;
+    }
+    .lang-menu {
+       display: inline;
+       width: 50px;
+       border-radius: 8px;
+       background: #171C25;
+       position: relative;
+       color: white;
+       padding: 10px 10px 10px 20px;
+    }
+    .lang-menu img{
+       width: 10px;
+       height: 10px;
+       margin-top: 5px;
+       margin-left: 15px;
+    }
+    .selected-lang {
+       display: flex;
+    }
+    .lang{
+       width: 22px;
+       height: 22px;
+       /*border-radius: 100%;*/
+    }
+    .lang-menu .selected-lang {
+       cursor: pointer;
+       font-size: 1.313rem;
+    }
+    .lang-menu ul {
+       display: none;
+       background: #171C25;
+       position: absolute;
+       top: 32px;
+       right: 0px;
+       width: 100%;
+       border-radius: 8px;
+    }
+    
+    .lang-menu ul li {
+       border-radius: 0 0 10px 10px;
+       list-style: none;
+       text-align: left;
+       padding: 10px 15px 15px 3px;
+    }
+    
+    .lang-menu ul li a {
+       font-size: 1.313rem;
+       display: block;
+       margin-left: 2.4px;
+       width: 0px;
+    }
+    .lang-menu ul li a:before {
+       width: 25px;
+       height: 25px;
+    }
+    .lang-menu:hover ul {
+       display: block;
+    }
+    /*header Style (end)*/
+    /*section one (start)*/
+          .Section_comunity_3d{
+            text-align: center;
+            color: #EAEAEA;
+            width: 100%;
+            padding-bottom: 5%;
+            background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Banner+monastery+desk.jpg");
+            
+            }
+            .Logo_monastery_simbol{
+             width: 23rem;
+             padding-bottom: 23rem;
+             background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Enmascarar+grupo+172%403x.png");
+             margin-right: 15%;
+             margin-top: 100px;
+             background-size: 100% 100%;
+             }
+             .NFT_3D_cap{
+             position:absolute;
+             top: 15rem;
+             left: 30%;
+             transform: translate(-50%, -50%); 
+             width: 100%;
+             height: 45rem;
+             }
+             .Text_monastery_comunity{
+             width: 100%;
+             margin-top: 3.6vh;
+             margin: auto;
+             margin-bottom: 3.6vh;
+             font-size: 1.5rem;
+             letter-spacing:0.3rem;
+             }
+    
+             .button_join_telegram{
+                width: 13rem;
+                height: 2.3rem;
+                padding: 5px;
+            }
+    
+    /*section one (end)*/
+    
+    /*section two (start)*/
+             .To_query{
+              margin-top: 3.5vh;
+             margin-bottom: 3.5vh;
+             justify-content: center;
+             justify-items: center;
+             }
+             .Key_text_description{
+             width: 20rem;
+             }
+             .Video_NFT_monstery{
+             width: 40%;
+             justify-content: right;
+             }
+             .Video_NFT_monstery video {
+             width: 50%;
+             }
+             .Section_key_desciption{
+             padding-bottom: 100px;
+             padding-top: 50px;
+             background-image: none;
+                
+             width: 50%;
+             }
+             .Text_descripton_art{
+             width: 20rem;
+             color: #EAEAEA;
+             font-family: 'Inter-light';
+             }
+    /*section two (end)*/
+    
+    /*section three (start)*/
+             .Section_benefist_description{
+             padding-top: 5%;
+             }
+             .Logo_monastery_simbol_2{
+             width: 10%;
+             padding-bottom: 10%;
+             }
+             .Button_go_roadmap{
+                width: 13rem;
+                height: 2.3rem;
+             }
+    
+    /*style query-desk(start)*/
+             .swiper_movil{
+                display: none;
+             }
+             .swiper_desk{
+                width: 60%;
+                justify-content: center;
+                justify-items: center;
+                display: inline;
+                margin: auto;
+             }
+             .swiper_desk_top{
+             display: flex;
+             width: calc((20rem * 3) + 6vh);
+             margin: auto;
+             margin-top: 5rem;
+             }
+             .swiper_desk_bottom{
+                display: flex;
+                margin: auto;
+                justify-content: center;
+             }
+    
+             .swiper_desk_top{
+                display: flex;
+                justify-content: center;
+                margin: auto;
+             }
+             .silde_img{
+                width: 15rem;
+                height: 18rem;
+                margin-bottom: 3%;
+                
+             }
+             .silde_img img{
+                width: 3.5rem;
+                height:3.5rem;
+                border-radius: 15px;
+                background: none;
+                box-shadow:none;
+                transform: scale(3.1);
+                }
+             .silde_img p{
+                margin: 0rem 5% 1rem 10%; 
+                font-family: 'Inter';
+                width: 80%;
+                }
+    
+    /*tyle query-desk(end)*/
+    
+    /*section three (end)*/
+             .Text_fashion_week {
+                overflow: hidden;
+                padding-top: 0.9rem;
+             }
+             .Text_fashion_week span {
+                display: inline-block;
+                white-space: nowrap;
+                animation: marquee 15s linear infinite;
+                transform: translateX(100%);
+                color: black;  
+             }
+             @keyframes marquee {
+                0% {
+                  transform: translateX(140%);
+                }
+                100% {
+                  transform: translateX(-140%);
+                }
+              }
+    
+    /*section five(start)*/
+             .photo{
+             width: 30rem;
+             padding-bottom: 30rem;
+             }
+             .image_art{
+             width: 28rem;
+             padding-bottom: 28rem;
+             }
+             .Text_art_desck {
+             justify-content: right;
+             width: 25rem;
+             order: 2;
+             margin: 5%;
+             }
+             .Text_tittle_RMA{
+             margin-bottom: 1.8vh;
+             }
+             .Text_desciption_RMA{
+             margin-bottom: 3rem  ;
+             width: 25rem;
+             }
+            .Button_ARM{
+             width: 13rem;
+             height: 2.3rem;
+             margin: 0 0 0 3.3vh;
+             }
+             .Text_roadmap_description{
+                width: 43rem;
+                margin: auto;
+             }
+    /*roadmap(start)*/
+      .road_display_movile{
+       display: none;
+     }
+    /*roadmap(end)*/
+    /*section six (end)*/
+    
+             .Div_image{
+                background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Web/Metaverso.png");
+                background-size: 100%;
+                padding-bottom: 35%;
+             }
+    /*section seven (start)*/
+    
+             .Text_tittle_Q{
+             margin-top: 45px;
+             margin-bottom: 30px;
+             }
+             .Section_Q_desk{
+                display: none;
+             }
+             .Text_p{
+                width:27rem;
+                height:2.3rem;
+                margin-top: 1rem;
+                margin-bottom: 0;
+                font-size: 1.25rem;
+             }
+             .Section_Q_desk_vert{
+                width: 100%;
+                padding-bottom: 10.6%;
+                display: block;
+                }
+                .Section_Q_desk_vert video{
+                   position: absolute; 
+                   opacity:0.4;
+                   width: 100%;
+                   padding-bottom: 12%;
+                   z-index: -10;
+                }
+                .roadmaper{
+                    margin: auto;
+                    width: 80%;
+                    padding-bottom: 5%;
+                    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Carretera.png");
+                    background-repeat: no-repeat;
+                    background-size: 80% 33%;
+                    background-position: center;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .transitionDiv_car{
+                    width: 25%;
+                    height: 25vh;
+                }
+                .car_desk{
+                    width: 90%;
+                    padding-bottom: 90%;
+                    margin: auto;
+                    margin-top: -5%;
+                    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Camioneta.png");
+                    background-size: 130%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    opacity: 0;
+                    transform: translateX(-100px);
+                    transition: opacity 1.5s ease, transform 1.5s ease;
+                }
+                .transitionDiv_car:hover .car_desk {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }            
+                .roadmaper_text{
+                    margin: auto;
+                    width: 80%;
+                    height: 35vh;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .content_roadmap_desk{
+                    width: 25%;
+                    text-align: center;
+                }
+                .Road_tittle_Q{
+                    color: #EAEAEA;
+                    margin-bottom: 15px;
+                    font-size: 1.313rem;
+                    margin-top: 5%;
+                }
+                .Road_p{
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    margin-bottom: 15px;
+                    color: #EAEAEA;
+                    font-size: 1rem;
+                }
+     /*Section_Q_desk road-map Desk (end)*/
+    
+    /*section seven (end)*/
+    
+    /*section eight (start)*/
+    .Container-acordeon{
+       display: none;
+    }
+    .section_desk_queztions{
+       width: 80%;
+       margin: auto;
+    }
+    .section_desk_queztions h2{
+       text-align: center;
+       font-size: 1.313;
+       margin-top: 5vh;
+       margin-bottom: 1vh;
+       color: #EAEAEA;
+       letter-spacing:0.3rem ;
+    }
+    .section_desk_queztions p{
+       font-size: 1.25rem;
+    }
+    .section_desk_queztions{
+       display: inline;
+       width: 100%;
+    }
+    .Text_acordeon{
+       margin-top: 3rem;
+       margin-bottom: 5rem;
+    }
+    .canva_quez{
+       display: flex;
+       justify-content: center;
+    }
+    .scroll_quez{
+    width: 36rem;
+    height: 36rem;
+    overflow: auto;
+    direction: rtl;
+    margin-right: 0.5rem;
+    }
+    .scroll_quez div{
+       direction: ltr;
+    }
+    
+    .scroll_quez::-webkit-scrollbar {
+       width: 16px;
+     }
+     .scroll_quez::-webkit-scrollbar-thumb {
+       background: #171C25;
+       border-radius: 10rem;
+       
+     }
+     .scroll_quez::-webkit-scrollbar-track {
+       position: absolute;
+       right: -3rem;
+       top: -50rem;
+       background: transparent;
+     }
+     
+    .acordeon-label-1{
+       padding: 3.5%;
+       width: 90%;
+       border-radius: 8px;
+       background: #171C25;
+       margin: 10px;
+       color: #EAEAEA;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       cursor: pointer;
+       padding-right: 10px;
+    }
+    .acordeon-label-1:hover {
+       border: 2px solid;
+       border-style: #eaeaea79;
+       box-shadow: 0 0 10px  rgba(255, 255, 255, 0.349);
+     }
+     .acordeon-label-1 img{
+    transform: rotate(270deg);
+    width: 15px;
+    height: 15px;
+    }
+    .answer{
+    background: #171C25;
+    border-radius: 5px;
+    width: 36rem;
+    height: 36rem;
+    color: #EAEAEA;
+    }
+    .answer img{
+       margin-top: 2.5rem;
+       margin-left: 2.5rem;
+       width: 20vh;
+    }
+    .answer p{
+       margin-left: 2.5rem;
+       margin-right: 2.5rem;
+       margin-top: 1rem;
+       font-size: 1rem;
+       color: #EAEAEA;
+    }
+    .answer ul{
+       list-style: disc;
+       margin: 2.5rem;
+       margin-top: 0.5em;
+       margin-left: 4rem;
+    }
+    .answer li{
+       margin-bottom: 1rem;
+       font-size: 1rem;
+    }
+    /*section eight (end)*/
+    
+    /*section nine (start)*/
+    .Section_access{
+       display: none;
+    }
+    .Section_access_desk{
+       display: flex;
+       justify-content: space-around;
+       margin-top: 12rem;
+       padding: 3rem;
+       border-top: 0.3px solid #171C25;
+       border-bottom: 0.3px solid #171C25;
+    }
+    .acordeon .Acordeon-label-2{
+       padding: 0px;
+       margin-left:0vh;
+       margin-right:0vh;
+    }
+    .acordeon ul{
+       margin-top: 8px;
+       }
+    .acordeon ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    }
+    /*section nine (end)*/
+    
+    footer{
+       padding-top: 3%;
+     }
+    }
