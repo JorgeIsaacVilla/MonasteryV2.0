@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("active");
       document.body.classList.toggle("opacity");
       const rutaActual = e.target.getAttribute("src");
-      if (rutaActual == "img/Cerrar.png") {
-        e.target.setAttribute("src", "./img/Opciones.png");
+      if (rutaActual == "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Cerrar.png") {
+        e.target.setAttribute("src", "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Opciones.png");
       } else {
-        e.target.setAttribute("src", "img/Cerrar.png");
+        e.target.setAttribute("src", "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Cerrar.png");
       }
     });
   
@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.toggle("opacity");
         const iconoMenu = document.querySelector("#icon-menu");
         const rutaActual1 = iconoMenu.getAttribute("src");
-        if (rutaActual1 == "img/Cerrar.png") {
-          iconoMenu.setAttribute("src", "./img/Opciones.png");
+        if (rutaActual1 == "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Cerrar.png") {
+          iconoMenu.setAttribute("src", "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Opciones.png");
         } else {
-          iconoMenu.setAttribute("src", "img/Cerrar.png");
+          iconoMenu.setAttribute("src", "https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Cerrar.png");
         }
       });
     });

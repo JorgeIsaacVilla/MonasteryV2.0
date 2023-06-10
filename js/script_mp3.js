@@ -7,11 +7,11 @@ let isPlaying = false;
 
 function togglePlayPauseImage() {
   if (isPlaying) {
-    playPauseImg.src = './img/Play.png';
-    playMusic.src = './img/audio1.gif';
+    playPauseImg.src = 'https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Play.png';
+    playMusic.src = 'https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/audio1.gif';
   } else {
-    playPauseImg.src = './img/Pause.png';
-    playMusic.src = './img/Grupo 14417@3x2.png';
+    playPauseImg.src = 'https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Pause.png';
+    playMusic.src = 'https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Grupo+14417%403x2.png';
   }
 }
 

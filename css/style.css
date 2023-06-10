@@ -59,7 +59,7 @@ html{
 .Logo_monastery_text{
     width: 175px;
     height: 26px;
-    background-image: url("../img/LOGO-MONASTERY-2@2x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/LOGO-MONASTERY-2%402x.png");
     background-size: 100% 100%;
     margin: 3.5% 6% 3.5% 15%;
 }
@@ -108,7 +108,7 @@ html{
 .Logo_monastery_text_2{
     width: 130px;
     height: 26px;
-    background-image: url("../img/LOGO-MONASTERY-2@2x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/LOGO-MONASTERY-2%402x.png");
     background-size: 100% 100%;
     margin: 20px 0 30px 3.5vh;
 }
@@ -155,11 +155,11 @@ margin-right: 15px;
     cursor: pointer;
 }
 .es{
-    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/fondo.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/lang/Es.png");
     background-size: 100% 100%;
  }
  .en{
-    background-image: url("../img/lang/En.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/lang/En.png");
     background-size: 100% 100%;
  }
 /* style menu list(end) */
@@ -173,13 +173,13 @@ text-align: center;
 color: #EAEAEA;
 width: 100%;
 padding-bottom: 20%;
-background-image: url("../img/Fondo\ monastery.jpg");
+background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Fondo+monastery.jpg");
 background-size: 100%;
 }
 .Logo_monastery_simbol{
     width: 60%;
     padding-bottom: 60%;
-    background-image: url("../img/Enmascarar\ grupo\ 172@3x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Enmascarar+grupo+172%403x.png");
     background-size: 100% 100%;
     margin: auto;
     margin-bottom: 25%;
@@ -261,13 +261,13 @@ background-size: 100%;
 .Section_key_desciption{
 padding-bottom: 100px;
 padding-top: 50px;
-background-image: url("../img/Fondo\ monastery.jpg");
+background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Fondo+monastery.jpg");
 background-size: 100%;
 }
 .Key_image{
     width: 100px;
     height: 100px;
-    background-image: url("../img/Grupo\ 14527@3x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Grupo+14527%403x.png");
     background-size: 100%;
     transform: scale(3);
 }
@@ -305,7 +305,7 @@ letter-spacing:0.3rem ;
 .Logo_monastery_simbol_2{
     width: 30%;
     padding-bottom: 30%;
-    background-image: url("../img/Enmascarar\ grupo\ 172@3x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Enmascarar+grupo+172%403x.png");
     background-size: 100% 100%;
     margin: auto;
     margin-bottom: 3vh;
@@ -422,7 +422,7 @@ text-align: left;
 .Canva_photo{
     padding-top: 8vh;
     width: 100%;
-    background-image: url("../img/Banner\ RMA\ DESING.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Banner+RMA+DESING.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -430,7 +430,7 @@ text-align: left;
   width: 76%;
   background-position: 100% 0;
   padding-bottom: 70%;
-  background-image: url("../img/RMA\ DESING.png");
+  background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/RMA+DESING.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -439,7 +439,7 @@ margin-top: 3.6vh;
 margin-left: 24%;
 width: 76%;
 padding-bottom: 70%;
-background-image: url("../img/Grupo\ 14615@3x.png");
+background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Grupo+14615%403x.png");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -517,7 +517,7 @@ background-repeat: no-repeat;
 /*section seven (start)*/
 .Section_Q_movile{
     width: 100%;
-    background-image: url("../img/Carretera/Carretera\ completa.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Carretera/Carretera+completa.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -590,7 +590,7 @@ background-repeat: no-repeat;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background-image: url("../img/Q1.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q1.png");
     background-size: 100% 100%;
 }
 .transitionDiv2{
@@ -602,7 +602,7 @@ background-repeat: no-repeat;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background-image: url("../img/Q2.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q2.png");
     background-size: 100% 100%;
 }
 .transitionDiv3{
@@ -614,7 +614,7 @@ background-repeat: no-repeat;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background-image: url("../img/Q3.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q3.png");
     background-size: 100% 100%;
 }
 .transitionDiv4{
@@ -626,7 +626,7 @@ background-repeat: no-repeat;
     transition: opacity 5s, background 5s, box-shadow 5s;
     overflow: hidden;
     transition: 5s;
-    background-image: url("../img/Q4.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Q4.png");
     background-size: 100% 100%;
 }
 @keyframes aparicion {
@@ -645,7 +645,7 @@ background-repeat: no-repeat;
 .Div_image{
     width: 100%;
     padding-bottom: 50%;
-    background-image: url("../img/Metaverso_movil.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Metaverso_movil.png");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
@@ -758,7 +758,7 @@ background-repeat: no-repeat;
 .Logo_monastery_simbol_3{
     width: 12vh;
     height: 12vh;
-    background-image: url("../img/Enmascarar\ grupo\ 172@3x.png");
+    background-image: url("https://monastery-nft.s3.amazonaws.com/resources/MonasteryV2.0-Recursos/Enmascarar+grupo+172%403x.png");
     background-size: 100% 100%;
 }
 .Access_networks{
